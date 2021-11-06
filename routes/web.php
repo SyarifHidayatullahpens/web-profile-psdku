@@ -14,8 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('user.home.index');
 });
+
+Route::get('/admin', function () {
+    return view('admin.home.index');
+});
+
 
 Auth::routes();
 
