@@ -1,4 +1,4 @@
-@extends('../layouts.pages-user.main-content')
+@extends('layouts.pages-user.main-content')
 
 @section('content')
 <main>
