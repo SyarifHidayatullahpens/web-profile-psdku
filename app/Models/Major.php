@@ -8,7 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Major extends Model
 {
     use HasFactory;
-    protected $table = 'majors';
     
     protected $fillable = ['name', 'description'];
+
+    public function departements() {
+
+        return this->hasOne(Departemet::class);
+    }
 }

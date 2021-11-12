@@ -8,7 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Departement extends Model
 {
     use HasFactory;
-    protected $table = 'departements';
     
-    protected $fillable = ['name', 'description'];
+    protected $fillable = ['major_id','name', 'image'];
+
+    public function major() {
+        return this->belongsTo(Major::class, 'major_id', 'id');
+    }
 }
