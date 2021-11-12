@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
   <meta name="author" content="Creative Tim">
-  <title>Alt-On POS</title>
+  <title>Web Profile PSDKU</title>
   <!-- Favicon -->
   <link rel="icon" href="{{ asset('images/brand/pens.png') }}" type="image/png">
   <!-- Fonts -->
@@ -47,7 +47,7 @@
           <div class="card bg-secondary border-0 mb-0">
             <div class="card-body px-lg-5 py-lg-5">
               <div class="text-center text-muted mb-4">
-                <small>Enter Username and Password</small>
+                <small>Enter Email and Password</small>
               </div>
               <form role="form" method="POST" action="{{ route('login') }}">
                 @csrf
@@ -106,7 +106,7 @@
       <div class="row align-items-center justify-content-xl-between">
         <div class="col-xl-6">
           <div class="copyright text-center text-xl-left text-muted">
-            &copy; 2021 <a href="https://www.creative-tim.com" class="font-weight-bold ml-1" target="_blank">Alton</a>
+            &copy; 2021 <a href="https://www.creative-tim.com" class="font-weight-bold ml-1" target="_blank">PENS PSDKU </a>
           </div>
         </div>
         <div class="col-xl-6">

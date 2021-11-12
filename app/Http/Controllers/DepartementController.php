@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class PmbController extends Controller
+class DepartementController extends Controller
 {
     public function index()
     {
