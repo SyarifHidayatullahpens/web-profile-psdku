@@ -1,8 +1,10 @@
 <?php
 
 namespace Database\Seeders;
-use App\Models\User;
+
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\DB;
 
 class AdminSeeder extends Seeder
 {
@@ -13,11 +15,13 @@ class AdminSeeder extends Seeder
      */
     public function run()
     {
-        $user = User::create([
-            'name'      => 'Admin', 
-            'email'     => 'admin@gmail.com',
-            'password'  => bcrypt('adminpsdku'),
-            'is_admin'  => true,
+        DB::table('users')->insert([
+            'name' => 'Admin',
+            'email' => 'admin@gmail.com',
+            'password' => Hash::make('password123'),
+            'role' => 'admin',
+            'created_at' => \Carbon\Carbon::now(),
+            'email_verified_at' => \Carbon\Carbon::now()
         ]);
     }
 }

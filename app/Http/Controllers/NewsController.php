@@ -3,17 +3,21 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\News;
 
 class NewsController extends Controller
 {
     public function index()
     {
-        //
+        $page = 'news';
+        $news = News::all();
+
+        return view('admin.news.index',compact('page','news'));
     }
 
     public function create()
     {
-        //
+        
     }
 
     public function store(Request $request)

@@ -15,6 +15,7 @@ class CreatePmbsTable extends Migration
     {
         Schema::create('pmbs', function (Blueprint $table) {
             $table->id();
+            $table->string('name',20)->nullable();
             $table->date('date')->nullable();
             $table->text('description')->nullable();
             $table->timestamps();
