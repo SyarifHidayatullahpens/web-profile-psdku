@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-light shadow-lg">
     <div class="container">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand mb-3" href="/">
         <!-- <img src="images/h.png" width=" 60px" height="60px" style="margin-right: 1px; float:left; margin-top:15px"> -->
             <strong>PENS PSDKU SUMENEP</strong>
         </a>
@@ -9,7 +9,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse mt-3" id="navbarNav">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#hero">Home</a>
