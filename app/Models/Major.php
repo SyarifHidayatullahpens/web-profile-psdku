@@ -13,6 +13,6 @@ class Major extends Model
 
     public function departements() {
 
-        return this->hasOne(Departemet::class);
+        return $this->hasOne(Departement::class);
     }
 }
