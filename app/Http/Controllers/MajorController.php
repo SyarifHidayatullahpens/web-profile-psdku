@@ -3,12 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Major;
 
 class MajorController extends Controller
 {
     public function index()
     {
-        //
+        $page = 'majors';
+        $major = Major::all();
+
+        return view('admin.majors.index', compact('page', 'major'));
     }
 
     public function create()

@@ -28,121 +28,34 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#navbar-users" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-users">
-                <i class="text-blue fas fa-users-cog"></i>
-                <span class="nav-link-text">Management Users</span>
+              <a class="nav-link" href="{{ route('abouts.index') }}"  role="button"  aria-controls="navbar-about">
+                <i class="fas fa-question text-danger"></i>
+                <span class="nav-link-text">About Campus</span>
               </a>
-              <div class="collapse" id="navbar-users">
-                <ul class="nav nav-sm flex-column">
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">Users</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">Roles</a>
-                  </li>
-                </ul>
-              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#navbar-products" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-components">
-                <i class="text-red fas fa-box"></i>
-                <span class="nav-link-text">Products</span>
+              <a class="nav-link" href="{{ route('news.index') }}"  role="button"  aria-controls="navbar-news">
+                <i class="far fa-newspaper text-warning"></i>
+                <span class="nav-link-text">News</span>
               </a>
-              <div class="collapse" id="navbar-products">
-                <ul class="nav nav-sm flex-column">
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">List Products</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">Add Products</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">Categories</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">Brands</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">Units</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">Types</a>
-                  </li>
-                </ul>
-              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#navbar-purchases" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-forms">
-                <i class="text-warning fas fa-arrow-circle-up"></i>
-                <span class="nav-link-text">Purchases</span>
+              <a class="nav-link" href="{{ route('pmbs.index') }}"  role="button"  aria-controls="navbar-pmb">
+                <i class="fas fa-arrow-alt-circle-up text-black"></i>
+                <span class="nav-link-text">PMB</span>
               </a>
-              <div class="collapse" id="navbar-purchases">
-                <ul class="nav nav-sm flex-column">
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">List Purchases</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">Add Purchases</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="" class="nav-link">List Purchases Return</a>
-                  </li>
-                </ul>
-              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#navbar-sell" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-tables">
-                <i class="fas fa-arrow-circle-down"></i>
-                <span class="nav-link-text">Sell</span>
+              <a class="nav-link" href="{{ route('departements.index') }}"  role="button"  aria-controls="navbar-departement">
+                <i class="text-default fas fa-building"></i>
+                <span class="nav-link-text">Departement</span>
               </a>
-              <div class="collapse" id="navbar-sell">
-                <ul class="nav nav-sm flex-column">
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">All Sales</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">Add Sales</a>
-                  </li>
-                </ul>
-              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#navbar-contacts" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-maps">
-                <i class="text-default fas fa-address-book"></i>
-                <span class="nav-link-text">Contacs</span>
+              <a class="nav-link" href="{{ route('majors.index') }}"  role="button"  aria-controls="navbar-diploma">
+                <i class="text-success fas fa-building"></i>
+                <span class="nav-link-text">Diploma</span>
               </a>
-              <div class="collapse" id="navbar-contacts">
-                <ul class="nav nav-sm flex-column">
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">Suppliers</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">Customers</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#navbar-repots" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-maps">
-                <i class="text-green fas fa-chart-line"></i>
-                <span class="nav-link-text">Repots</span>
-              </a>
-              <div class="collapse" id="navbar-repots">
-                <ul class="nav nav-sm flex-column">
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">Profit/Loss Report</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">Product Purchase Report</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">Product Sell Report</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">Product Stock Report</a>
-                  </li>
-                </ul>
-              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#navbar-settings" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-maps">
@@ -151,9 +64,6 @@
               </a>
               <div class="collapse" id="navbar-settings">
                 <ul class="nav nav-sm flex-column">
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">Company</a>
-                  </li>
                   <li class="nav-item">
                     <a href="#" class="nav-link">Clear Cache</a>
                   </li>

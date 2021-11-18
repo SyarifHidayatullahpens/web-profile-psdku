@@ -3,12 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Departement;
 
 class DepartementController extends Controller
 {
     public function index()
     {
-        //
+        $page = 'departements';
+        $departement = Departement::all();
+
+        return view('admin.departements.index', compact('page', 'departement'));
     }
 
     public function create()

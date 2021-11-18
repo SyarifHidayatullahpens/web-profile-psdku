@@ -3,12 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Pmb;
 
 class PmbController extends Controller
 {
     public function index()
     {
-        //
+        $page = 'pmbs';
+        $pmb  = Pmb::all();
+        
+        return view('admin.pmbs.index', compact('page', 'pmb'));
     }
 
     public function create()

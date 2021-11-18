@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Pmb extends Model
 {
     use HasFactory;
+
+    protected $table = 'pmbs';
     
-    protected $fillable = ['date', 'description'];
+    protected $fillable = ['name','date', 'description'];
 }
