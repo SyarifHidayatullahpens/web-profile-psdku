@@ -28,7 +28,7 @@ class AboutController extends Controller
                                         <span class="btn-inner--icon"><i class="fas fa-pen-square"></i></span>
                                      </a>';
                         }
-                        if(('companies-delete')){
+                        if(('abouts-delete')){
                                         
                         $button .= '&nbsp;&nbsp;';
                         $button .= '<button class="btn btn-icon btn-danger btn-icon-only rounded-circle" onclick="deleteItem(this)" data-name="'.$row->name.'" data-id="'.$row->id.'">
@@ -37,7 +37,7 @@ class AboutController extends Controller
                         }
                         return $button;
                     })
-                    ->rawColumns(['action'])
+                    ->rawColumns(['description','action'])
                     ->addIndexColumn()
                     ->make(true);
         }

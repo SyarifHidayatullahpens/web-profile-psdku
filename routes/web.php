@@ -7,7 +7,7 @@ use App\Http\Controllers\DepartementController;
 use App\Http\Controllers\MajorController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\PmbController;
-
+use App\Http\Controllers\AdminController;
 
 
 /*
@@ -26,16 +26,26 @@ Route::get('/', function () {
     return view('user.home.index');
 });
 
-Route::get('/admin', function () {
-    return view('admin.home.index');
+
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+    Route::middleware(['admin'])->group(function () {
+        // Route::get('admin', [AdminController::class, 'index']);
+        Route::get('/admin', function () {
+            return view('admin.home.index');
+        });
+        Route::resource('abouts',   AboutController::class);
+        Route::resource('news',   NewsController::class);
+        Route::resource('pmbs',   PmbController::class);
+        Route::resource('departements',   DepartementController::class);
+        Route::resource('majors',   MajorController::class);
+    });
+
+    Route::get('/logout', function() {
+        Auth::logout();
+        return redirect('/');
+    });
 });
 
-Route::resource('abouts',   AboutController::class);
-Route::resource('news',   NewsController::class);
-Route::resource('pmbs',   PmbController::class);
-Route::resource('departements',   DepartementController::class);
-Route::resource('majors',   MajorController::class);
-
-
-
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

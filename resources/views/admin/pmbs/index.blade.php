@@ -32,7 +32,7 @@
           <h3 class="mb-0">PMB Data</h3>
           </div>
           <div class="table-responsive py-4">
-            <table class="table align-items-center table-flush" id="table_brands">
+            <table class="table align-items-center table-flush" id="table_pmbs">
               <thead class="thead-light">
                 <tr>
                   <th>No</th>
@@ -58,4 +58,41 @@
     </div>
     @include('layouts.pages-admin.footer')
   </div>
+
+  <script type="text/javascript">
+    $('document').ready(function() {
+      $('#table_pmbs').DataTable({
+        processing: true,
+        serverside: true,
+        ajax: {
+          url: "{{ route('pmbs.index') }}",
+          type: 'GET'
+        },
+        "responsive": true,
+        "languange": {
+          "sNext": "<i class='fas fa-angle-right'>",
+          "sPrevious": "<i class='fas fa-angle-left'>",
+        },
+        processing: '<img src="{{ asset('images/loader/loader.gif') }}">',
+      },
+      columns: [
+                {
+                    data: 'DT_RowIndex',
+                },
+                {
+                    data: 'name',
+                },
+                {
+                    data: 'date',
+                },
+                {
+                    data: 'description',
+                },
+                {
+                    data: 'action',
+                },
+              ],
+      });
+    });
+  </script>
 @endsection

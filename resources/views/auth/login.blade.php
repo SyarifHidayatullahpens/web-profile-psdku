@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
   <meta name="author" content="Creative Tim">
-  <title>Web Profile PSDKU</title>
+  <title>PENS PSDKU</title>
   <!-- Favicon -->
-  <link rel="icon" href="{{ asset('images/brand/pens.png') }}" type="image/png">
+  <link rel="icon" href="{{ asset('images/h.png') }}" type="image/png">
   <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
   <!-- Icons -->
@@ -83,17 +83,13 @@
                     <span class="text-muted">Remember me</span>
                   </label>
                 </div>
-                <div class="text-center">
-                  <button type="submit" class="btn btn-primary my-4">Sign in</button>
+                <div class="float-left">
+                  <a href="/" type="button" class="btn btn-danger my-4"><span> <i class="fas fa-chevron-circle-left"></i></span> Home</a>
+                </div>
+                <div class="float-right">
+                  <button type="submit" class="btn btn-primary my-4">Sign in <span><i class="fas fa-sign-in-alt"></i></span></button>
                 </div>
               </form>
-            </div>
-          </div>
-          <div class="row mt-3 ml-6 mr-2 d-flex justify-content-center">
-            <div class="col-6">
-            @if (Route::has('password.request'))
-                <a href="{{ route('password.request') }}" class="text-light"><small>Forgot password?</small></a>
-            @endif
             </div>
           </div>
         </div>

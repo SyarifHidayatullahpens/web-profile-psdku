@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg bg-light shadow-lg">
     <div class="container">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand mb-4 position-relative" href="/">
         <!-- <img src="images/h.png" width=" 60px" height="60px" style="margin-right: 1px; float:left; margin-top:15px"> -->
-            <strong>PENS PSDKU SUMENEP</strong>
+            <b>PENS PSDKU SUMENEP</b>
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
