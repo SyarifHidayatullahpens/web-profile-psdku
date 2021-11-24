@@ -16,7 +16,7 @@
             </nav>
           </div>
           <div class="col-lg-6 col-5 text-right">
-            <a href="#" class="btn btn-sm btn-neutral">Add PMB</a>
+            <a href="{{ route('pmbs.create') }}" class="btn btn-sm btn-neutral">Add PMB</a>
           </div>
         </div>
       </div>
@@ -42,16 +42,28 @@
                   <th>Action</th>
                 </tr>
               </thead>
-              <tfoot>
-                <tr>
-                  <th>No</th>
-                  <th>Name</th>
-                  <th>Date</th>
-                  <th>Description</th>
-                  <th>Action</th>
-                </tr>
-              </tfoot>
+              <tbody>
+                    @forelse ($pmb as $pmb)
+                      <tr>
+                          <td>{{ $pmb->title }}</td>
+                          <td>{!! $pmb->content !!}</td>
+                          <td class="text-center">
+                              <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ route('pmbs.destroy', $pmb->id) }}" method="POST">
+                                  <a href="{{ route('pmbs.edit', $pmb->id) }}" class="btn btn-sm btn-primary">EDIT</a>
+                                  @csrf
+                                  @method('DELETE')
+                                  <button type="submit" class="btn btn-sm btn-danger">HAPUS</button>
+                              </form>
+                          </td>
+                      </tr>
+                    @empty
+                        <div class="alert alert-danger">
+                            Data PMB belum Tersedia.
+                        </div>
+                    @endforelse
+              </tbody>
             </table>
+         
           </div>
         </div>
       </div>

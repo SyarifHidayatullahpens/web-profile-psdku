@@ -4,59 +4,50 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Pmb;
+use Illuminate\Support\Facades\Storage;
+
 
 class PmbController extends Controller
 {
     public function index(Request $request)
     {
         $pmb  = Pmb::all();
-        
-        if($request->ajax()){
-            return DataTables::of($pmb)
-                    ->addColumn('name',function($row){
-                        return $row->name;
-                    })
-                    ->addColumn('date',function($row){
-                        return $row->date;
-                    })
-                    ->addColumn('description',function($row){
-                        return $row->description;
-                    })
-                    ->addColumn('action',function($row){
-                        $button = '';
-                        if(('pmbs-edit')){
-                        $button .=   '<a href="/pmbs/'.$row->id.'/edit" class="btn btn-icon btn-primary btn-icon-only rounded-circle">
-                                        <span class="btn-inner--icon"><i class="fas fa-pen-square"></i></span>
-                                     </a>';
-                        }
-                        if(('pmbs-delete')){
-                                        
-                        $button .= '&nbsp;&nbsp;';
-                        $button .= '<button class="btn btn-icon btn-danger btn-icon-only rounded-circle" onclick="deleteItem(this)" data-name="'.$row->name.'" data-id="'.$row->id.'">
-                                        <span class="btn-inner--icon"><i class="fas fa-trash-alt"></i></span>
-                                    </button>';     
-                        }
-                        return $button;
-                    })
-                    ->rawColumns(['name','date','description','action'])
-                    ->addIndexColumn()
-                    ->make(true);
-        }
-
         return view('admin.pmbs.index', compact('pmb'));
     }
 
     public function create()
     {
-        //
+        return view('admin.pmbs.create');
     }
 
     public function store(Request $request)
     {
-        Pmb::updateOrCreate(
-            ['id' => $request->pmb],
-            ['name' => $request->name, 'date' => $request->date, 'description' => $request->description]
-        );
+        // Pmb::updateOrCreate(
+        //     ['id' => $request->pmb],
+        //     ['name' => $request->name, 'date' => $request->date, 'description' => $request->description]
+        // );
+        $this->validate($request, [
+            'name'     => 'required',
+            'date'   => 'required',
+            'description'   => 'required'
+        ]);
+    
+        //upload image
+       
+        $pmb = Pmb::create([
+            // 'id' => $request->pmb,
+            'name'     => $request->name,
+            'date'   => $request->date,
+            'description'   => $request->description
+        ]);
+    
+        if($pmb){
+            //redirect dengan pesan sukses
+            return redirect()->route('pmbs.index')->with(['success' => 'Data Berhasil Disimpan!']);
+        }else{
+            //redirect dengan pesan error
+            return redirect()->route('pmbs.index')->with(['error' => 'Data Gagal Disimpan!']);
+        }
     }
 
     public function show($id)
