@@ -36,6 +36,9 @@ Route::middleware(['auth'])->group(function () {
         Route::get('/admin', function () {
             return view('admin.home.index');
         });
+        Route::get('/dashboards', function () { 
+            return view('admin.home.index');}
+        );
         Route::resource('abouts',   AboutController::class);
         Route::resource('news',   NewsController::class);
         Route::resource('pmbs',   PmbController::class);

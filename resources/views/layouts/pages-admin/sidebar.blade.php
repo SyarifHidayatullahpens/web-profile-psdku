@@ -3,7 +3,7 @@
       <!-- Brand -->
       <div class="sidenav-header d-flex align-items-center">
         <a class="navbar-brand" href="/">
-          <img src="{{ asset('images/brand/pens.png') }}" class="navbar-brand-img" alt="...">
+          <img src="{{ asset('images/brand/pens.png') }}" style ="width:65px; height:100px"class="navbar-brand-img" alt="...">
         </a>
         <div class="ml-auto">
           <!-- Sidenav toggler -->
@@ -22,7 +22,7 @@
           <!-- Nav items -->
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="/"  role="button"  aria-controls="navbar-dashboards">
+              <a class="nav-link" href="/dashboards"  role="button"  aria-controls="navbar-dashboards">
                 <i class="fas fa-home text-primary"></i>
                 <span class="nav-link-text">Dashboards</span>
               </a>
