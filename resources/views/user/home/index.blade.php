@@ -11,7 +11,7 @@
                     
                 <div class=" col-12 mt-lg-3 mb-lg-5">
                     <p data-aos="fade-up" data-aos-delay="500">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nisi provident dolorum?
+                       Firdaus 
                     </p>
                 </div>
             </div>

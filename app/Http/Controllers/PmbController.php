@@ -12,17 +12,14 @@ class PmbController extends Controller
         $pmb  = Pmb::all();
         
         if($request->ajax()){
-            return DataTables::of($about)
+            return DataTables::of($pmb)
                     ->addColumn('name',function($row){
-
                         return $row->name;
                     })
                     ->addColumn('date',function($row){
-
                         return $row->date;
                     })
                     ->addColumn('description',function($row){
-
                         return $row->description;
                     })
                     ->addColumn('action',function($row){
