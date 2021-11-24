@@ -35,11 +35,7 @@
                             <img src="{{ asset('images/images.jpg') }}" class="img-fluid" alt="">
                         </a>
                         <p data-aos="fade-up" data-aos-delay="500" style="color: black">
-<<<<<<< HEAD
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, eligendi!
-=======
-                            Lorem ipsum dolor sit amet.
->>>>>>> 69fa91a503814b42caf42ba1d814f2344257bafe
                         </p>
                     </p>
                 </div>
@@ -50,11 +46,7 @@
                             <img src="{{ asset('images/images.jpg') }}" class="img-fluid" alt="">
                         </a>
                         <p data-aos="fade-up" data-aos-delay="500" style="color: black">
-<<<<<<< HEAD
                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit odit repellendus quidem?
-=======
-                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, commodi
->>>>>>> 69fa91a503814b42caf42ba1d814f2344257bafe
                         </p>
                     </p>
                 </div>
@@ -70,11 +62,7 @@
 
                     <div class=" col-12 mt-lg-3 mb-lg-5">
                         <p data-aos="fade-up" data-aos-delay="500">
-<<<<<<< HEAD
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores ad quod distinctio, officia hic neque ullam tenetur blanditiis nesciunt laudantium!
-=======
-                            Lorem ipsum dolor sit.
->>>>>>> 69fa91a503814b42caf42ba1d814f2344257bafe
                         </p>
                     </div>
                 </div>
@@ -94,19 +82,11 @@
                         <div class="portfolio-info">   
                         <p data-aos="fade-up" data-aos-delay="500"> 
                                 
-<<<<<<< HEAD
                             Lorem, ipsum. 
                         </p>  
                                 </div>  
                         <div class="col-lg-12 col-12 mt-lg-3 mb-lg-5">      
                             <h4 class="portfolio-title mb-0"  style="font-size:17px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, at.</h4>
-=======
-                            lorem20
-                        </p>  
-                                </div>  
-                        <div class="col-lg-12 col-12 mt-lg-3 mb-lg-5">      
-                            <h4 class="portfolio-title mb-0"  style="font-size:17px">dsds</h4>
->>>>>>> 69fa91a503814b42caf42ba1d814f2344257bafe
                         </div>
                     </div>
                 </div>
@@ -121,17 +101,6 @@
                 <div class="col-12" style="text-align:center">
                     <h2 class="mb-3" data-aos="fade-up">Berita</h2>
                 </div>
-<<<<<<< HEAD
-                Lorem, ipsum.
-                <div class="card col-lg-6 col-12 mt-3 mb-lg-5" style="width: 41rem;"  data-aos="fade-up" data-aos-delay="500">
-                    <a href="{{ asset('images/theme/h.png>') }}" class="image-popup">
-                        <img class="card-img-top" src="{{ asset('images/theme/pens.png') }}" alt="Card image cap" style="margin-top: 10px;">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title" data-aos="fade-up" data-aos-delay="500">Lorem, ipsum dolor.</h5>
-                        <p class="card-text" data-aos="fade-up" data-aos-delay="500">
-                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad officiis asperiores repellendus quo.
-=======
                 
                 <div class="card col-lg-6 col-12 mt-3 mb-lg-5" style="width: 41rem;"  data-aos="fade-up" data-aos-delay="500">
                     <a href="{{ asset('images/people/project-leder-with-disabilities-looking-front-sitting-immobilized-wheelchair-business-office-room.jpg') }}" class="image-popup">
@@ -141,7 +110,6 @@
                         <h5 class="card-title" data-aos="fade-up" data-aos-delay="500">sasa</h5>
                         <p class="card-text" data-aos="fade-up" data-aos-delay="500">
                             lsajs
->>>>>>> 69fa91a503814b42caf42ba1d814f2344257bafe
                         </p>
                         <a href="#" class="btn btn-primary">More Info</a>
                     </div>
