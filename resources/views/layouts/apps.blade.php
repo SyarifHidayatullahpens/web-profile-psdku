@@ -17,7 +17,8 @@
   <link rel="stylesheet" href="{{ asset('css/loader.css')}}" type="text/css">
   <link rel="stylesheet" href="sweetalert2.min.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
-  
+  <link href="toastr.css" rel="stylesheet"/>
+
   <!-- Icons -->
   <link rel="stylesheet" href="{{ asset('vendor/nucleo/css/nucleo.css')}}" type="text/css">
   <link rel="stylesheet" href="{{ asset('css/loader.css')}}" type="text/css">
@@ -39,6 +40,7 @@
   @yield('main')
   <!-- Argon Scripts -->
   <!-- Core -->
+  <script src="toastr.js"></script>
   <script src="{{ asset('js/currency.js')}}"></script>
   <script src="{{ asset('vendor/jquery/dist/jquery.min.js')}}"></script>
   <script src="{{ asset('vendor/bootstrap/dist/js/bootstrap.bundle.min.js')}}"></script>

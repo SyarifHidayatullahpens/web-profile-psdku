@@ -7,17 +7,15 @@ use App\Models\News;
 
 class NewsController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $page = 'news';
         $news = News::all();
-
-        return view('admin.news.index',compact('page','news'));
+        return view('admin.news.index',compact('news'));
     }
 
     public function create()
     {
-        
+        return view('admin.news.create');
     }
 
     public function store(Request $request)

@@ -27,25 +27,16 @@ class PmbController extends Controller
         //     ['name' => $request->name, 'date' => $request->date, 'description' => $request->description]
         // );
         $this->validate($request, [
-            'name'     => 'required',
-            'date'   => 'required',
-            'description'   => 'required'
+            'name'     => 'required|string|max:20',
+            'date'   => 'required|date',
+            'description'   => 'required|text'
         ]);
     
-        //upload image
-       
-        $pmb = Pmb::create([
-            // 'id' => $request->pmb,
-            'name'     => $request->name,
-            'date'   => $request->date,
-            'description'   => $request->description
-        ]);
-    
+        $data = $request->all();
+        $pmb = Pmb::create($data);
         if($pmb){
-            //redirect dengan pesan sukses
             return redirect()->route('pmbs.index')->with(['success' => 'Data Berhasil Disimpan!']);
         }else{
-            //redirect dengan pesan error
             return redirect()->route('pmbs.index')->with(['error' => 'Data Gagal Disimpan!']);
         }
     }

@@ -10,13 +10,12 @@
             <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
               <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
                 <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i></a></li>
-                <li class="breadcrumb-item"><a href="#">Tables</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Tables</li>
+                <li class="breadcrumb-item"><a href="{{ route('news.index') }}">News</a></li>
               </ol>
             </nav>
           </div>
           <div class="col-lg-6 col-5 text-right">
-            <a href="#" class="btn btn-sm btn-neutral">Add News</a>
+            <a href="{{ route('news.create') }}" class="btn btn-sm btn-neutral" id="add-button">Add News</a>
           </div>
         </div>
       </div>
@@ -32,7 +31,7 @@
           <h3 class="mb-0">About Data</h3>
           </div>
           <div class="table-responsive py-4">
-            <table class="table align-items-center table-flush" id="table_brands">
+            <table class="table align-items-center table-flush" id="table_news">
               <thead class="thead-light">
                 <tr>
                   <th>No</th>
