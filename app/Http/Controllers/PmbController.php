@@ -19,47 +19,51 @@ class PmbController extends Controller
     {
         return view('admin.pmbs.create');
     }
-
+    
     public function store(Request $request)
     {
-        // Pmb::updateOrCreate(
-        //     ['id' => $request->pmb],
-        //     ['name' => $request->name, 'date' => $request->date, 'description' => $request->description]
-        // );
-        $this->validate($request, [
-            'name'     => 'required|string|max:20',
-            'date'   => 'required|date',
-            'description'   => 'required|text'
+        $request->validate([
+            'name'          => 'required|string|min:4|max:20|unique:pmbs',
+            'date'          =>  'required|date',
+            'description'   =>  'required|string',
         ]);
-    
-        $data = $request->all();
-        $pmb = Pmb::create($data);
+
+        $pmb = Pmb::create($request->all());
+        
         if($pmb){
-            return redirect()->route('pmbs.index')->with(['success' => 'Data Berhasil Disimpan!']);
-        }else{
-            return redirect()->route('pmbs.index')->with(['error' => 'Data Gagal Disimpan!']);
+            return redirect()->route('pmbs.index')->with('success','Data added Successfully');
+        }else {
+            return back()->with('warning','Please Check Form Input');
         }
+      
     }
 
-    public function show($id)
+    public function show(Pmb $pmb)
     {
-        //
+       return view('admin.pmbs.show', ['pmb' => $pmb]);
     }
 
-    public function edit($id)
+    public function edit(Pmb $pmb)
     {
-       $pmb = Pmb::find($id);
-       return response()->json($pmb);
+       return view('admin.pmbs.edit', ['pmb' => $pmb]);
     }
 
-    public function update(Request $request, $id)
+    public function update(Request $request, Pmb $pmb)
     {
-        //
+       $request->validate([
+           'name'           => 'required|string|min:4|max:20|unique:pmbs',
+           'date'           => 'required|date',
+           'description'    => 'required|string',
+       ]);
+
+       $pmb->update($request->all());
+
+       return redirect()->route('pmbs.index')->with('success', 'Data was Updated');
     }
 
-    public function destroy($id)
+    public function destroy(Pmb $pmb)
     {
-       $pmb = Pmb::find($id);
-       return response()->json(['Data deleted Successfully']);
+       $pmb->delete();
+       return back()->with('success', 'Data was deleted');
     }
 }

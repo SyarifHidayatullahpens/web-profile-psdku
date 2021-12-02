@@ -15,8 +15,8 @@ class CreateMajorsTable extends Migration
     {
         Schema::create('majors', function (Blueprint $table) {
             $table->id();
-            $table->string('name', 100)->nullable();
-            $table->text('description')->nullable();
+            $table->string('name', 100)->unique();
+            $table->text('description');
             $table->timestamps();
         });
     }

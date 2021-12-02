@@ -24,48 +24,45 @@
             <h3 class="mb-0">Add Pmb</h3>
         </div>
         <div class="card-body">
-            <form action="{{ route('pmbs.store') }}" method="POST" enctype="multipart/form-data">
+           
+            <form action="{{ route('pmbs.store') }}" method="POST" id="create_pmbs" enctype="multipart/form-data">
                 @csrf
                 <div class="row mb-2">
                     <div class="col-md-6">
-                        <label class="form-control-label">Name</label>
-                        <input type="text" class="form-control @error('name') is-invalid @enderror" name="name"
-                            value="{{ old('name') }}">
-        
+                        <label class="form-control-label">Title</label>
+                        <input type="text" class="form-control" name="name" value="{{ old('name') }}">
+
                         @error('name')
-                        <span class="text-danger">
-                            <strong>{{ $message }}</strong>
+                        <span class="text-danger mb-2">
+                            {{ $message }}
                         </span>
                         @enderror
                     </div>
                     <div class="col-md-6">
                         <label class="form-control-label">Date</label>
-                        <input type="date" class="form-control @error('date') is-invalid @enderror" name="date"
-                            value="{{ old('date') }}">
-        
+                        <input type="date" class="form-control" name="date">
                         @error('date')
-                        <span class="text-danger">
-                            <strong>{{ $message }}</strong>
+                        <span class="text-danger mb-2">
+                            {{ $message }}
                         </span>
                         @enderror
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="form-control-label">Description</label>
-                    <textarea class="form-control @error('description') is-invalid @enderror" name="description" rows="5"
-                        placeholder="Masukkan Konten Blog">{{ old('description') }}</textarea>
-        
+                    <textarea class="form-control" name="description" rows="5"
+                        placeholder="Masukkan Konten Blog" id="description"></textarea>
                     @error('description')
-                    <span class="text-danger">
-                        <strong>{{ $message }}</strong>
+                    <span class="text-danger mb-2">
+                        {{ $message }}
                     </span>
                     @enderror
                 </div>
-                <a type="submit" class="btn btn-md btn-primary text-white float-right">Save</a>
+                <button type="submit" class="btn btn-md btn-primary text-white float-right">Save</button>
                 <a class="btn btn-md btn-danger float-left" href="{{ route('pmbs.index') }}">Back</a>
-        
             </form>
         </div>
     </div>
 </div>
+@include('admin.ckeditor')
 @endsection

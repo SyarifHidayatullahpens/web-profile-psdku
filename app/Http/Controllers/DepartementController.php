@@ -9,10 +9,9 @@ class DepartementController extends Controller
 {
     public function index()
     {
-        $page = 'departements';
         $departement = Departement::all();
 
-        return view('admin.departements.index', compact('page', 'departement'));
+        return view('admin.departements.index', compact( 'departement'));
     }
 
     public function create()
@@ -42,6 +41,6 @@ class DepartementController extends Controller
 
     public function destroy($id)
     {
-        //
+       
     }
 }

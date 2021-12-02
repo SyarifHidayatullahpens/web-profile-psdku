@@ -163,6 +163,8 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         Yajra\DataTables\DataTablesServiceProvider::class,
         Yoeunes\Toastr\ToastrServiceProvider::class,
+        Mckenziearts\Notify\LaravelNotifyServiceProvider::class,
+        Unisharp\Ckeditor\ServiceProvider::class,
         /*
          * Package Service Providers...
          */

@@ -47,26 +47,29 @@ class AboutController extends Controller
 
     public function create()
     {
-        //
+        return view('admin.abouts.create');
     }
 
     public function store(Request $request)
     {
-    //    $this->validate($request, [
-    //        'description'    => 'text,nullable',
-    //    ]);
-    //    $data->request->all();
+        $request->validate([
+            'description'   => 'required|string'
+        ]);
+
+        $about = About::create($request->all());
+        
+        return redirect()->route('admin.abouts.index')->with('success', 'Data Added Successfully ');
 
     }
 
-    public function show($id)
+    public function show(About $about)
     {
-        //
+       return view('admin.abouts.show', ['about' => $about]);
     }
 
-    public function edit($id)
+    public function edit(About $about)
     {
-        //
+       return view('admin.abouts.edit', ['about' => $about]);
     }
 
     public function update(Request $request, $id)
@@ -76,6 +79,9 @@ class AboutController extends Controller
 
     public function destroy($id)
     {
-        //
+       $about = About::findOrFail($id);
+       $about->delete();
+       
+       return redirect()->route('news.index')->toastr()->success('Deleted Successfully');
     }
 }

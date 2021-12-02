@@ -20,8 +20,8 @@ class CreateDepartementsTable extends Migration
                                        ->on('majors')
                                        ->onDelete('cascade')
                                        ->onUpdate('cascade');
-            $table->string('name',50)->nullable();
-            $table->string('image', 25)->nullable();
+            $table->string('name',50);
+            $table->string('image', 25);
             $table->timestamps();
         });
     }

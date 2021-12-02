@@ -20,7 +20,24 @@ class NewsController extends Controller
 
     public function store(Request $request)
     {
-        //
+       $request->validate([
+           'name'           => 'required|string|max:100',
+           'image'          => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+           'description'    => 'required|string',
+       ]);
+
+       $image = $request->file('image');
+
+            $image_name = str_split(md5($image), 20);
+            $ext = $image->getClientOriginalExtension();
+            $image->storeAs('public/images', $image_name[0].".".$ext);
+
+            News::create([
+                'name'              => $request->name,
+                'image'              => $image_name[0].".".$ext,
+                'description'       => $request->description,
+            ]);
+        return response()->json(['success' => 'Form is successfully submitted!']);
     }
 
     public function show($id)
@@ -28,18 +45,55 @@ class NewsController extends Controller
         //
     }
 
-    public function edit($id)
+    public function edit(News $news)
     {
-        //
+       return view('admin.news.edit',['task' => $task]);
     }
 
     public function update(Request $request, $id)
     {
-        //
+        $news = News::findOrFail($id);
+        $request->validate([
+           'name'           => 'required|string|min:20|nullable',
+           'image'          => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048|nullable',
+           'description'    => 'required|text|nullable',
+        ]);
+
+        if($request->file('image') == "") 
+        {
+
+            $news->update([
+                'name'           => $request->name,
+                'description'          => $request->description,
+            ]);
+        } else {
+            Storage::disk('local')->delete('public/images/'.$news->image);
+    
+            //upload new image
+            $image = $request->file('image');
+            $image_name = str_split(md5($image),20);
+            $ext = $image->getClientOriginalExtension();
+            $image->storeAs('public/images', $image_name[0].".".$ext);
+
+            $news->update([
+                'name'                  => $request->name,
+                'image'                 => $image_name[0].".".$ext,
+                'description'          => $request->description,
+            ]);
+        }
+        if($news) {
+            return response()->json(['success' => 'Form is successfully submitted!']);
+        }
     }
 
     public function destroy($id)
     {
-        //
+        $news = News::findOrFail($id);
+        Storage::disk('local')->delete('public/images/' .$news->image);
+        $news->delete();
+
+        return response()->json([
+            'success'   => true,
+        ]);
     }
 }

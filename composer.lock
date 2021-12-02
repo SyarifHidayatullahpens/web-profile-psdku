@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fece1c9278f42bb80f54e26aeec44717",
+    "content-hash": "915b79c14a3e19aeb708d2f75ff3084d",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2005,6 +2005,78 @@
                 "source": "https://github.com/MarkBaker/PHPMatrix/tree/3.0.0"
             },
             "time": "2021-07-01T19:01:15+00:00"
+        },
+        {
+            "name": "mckenziearts/laravel-notify",
+            "version": "v2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mckenziearts/laravel-notify.git",
+                "reference": "685c151af8930949c0f4623a618b97f669e48799"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mckenziearts/laravel-notify/zipball/685c151af8930949c0f4623a618b97f669e48799",
+                "reference": "685c151af8930949c0f4623a618b97f669e48799",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~7.0|~8.0",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "phpunit/phpunit": "^8.0|^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Mckenziearts\\Notify\\LaravelNotifyServiceProvider"
+                    ],
+                    "aliases": {
+                        "Notify": "Mckenziearts\\Notify\\Facades\\LaravelNotify"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Mckenziearts\\Notify\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arthur Monney",
+                    "email": "monneylobe@gmail.com",
+                    "homepage": "https://twitter.com/MonneyArthur",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Flexible flash notifications for Laravel",
+            "homepage": "https://github.com/mckenziearts/laravel-notify",
+            "keywords": [
+                "laravel",
+                "laravel-notify",
+                "notification"
+            ],
+            "support": {
+                "issues": "https://github.com/mckenziearts/laravel-notify/issues",
+                "source": "https://github.com/mckenziearts/laravel-notify/tree/v2.2"
+            },
+            "funding": [
+                {
+                    "url": "https://paypal.me/jvquilichini?locale.x=fr_FR",
+                    "type": "custom"
+                }
+            ],
+            "time": "2021-05-29T13:22:21+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -5632,6 +5704,73 @@
                 }
             ],
             "time": "2021-11-12T11:38:27+00:00"
+        },
+        {
+            "name": "techguy/laravel-ckeditor",
+            "version": "v1.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dev-techguy/laravel-ckeditor.git",
+                "reference": "aea49c157128bd430b15ab6320210a7e64bb91b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dev-techguy/laravel-ckeditor/zipball/aea49c157128bd430b15ab6320210a7e64bb91b5",
+                "reference": "aea49c157128bd430b15ab6320210a7e64bb91b5",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^7.0|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Unisharp\\Ckeditor\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Unisharp\\Ckeditor\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+",
+                "LGPL-2.1+",
+                "MPL-1.1+"
+            ],
+            "authors": [
+                {
+                    "name": "CKSource",
+                    "homepage": "http://cksource.com"
+                },
+                {
+                    "name": "TechGuy. (Composer Package Maintainer)",
+                    "homepage": "https://www.shiftechafrica.com"
+                }
+            ],
+            "description": "JavaScript WYSIWYG web text editor (for laravel).",
+            "homepage": "http://ckeditor.com",
+            "keywords": [
+                "CKEditor",
+                "editor",
+                "fckeditor",
+                "html",
+                "javascript",
+                "laravel",
+                "richtext",
+                "text",
+                "wysiwyg"
+            ],
+            "support": {
+                "forum": "http://ckeditor.com/forums",
+                "issues": "http://dev.ckeditor.com",
+                "source": "http://github.com/ckeditor/ckeditor-dev",
+                "wiki": "http://docs.ckeditor.com"
+            },
+            "time": "2020-10-30T23:30:00+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",

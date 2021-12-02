@@ -10,67 +10,53 @@ class MajorController extends Controller
 {
     public function index(Request $request)
     {
-        $page = 'majors';
         $major = Major::all();
-
-        if($request->ajax()){
-            return DataTables::of($about)
-                    ->addColumn('description',function($row){
-
-                        return $row->description;
-                    })
-                    ->addColumn('action',function($row){
-                        $button = '';
-                        if(('abouts-edit')){
-                        $button .=   '<a href="/abouts/'.$row->id.'/edit" class="btn btn-icon btn-primary btn-icon-only rounded-circle">
-                                        <span class="btn-inner--icon"><i class="fas fa-pen-square"></i></span>
-                                     </a>';
-                        }
-                        if(('companies-delete')){
-                                        
-                        $button .= '&nbsp;&nbsp;';
-                        $button .= '<button class="btn btn-icon btn-danger btn-icon-only rounded-circle" onclick="deleteItem(this)" data-name="'.$row->name.'" data-id="'.$row->id.'">
-                                        <span class="btn-inner--icon"><i class="fas fa-trash-alt"></i></span>
-                                    </button>';     
-                        }
-                        return $button;
-                    })
-                    ->rawColumns(['action'])
-                    ->addIndexColumn()
-                    ->make(true);
-        }
-
-
-        return view('admin.majors.index', compact('page', 'major'));
+        return view('admin.majors.index', compact('major'));
     }
 
     public function create()
     {
-        //
+        return view('admin.majors.create');
     }
 
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'name'    => 'required|min:5|max:100|unique:majors',
+            'description' => 'required|string',
+        ]);
+        $data   = $request->all();
+        $major  = Major::create($data);
+
+        return redirect()->route('majors.index')->with('success', 'Data Added Successfully ' );
     }
 
-    public function show($id)
+    public function show(Major $major)
     {
-        //
+        return view('admin.majors.show', ['major' => $major]);
     }
 
-    public function edit($id)
+    public function edit(Major $major)
     {
-        //
+       return view('admin.majors.edit',['major' => $major]);
     }
 
-    public function update(Request $request, $id)
+    public function update(Request $request, Major $major)
     {
-        //
+        $request->validate([
+            'name'          => 'required|string|max:100|unique:majors',
+            'description'   => 'required|string',
+        ]);
+
+        $major->update($request->all());
+        
+        return redirect()->route('majors.index')->with('success','You Updated New Data');
+        
     }
 
-    public function destroy($id)
+    public function destroy(Major $major)
     {
-        //
+        $major->delete();
+        return redirect()->route('majors.index')->with('success','Deleted Successfully');
     }
 }

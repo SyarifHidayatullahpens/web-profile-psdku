@@ -35,21 +35,19 @@
               <thead class="thead-light">
                 <tr>
                   <th>No</th>
-                  <th>Name</th>
+                  <th>Title</th>
                   <th>Image</th>
-                  <th>Description</th>
                   <th>Action</th>
                 </tr>
               </thead>
-              <tfoot>
+              <tbody>
                 <tr>
                   <th>No</th>
                   <th>Name</th>
-                  <th>Image</th>
-                  <th>Description</th>
+                  <th class="rounded-circle h-30 w-30"><img src="{{ asset('brand/pens3.png') }}"></th>
                   <th>Action</th>
                 </tr>
-              </tfoot>
+              </tbody>
             </table>
           </div>
         </div>
