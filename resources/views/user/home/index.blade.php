@@ -11,7 +11,8 @@
                     
                 <div class=" col-12 mt-lg-3 mb-lg-5">
                     <p data-aos="fade-up" data-aos-delay="500">
-                       Firdaus 
+                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. A recusandae sit beatae velit veritatis aut officia sapiente voluptatem, voluptatibus praesentium pariatur architecto eos porro omnis harum natus nisi molestias ducimus mollitia. Cupiditate, ipsum placeat quisquam minus excepturi eius culpa ex eveniet provident adipisci asperiores at vero maiores aut atque voluptates blanditiis. Obcaecati velit quam ad qui sit placeat pariatur excepturi, nulla cumque alias voluptatibus, sequi modi incidunt, natus doloribus? Provident doloremque cumque reiciendis, ullam iusto quos illum facere cum quisquam iste consequatur eveniet sed ratione et dolor sapiente animi distinctio laborum dolorem, accusantium voluptatum! Ad natus nesciunt ratione nemo repellendus quod incidunt voluptas? At placeat dolor aut atque officia maxime repellendus quos nostrum, iste enim labore quasi amet architecto ipsum quaerat, rerum quia totam recusandae quod aliquam omnis! Fuga provident at sequi facere. Libero odit, delectus quas veritatis ut perspiciatis dolorum. Ut, nisi itaque. Ex et sint at omnis veniam, odit alias nihil vero corporis odio eveniet, mollitia blanditiis impedit id ullam natus perspiciatis, voluptate accusamus! Consequuntur, expedita ratione itaque maiores incidunt velit, tempora ullam odio porro corporis eligendi autem. Atque vero voluptatum ad eius perferendis ipsam maiores aspernatur molestiae. Exercitationem culpa quidem nulla nemo iure vitae suscipit saepe adipisci modi assumenda delectus incidunt ut voluptatibus, tempora ipsa, beatae, autem non! Eaque nobis, at, soluta nesciunt ex eos nisi, veritatis odit dolore fuga voluptatibus! Illum excepturi saepe quisquam impedit ad.
+
                     </p>
                 </div>
             </div>
@@ -21,7 +22,7 @@
     <section class="section-padding" id="portfolio">
         <div class="container mb-5 pb-lg-5" style="text-align: center">
             <div class="row">
-                <div class="col-6 col-6 mt-6 mb-lg-6">
+                <div class="col">
                     <h2 class="mb-5" data-aos="fade-up">DEPARTEMEN TI</h2>
                 </div>
                 

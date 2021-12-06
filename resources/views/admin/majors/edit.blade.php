@@ -21,7 +21,7 @@
             <div class="row align-items-center py-4">
                 <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
                     <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
-                        <li class="breadcrumb-item"><a href="{{ route('majors.index') }}">Major</a></li>
+                        <li class="breadcrumb-item"><a href="{{ route('majors.index') }}">Majors</a></li>
                     </ol>
                 </nav>
             </div>

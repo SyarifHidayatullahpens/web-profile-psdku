@@ -1,6 +1,10 @@
 @extends('../layouts.pages-admin.main-content')
 
 @section('content')
+
+<head>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+</head>
 <div class="header bg-primary pb-6">
     <div class="container-fluid">
         <div class="header-body">
@@ -15,7 +19,23 @@
                     </nav>
                 </div>
                 <div class="col-lg-6 col-5 text-right">
-                    <a href="{{ route('majors.create') }}" class="btn btn-sm btn-neutral">Add Majors</a>
+                    <button class="btn btn-sm btn-neutral" id="btn-add" onclick="createModal()">Add Majors</button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -31,7 +51,7 @@
                     <h3 class="mb-0">Majors Data</h3>
                 </div>
                 <div class="table-responsive py-4">
-                    <table class="table align-items-center table-flush" id="table_majors">
+                    <table class="table table-striped" id="table_majors">
                         <thead class="thead-light">
                             <tr>
                                 <th>No</th>
@@ -46,14 +66,19 @@
                                 <td>{{ $data->name }}</td>
                                 <td class="mx-2">
                                     <a href="{{ route('majors.edit', $data->id) }}"
-                                        class="btn btn-sm btn-primary rounded-circle" title="edit"><span><i class="fas fa-edit"></i></span></a>
-                                        <a href="{{ route('majors.show', $data->id) }}"
-                                            class="btn btn-sm btn-info rounded-circle" data-target="#show-modal" data-toogle="modal" title="show"><span><i class="far fa-eye"></i></span></a>
-                                    <form action="{{ route('majors.destroy', [$data->id]) }}" method="POST" class="d-inline ">
+                                        class="btn btn-sm btn-primary rounded-circle" title="edit"><span><i
+                                                class="fas fa-edit"></i></span></a>
+                                    <a href="{{ route('majors.show', $data->id) }}"
+                                        class="btn btn-sm btn-info rounded-circle" data-target="#show-modal"
+                                        data-toogle="modal" title="show"><span><i class="far fa-eye"></i></span></a>
+                                    <form action="{{ route('majors.destroy', [$data->id]) }}" method="POST"
+                                        class="d-inline ">
                                         @csrf
                                         @method('DELETE')
-                                        <button type="submit" class=" btn btn-sm btn-danger text-white rounded-circle" title="delete" onclick="return confirm('Apakah anda ingin menghapus item.?'); event.preventDefault();
-                                            document.getElementById('delete-item').submit();"><span class="fas fa-trash-alt"></button>
+                                        <button type="submit" class=" btn btn-sm btn-danger text-white rounded-circle"
+                                            title="delete" onclick="return confirm('Apakah anda ingin menghapus item.?'); event.preventDefault();
+                                            document.getElementById('delete-item').submit();"><span
+                                                class="fas fa-trash-alt"></button>
                                     </form>
                                 </td>
                             </tr>
@@ -69,4 +94,14 @@
     @include('layouts.pages-admin.footer')
 </div>
 @include('admin.majors.modal')
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+@section('script')
+<script>
+    $(document).ready(function () {
+        $('#table_majors').DataTable();
+    });
+</script>
+@endsection
 @endsection

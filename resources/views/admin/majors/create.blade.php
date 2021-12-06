@@ -7,7 +7,9 @@
             <div class="row align-items-center py-4">
                 <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
                     <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
-                        <li class="breadcrumb-item"><a href="{{ route('majors.index') }}">Major</a></li>
+                        <li class="breadcrumb-item"><a href="/admin"><i class="fas fa-home"></i></a>
+                        </li>
+                        <li class="breadcrumb-item"><a href="{{ route('majors.index') }}">Majors</a></li>
                     </ol>
                 </nav>
             </div>
@@ -15,12 +17,12 @@
     </div>
 </div>
 
-<div class="container-fluid mt--6">
+<div class="container-fluid mt--6 d-flex justify-content-center">
     <!-- Table -->
-    <div class="card col-10 mb-4" style="margin-left: 100px; margin-right: 100px">
+    <div class="card col-10 mb-4">
         <!-- Card header -->
         <div class="card-header">
-            <h3 class="mb-0">Add News</h3>
+            <h3 class="mb-0">Add Major</h3>
         </div>
         <div class="card-body">
             <form method="POST" action="{{ route('majors.store') }}" enctype="multipart/form-data">

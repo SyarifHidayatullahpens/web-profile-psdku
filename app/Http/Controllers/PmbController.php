@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Pmb;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Support\Collection;
+use DataTables;
 
 
 class PmbController extends Controller
@@ -12,6 +15,9 @@ class PmbController extends Controller
     public function index(Request $request)
     {
         $pmb  = Pmb::all();
+        if ($request->ajax()) {
+            return DataTables::of($pmb)->make(true);
+        }
         return view('admin.pmbs.index', compact('pmb'));
     }
 

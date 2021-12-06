@@ -11,12 +11,14 @@ class MajorController extends Controller
     public function index(Request $request)
     {
         $major = Major::all();
+        if ($request->ajax()) {
+            return datatables()->of($major)->make(true);
+        }
         return view('admin.majors.index', compact('major'));
     }
 
     public function create()
     {
-        return view('admin.majors.create');
     }
 
     public function store(Request $request)
@@ -25,10 +27,11 @@ class MajorController extends Controller
             'name'    => 'required|min:5|max:100|unique:majors',
             'description' => 'required|string',
         ]);
-        $data   = $request->all();
-        $major  = Major::create($data);
+        
+        $major = Major::create($request->all());
 
-        return redirect()->route('majors.index')->with('success', 'Data Added Successfully ' );
+        return redirect()->route('majors.index')->with('success', 'Data added Successfully');
+
     }
 
     public function show(Major $major)
@@ -44,13 +47,13 @@ class MajorController extends Controller
     public function update(Request $request, Major $major)
     {
         $request->validate([
-            'name'          => 'required|string|max:100|unique:majors',
-            'description'   => 'required|string',
+            'name'    => 'required|min:5|max:100|unique:majors',
+            'description' => 'required|string',
         ]);
-
-        $major->update($request->all());
         
-        return redirect()->route('majors.index')->with('success','You Updated New Data');
+        $major = Major::update($request->all());
+
+        return redirect()->route('majors.index')->with('success', 'Data added Successfully');
         
     }
 

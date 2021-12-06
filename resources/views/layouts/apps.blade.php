@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap/bootstrap-reboot.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap/bootstrap.min.css') }}">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@9.17.2/dist/sweetalert2.min.css">
     <link
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css"
         rel="stylesheet" />
@@ -47,7 +47,8 @@
     <link rel="stylesheet" href="{{ asset('vendor/nucleo/css/nucleo.css')}}" type="text/css">
     <link rel="stylesheet" href="{{ asset('css/loader.css')}}" type="text/css">
     <link rel="stylesheet" href="{{ asset('vendor/@fortawesome/fontawesome-free/css/all.min.css')}}" type="text/css">
-
+    <link rel="stylesheet" href="{{asset('vendor/select2/dist/css/select2.min.css')}}">
+    
     <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 
     <!-- Argon CSS -->
@@ -108,9 +109,11 @@
     <script src="https://cdn.datatables.net/buttons/2.0.1/js/buttons.colVis.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
     <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.2.2/dist/sweetalert2.all.min.js"></script>
 
 
     <script src="{{ asset('vendor/select2/dist/js/select2.min.js')}}"></script>
+    
     <script src="https://cdn.ckeditor.com/ckeditor5/31.0.0/classic/ckeditor.js"></script>
     <script src="{{ asset('js/argon.js?v=1.1.0')}}"></script>
     <script>

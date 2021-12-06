@@ -4,19 +4,20 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Departement;
+use App\Models\Major;
 
 class DepartementController extends Controller
 {
     public function index()
     {
         $departement = Departement::all();
-
-        return view('admin.departements.index', compact( 'departement'));
+        $major= Major::all();
+        return view('admin.departements.index', compact( 'departement', 'major'));
     }
 
     public function create()
     {
-        //
+        return view('admin.departements.create');
     }
 
     public function store(Request $request)
@@ -42,5 +43,26 @@ class DepartementController extends Controller
     public function destroy($id)
     {
        
+    }
+
+    public function getMajor(Request $request){
+        $search = $request->search;
+
+        if($serach == ''){
+            $majors = Major::select('id', 'name')->limit(5)->get();
+        }else {
+            $majosr = Major::select('id', 'name')->where('name', 'like', '%' .$search. '%')->get();
+        }
+
+        
+        $response = array();
+        foreach($majosr as $major){
+           $response[] = array(
+                "id"=>$major->id,
+                "text"=>$major->name
+           );
+        }
+  
+        return response()->json($response);
     }
 }

@@ -35,14 +35,12 @@ Route::middleware(['auth'])->group(function () {
         Route::get('/admin', function () {
             return view('admin.home.index');
         });
-        Route::get('/dashboards', function () { 
-            return view('admin.home.index');}
-        );
         Route::resource('abouts',   AboutController::class);
         Route::resource('news',   NewsController::class);
         Route::resource('pmbs',   PmbController::class);
         Route::resource('departements',   DepartementController::class);
         Route::resource('majors',   MajorController::class);
+        Route::post('get-major', [DepartementController::class,'getMajor'])->name('get-major');
     });
 
     Route::get('/logout', function() {

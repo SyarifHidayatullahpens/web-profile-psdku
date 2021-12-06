@@ -21,22 +21,18 @@
     <div class="card mb-4">
         <!-- Card header -->
         <div class="card-header">
-            <h3 class="mb-0">Add Pmb</h3>
+            <h3 class="mb-0">Add Departement</h3>
         </div>
         <div class="card-body">
            
-            <form action="{{ route('pmbs.store') }}" method="POST" id="create_pmbs" enctype="multipart/form-data">
+            <form action="{{ route('departements.store') }}" method="POST" id="create_pmbs" enctype="multipart/form-data">
                 @csrf
                 <div class="row mb-2">
-                    <div class="col-md-6">
-                        <label class="form-control-label">Title</label>
-                        <input type="text" class="form-control" name="name" value="{{ old('name') }}">
-
-                        @error('name')
-                        <span class="text-danger mb-2">
-                            {{ $message }}
-                        </span>
-                        @enderror
+                    <div class="item col-md-6 fr">
+                        <label class="form-control-label">Prodi</label>
+                        <a href="javascript:void(0)" id="add-unit" class="fa fa-plus-circle text-primary fa-lg" ></a>
+                        <select class="select2-single " name="name" data-toggle="select" id="select2-prodi">
+                        </select>
                     </div>
                     <div class="col-md-6">
                         <label class="form-control-label">Date</label>
@@ -65,9 +61,30 @@
     </div>
 </div>
 @include('admin.ckeditor')
+
 <script>
-    $('#description').ckeditor({
-        height: 200,
-    });
+    $('#select2-prodi').select2({
+                placeholder: "search units",
+                allowClear: true,
+                ajax: {
+                    url: "{{ route('get-major') }}",
+                    dataType: 'json',
+                    type: "post",
+                    dataType: 'json',
+                    delay: 250,
+                    data: function (params) {
+                        return {
+                        "_token": "{{ csrf_token() }}",
+                        search: params.term // search term
+                        };
+                    },
+                    processResults: function (response) {
+                        return {
+                        results: response
+                        };
+                    },
+                    cache: true
+                    }
+            });
 </script>
 @endsection
