@@ -31,7 +31,7 @@
                     <h3 class="mb-0">Departements Data</h3>
                 </div>
                 <div class="table-responsive py-4">
-                    <table class="table align-items-center table-flush" id="table_brands">
+                    <table class="table align-items-center table-flush" id="table_departement">
                         <thead class="thead-light">
                             <tr>
                                 <th>No</th>
@@ -40,9 +40,31 @@
                             </tr>
                         </thead>
                         <tbody>
-                          <tr>
-                            <td>sajs</td>
-                          </tr>
+                            @forelse ($major as $data)
+                            <tr>
+                                <th scope="row">{{ $loop->iteration }}</th>
+                                <td>{{ $data->name }}</td>
+                                <td class="mx-2">
+                                    <a href="#"
+                                        class="btn btn-sm btn-primary rounded-circle" title="edit"><span><i
+                                                class="fas fa-edit"></i></span></a>
+                                    <a href="#"
+                                        class="btn btn-sm btn-info rounded-circle" data-target="#show-modal"
+                                        data-toogle="modal" title="show"><span><i class="far fa-eye"></i></span></a>
+                                    <form action="#" method="POST"
+                                        class="d-inline ">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="submit" class=" btn btn-sm btn-danger text-white rounded-circle"
+                                            title="delete" onclick="return confirm('Apakah anda ingin menghapus item.?'); event.preventDefault();
+                                            document.getElementById('delete-item').submit();"><span
+                                                class="fas fa-trash-alt"></button>
+                                    </form>
+                                </td>
+                            </tr>
+                            @empty
+
+                            @endforelse
                         </tbody>
                     </table>
                 </div>
@@ -51,4 +73,13 @@
     </div>
     @include('layouts.pages-admin.footer')
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+@section('script')
+<script>
+    $(document).ready(function () {
+        $('#table_departement').DataTable();
+    });
+</script>
+@endsection
 @endsection

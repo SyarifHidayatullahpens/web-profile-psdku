@@ -55,4 +55,12 @@
     </div>
     @include('layouts.pages-admin.footer')
   </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+@section('script')
+<script>
+    $(document).ready(function () {
+        $('#table_news').DataTable();
+    });
+</script>
+@endsection
 @endsection

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\News;
+use  Storage;
 
 class NewsController extends Controller
 {
@@ -37,7 +38,7 @@ class NewsController extends Controller
                 'image'              => $image_name[0].".".$ext,
                 'description'       => $request->description,
             ]);
-        return response()->json(['success' => 'Form is successfully submitted!']);
+        return redirect()->route('news.index')->with('success', 'Data was Added');
     }
 
     public function show($id)
@@ -92,8 +93,6 @@ class NewsController extends Controller
         Storage::disk('local')->delete('public/images/' .$news->image);
         $news->delete();
 
-        return response()->json([
-            'success'   => true,
-        ]);
+        return back()->with('success', 'Delete Data Success');
     }
 }

@@ -40,8 +40,8 @@
 @include('admin.ckeditor')
 <script>
     $('#description').ckeditor({
-        height: 200,
         readOnly: true,
+        height: 200,
     });
 </script>
 @endsection

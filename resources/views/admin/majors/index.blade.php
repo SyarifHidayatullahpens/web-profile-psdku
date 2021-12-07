@@ -1,10 +1,6 @@
 @extends('../layouts.pages-admin.main-content')
 
 @section('content')
-
-<head>
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
-</head>
 <div class="header bg-primary pb-6">
     <div class="container-fluid">
         <div class="header-body">
@@ -96,7 +92,6 @@
 @include('admin.majors.modal')
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
 @section('script')
 <script>
     $(document).ready(function () {

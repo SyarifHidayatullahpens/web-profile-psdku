@@ -1,6 +1,18 @@
 @extends('../layouts.pages-admin.main-content')
 
 @section('content')
+<head>
+    <style>
+    #image-preview{
+        display:none;
+        width : 250px;
+        height : 300px;
+    }
+    .description {
+        max-height: 430px;
+    }
+    </style>
+</head>
 <div class="header bg-primary pb-6">
     <div class="container-fluid">
         <div class="header-body">
@@ -16,9 +28,9 @@
         </div>
     </div>
 </div>
-<div class="container-fluid mt--6">
+<div class="container-fluid mt--6 d-flex justify-content-center">
     <!-- Table -->
-    <div class="card mb-4">
+    <div class="card col-10 mb-4">
         <!-- Card header -->
         <div class="card-header">
             <h3 class="mb-0">Add Departement</h3>
@@ -31,17 +43,22 @@
                     <div class="item col-md-6 fr">
                         <label class="form-control-label">Prodi</label>
                         <a href="javascript:void(0)" id="add-unit" class="fa fa-plus-circle text-primary fa-lg" ></a>
-                        <select class="select2-single " name="name" data-toggle="select" id="select2-prodi">
-                        </select>
+                        <select class="js-example-basic-single" name="name" id="select2-prodi">
+                            <option value="AL">Alabama</option>
+                              ...
+                            <option value="WY">Wyoming</option>
+                          </select>
                     </div>
                     <div class="col-md-6">
-                        <label class="form-control-label">Date</label>
-                        <input type="date" class="form-control" name="date">
-                        @error('date')
-                        <span class="text-danger mb-2">
-                            {{ $message }}
-                        </span>
-                        @enderror
+                        <label class="form-control-label">Image</label>
+                        <div class="input-group input-group-merge">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fas fa-images text-primary"></i></span>
+                            </div>
+                            <input type="file" class="form-control" name="image" id="image" placeholder=""
+                                onchange="previewImage();">
+                        </div><br>
+                        <img id="image-preview" style="width: 150px;" alt="image preview" />
                     </div>
                 </div>
                 <div class="form-group">
@@ -54,8 +71,10 @@
                     </span>
                     @enderror
                 </div>
-                <button type="submit" class="btn btn-md btn-primary text-white float-right">Save</button>
-                <a class="btn btn-md btn-danger float-left" href="{{ route('pmbs.index') }}">Back</a>
+                <div class="float-right mt-4">
+                    <a class="btn btn-md btn-danger" href="{{ route('departements.index') }}">Back</a>
+                    <button type="submit" class="btn btn-md btn-primary text-white">Save</button>
+                </div>
             </form>
         </div>
     </div>
@@ -64,27 +83,27 @@
 
 <script>
     $('#select2-prodi').select2({
-                placeholder: "search units",
-                allowClear: true,
-                ajax: {
-                    url: "{{ route('get-major') }}",
-                    dataType: 'json',
-                    type: "post",
-                    dataType: 'json',
-                    delay: 250,
-                    data: function (params) {
-                        return {
-                        "_token": "{{ csrf_token() }}",
-                        search: params.term // search term
-                        };
-                    },
-                    processResults: function (response) {
-                        return {
-                        results: response
-                        };
-                    },
-                    cache: true
-                    }
-            });
+        placeholder: "search prodi",
+        allowClear: true,
+        ajax: {
+            url: "{{ route('get-major') }}",
+            dataType: 'json',
+            type: "post",
+            dataType: 'json',
+            delay: 250,
+            data: function (params) {
+                return {
+                "_token": "{{ csrf_token() }}",
+                search: params.term // search term
+                };
+            },
+            processResults: function (response) {
+                return {
+                results: response
+                };
+            },
+            cache: true
+            }
+    });
 </script>
 @endsection

@@ -23,7 +23,7 @@ use App\Http\Controllers\AdminController;
 
 Auth::routes();
 Route::get('/', function () {
-    return view('user.home.index');
+    return view('user.index');
 });
 
 
