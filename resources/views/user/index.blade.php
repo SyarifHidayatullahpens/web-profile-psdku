@@ -13,7 +13,7 @@
 
     <!-- ======= Featured Services Section ======= -->
     <section id="featured-services" class="featured-services">
-        <div class="container" data-aos="fade-up">
+        <!-- <div class="container" data-aos="fade-up">
 
             <div class="row">
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
@@ -54,7 +54,7 @@
 
             </div>
 
-        </div>
+        </div> -->
     </section><!-- End Featured Services Section -->
 
     <!-- ======= About Section ======= -->
@@ -62,7 +62,7 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>About</h2>
+                <h2>Tentang Kampus</h2>
                 <h3>PENS <span>PSDKU</span></h3>
             </div>
 
@@ -130,9 +130,12 @@
         </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Departement TI ======= -->
-    <section id="#departement-ti" class="portfolio-details">
+        <!-- ======= Diploma-ti ======= -->
+    <section id="diploma-ti" class="portfolio-details">
         <div class="container">
+        <div class="section-title">
+                <h3>DIPLOMA <span>TEKNIK INFORMATIKA</span></h3>
+            </div>
 
             <div class="row gy-4">
 
@@ -158,17 +161,17 @@
                 </div>
 
                 <div class="col-lg-4">
-                    <div class="portfolio-info">
-                        <h3>Project information</h3>
+                    <!-- <div class="portfolio-info">
+                        <h3>Teknik Informatika dan Komputer</h3>
                         <ul>
                             <li><strong>Category</strong>: Web design</li>
                             <li><strong>Client</strong>: ASU Company</li>
                             <li><strong>Project date</strong>: 01 March, 2020</li>
                             <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
                         </ul>
-                    </div>
+                    </div> -->
                     <div class="portfolio-description">
-                        <h2>This is an example of portfolio detail</h2>
+                        <!-- <h2>This is an example of portfolio detail</h2> -->
                         <p>
                             Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore
                             quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim.
@@ -177,6 +180,121 @@
                         </p>
                     </div>
                 </div>
+
+            </div>
+
+        </div>
+    </section>
+
+            <!-- ======= Diploma-MMB ======= -->
+    <section id="diploma-mmb" class="portfolio-details">
+        <div class="container">
+        <div class="section-title">
+                <h3>DIPLOMA <span>MULTIMEDIA BROADCASTING</span></h3>
+            </div>
+            <div class="row gy-4">
+
+                <div class="col-lg-8">
+                    <div class="portfolio-details-slider swiper">
+                        <div class="swiper-wrapper align-items-center">
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-1.jpg') }}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-2.jpg') }}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-3.jpg') }}" alt="">
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <!-- <div class="portfolio-info">
+                        <h3>Multimedia Broadcasting</h3>
+                        <ul>
+                            <li><strong>Category</strong>: Web design</li>
+                            <li><strong>Client</strong>: ASU Company</li>
+                            <li><strong>Project date</strong>: 01 March, 2020</li>
+                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                        </ul>
+                    </div> -->
+                    <div class="portfolio-description">
+                        <!-- <h2>This is an example of portfolio detail</h2> -->
+                        <p>
+                            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore
+                            quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim.
+                            Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi
+                            nulla at esse enim cum deserunt eius.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ======= Departement TI ======= -->
+    <section id="departement-ti" class="portfolio-details">
+        <div class="container">
+        <div class="section-title">
+                <h3>DEPARTEMENT <span>TEKNIK INFORMATIKA</span></h3>
+            </div>
+            <div class="row gy-4">
+
+                <div class="col-lg-8">
+                    <div class="portfolio-details-slider swiper">
+                        <div class="swiper-wrapper align-items-center">
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/b.jpg') }}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/f.jpeg') }}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/ss.jpeg') }}" alt="">
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <!-- <div class="portfolio-info">
+                        <h3>Teknik Informatika dan Komputer</h3>
+                        <ul>
+                            <li><strong>Category</strong>: Web design</li>
+                            <li><strong>Client</strong>: ASU Company</li>
+                            <li><strong>Project date</strong>: 01 March, 2020</li>
+                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                        </ul>
+                    </div> -->
+                    <div class="portfolio-description">
+                        <!-- <h2>DEPARTEMENT TEKNIK INFORMATIKA DAN KOMPUTER</h2> -->
+                        <p>
+                        Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan 
+                        dimasa yang akan datang akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, 
+                        Politeknik Elektronika Negeri Surabaya mendirikan Departemen Teknik Informatika dan Komputer yang 
+                        terdiri dari empat program studi, yaitu D3 Teknik Informatika, D4 Teknik Informatika, D4 Teknik Komputer, 
+                        serta S2 Terapan Teknik Informatika dan Komputer. Dengan tujuan menjadi pusat unggulan pendidikan teknologi 
+                        rekayasa dibidang emerging technology yang terkait bidang Teknologi Informasi dan Komputer untuk menghasilkan 
+                        lulusan yang siap bersaing dipasar global, Departemen Teknik Informatika dan Komputer telah banyak menghasilkan 
+                        lulusan yang berkualifikasi unggul dan bekerja sebagai Programmer, Software Engineer, Hardware Designer, Network 
+                        Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical Support, Marketing/Sales, dan lain-lain.
+                        </p>
+                    <!-- </div>
+                </div> -->
 
             </div>
 
@@ -184,9 +302,11 @@
     </section>
 
     <!-- ======= Departements MMB ======= -->
-    <section id="portfolio-details" class="portfolio-details">
+    <section id="departement-mmb" class="portfolio-details">
         <div class="container">
-
+        <div class="section-title">
+                <h3>DEPARTEMENT <span>MULTIMEDIA KREATIF</span></h3>
+            </div>
             <div class="row gy-4">
 
                 <div class="col-lg-8">
@@ -194,16 +314,16 @@
                         <div class="swiper-wrapper align-items-center">
 
                             <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-1.jpg') }}" alt="">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/a1.jpg') }}" alt="">
                             </div>
 
                             <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-2.jpg') }}" alt="">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/s.jpg') }}" alt="">
                             </div>
 
-                            <div class="swiper-slide">
+                            <!-- <div class="swiper-slide">
                                 <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-3.jpg') }}" alt="">
-                            </div>
+                            </div> -->
 
                         </div>
                         <div class="swiper-pagination"></div>
@@ -211,22 +331,27 @@
                 </div>
 
                 <div class="col-lg-4">
-                    <div class="portfolio-info">
-                        <h3>Project information</h3>
+                    <!-- <div class="portfolio-info">
+                        <h3>Multimedia Kreatif</h3>
                         <ul>
                             <li><strong>Category</strong>: Web design</li>
                             <li><strong>Client</strong>: ASU Company</li>
                             <li><strong>Project date</strong>: 01 March, 2020</li>
                             <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
                         </ul>
-                    </div>
+                    </div> -->
                     <div class="portfolio-description">
-                        <h2>This is an example of portfolio detail</h2>
+                        <!-- <h2>DEPARTEMEN TEKNOLOGI MULTIMEDIA KREATIF</h2> -->
                         <p>
-                            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore
-                            quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim.
-                            Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi
-                            nulla at esse enim cum deserunt eius.
+                        Departemen Teknologi Multimedia Kreatif (DTMK) Politeknik Elektronika Negeri Surabaya (PENS) 
+                        diresmikan pada tahun 2012. Departemen ini menaungi dua Program Studi (Prodi) yakni D3 Multimedia Broadcasting (MMB) 
+                        dan D4 Game Technology (GT). Kedua Prodi ini, bergerak dalam bidang film, video, musik, photography, televisi, radio, 
+                        dan game. Dengan bertujuan untuk menjadi pusat unggulan pendidikan teknologi multimedia dalam mengembangkan industri 
+                        kreatif. Untuk mencapai hal tersebut, Departemen ini menghasilkan insan-insan kreatif dengan kemampuan penguasaan 
+                        teknologi multimedia, serta berperan aktif dalam pengembangan industri kreatif di bidang multimedia. DTMK turut berperan 
+                        dalam penguatan sumber daya manusia, dimana didalamnya bertugas untuk melakukan perbaikan beban mengajar sesuai standar, 
+                        serta meningkatkan penelitian dan pengabdian pada masyarakat. Tidak hanya itu tetapi juga sebagai sarana dan prasarana 
+                        untuk mahasiswa.
                         </p>
                     </div>
                 </div>
@@ -235,6 +360,59 @@
 
         </div>
     </section>
+
+            <!-- Berita -->
+    <section id="berita" class="portfolio-details">
+        <div class="container">
+        <div class="section-title">
+                <h3>BERITA</h3>
+            </div>
+            <div class="row gy-4">
+
+                <div class="col-lg-8">
+                    <div class="portfolio-details-slider swiper">
+                        <div class="swiper-wrapper align-items-center">
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/sew.jpeg') }}" alt="">
+                            </div>
+
+                            <!-- <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-3.jpg') }}" alt="">
+                            </div> -->
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <!-- <div class="portfolio-info">
+                        <h3>Multimedia Broadcasting</h3>
+                        <ul>
+                            <li><strong>Category</strong>: Web design</li>
+                            <li><strong>Client</strong>: ASU Company</li>
+                            <li><strong>Project date</strong>: 01 March, 2020</li>
+                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                        </ul>
+                    </div> -->
+                    <div class="portfolio-description">
+                        <!-- <h2>This is an example of portfolio detail</h2> -->
+                        <p>
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum beatae quo a iste mollitia qui, ratione ut cupiditate accusantium enim magnam id corrupti! Aliquid consequuntur, eum tempore dolores nesciunt nam voluptas. Ut recusandae, amet aliquid voluptatibus iste aspernatur reprehenderit.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients section-bg">
