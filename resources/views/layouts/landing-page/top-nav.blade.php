@@ -9,17 +9,22 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">News</a></li>
           <li class="dropdown"><a href="#"><span>Diploma</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="#diploma-ti">Teknik Informatika dan Komputer</a></li>
-              <li><a class="nav-link scrollto" href="#diploma-mmb">Multimedia Kreatif</a></li>
-            </ul>
+          <ul>
+          <li><a href="#diploma-ti">Teknik Informatika</a></li>
+          <li><a href="#diploma-mmb">Multimedia Broadcasting</a></li>
+              <!-- <li><a class="nav-link scrollto" href="#diploma-ti">Teknik Informatika dan Komputer</a></li>
+              <li><a class="nav-link scrollto" href="#diploma-mmb">Multimedia Kreatif</a></li> -->
+          </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Departements</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="#departement-ti">Teknik Informatika dan Komputer</a></li>
-              <li><a class="nav-link scrollto" href="departement-mmb">Multimedia Kreatif</a></li>
+          <ul>
+          <li><a href="#departement-ti">Teknik Informatika</a></li>
+          <li><a href="#departement-mmb">Multimedia Broadcasting</a></li>
+              <!-- <li><a class="nav-link scrollto" href="#departement-ti">Teknik Informatika dan Komputer</a></li>
+              <li><a class="nav-link scrollto" href="departement-mmb">Multimedia Kreatif</a></li> -->
             </ul>
           </li>
+          <li><a class="nav-link scrollto" href="#berita">Berita</a></li>
           <li><a class="nav-link scrollto" href="{{ route('login') }}">Login</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
