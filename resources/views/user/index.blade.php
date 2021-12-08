@@ -1,9 +1,12 @@
 @extends('layouts.landing-page.main-content')
 
 @section('content')
+
 <head>
-  <style>
-    #more {display: none;}
+    <style>
+        #more {
+            display: none;
+        }
     </style>
 </head>
 <main id="main">
@@ -93,26 +96,33 @@
                                     dikepalai oleh Prof. Y. Naito dari Tokyo Institute of Technology, datang ke
                                     politeknik ini. Setelah melakukan pengamatan dan studi kelayakan di tahun 1986, JICA
                                     menyetujui untuk memulai kerjasama teknik di tahun 1987 dengan mengirim 5 orang
-                                    pengajar Indonesia ke perguruan tinggi teknologi di Jepang <span id="back"></span> 
+                                    pengajar Indonesia ke perguruan tinggi teknologi di Jepang <span id="back"></span>
                                     <span id="more"><br> Politeknik Elektronika &
-                                    Telekomunikasi (PET) 19881- 1992 Pada tanggal 15 Maret 1988, Pemerintah Jepang,
-                                    melalui JICA secara resmi memberikan gedung kampus kepada pemerintah Indonesia
-                                    lengkap dengan berbagai peralatan pendidikan. Selanjutnya pada tanggal 2 Juni 1988
-                                    Politeknik ini diresmikan dengan nama Politeknik Elektronika & Telekomunikasi (PET)
-                                    dan sejak saat itulah tahun ajaran dimulai. Kerjasama dengan JICA pun berlanjut
-                                    dengan banyaknya pengajar politeknik yang dikirim ke berbagai perguruan tinggi
-                                    teknologi di Jepang dan sebaliknya, pengiriman beberapa ahli dari Jepang ke
-                                    politeknik ini.</span></p>
-                                    <a class="btn btn-md btn-primary text-white" id="myBtn" onclick="myFunction()">Read More</a>
+                                        Telekomunikasi (PET) 19881- 1992 Pada tanggal 15 Maret 1988, Pemerintah Jepang,
+                                        melalui JICA secara resmi memberikan gedung kampus kepada pemerintah Indonesia
+                                        lengkap dengan berbagai peralatan pendidikan. Selanjutnya pada tanggal 2 Juni
+                                        1988 Politeknik ini diresmikan dengan nama Politeknik Elektronika & 
+                                        Telekomunikasi(PET)dan sejak saat itulah tahun ajaran dimulai. 
+                                        <br>Kerjasama dengan JICA pun berlanjut
+                                        dengan banyaknya pengajar politeknik yang dikirim ke berbagai perguruan tinggi
+                                        teknologi di Jepang dan sebaliknya, pengiriman beberapa ahli dari Jepang ke
+                                        politeknik ini. Politeknik Elektronik Surabaya (PES) 1992 - 1996 Pada bulan Juni
+                                        1991, Menteri Pendidikan dan Kebudayaan menata ulang keberadaan seluruh
+                                        Politeknik, Institut dan sebagian Universitas di Indonesia. Pada saat itu
+                                        politeknik ini pun berubah nama menjadi Politeknik Elektronika Surabaya (PES)
+                                        yang merupakan bagian dari Institut Teknologi Sepuluh Nopember Surabaya (ITS).
+                                        Politeknik Elektronika Negeri Surabaya (PENS) 1996 hingga sekarang Pada tahun
+                                        1996, nama politeknik ini kembali diubah oleh Menteri Pendidikan dan Kebudayaan
+                                        menjadi Politeknik Elektronika Negeri Surabaya (PENS)</span></p>
+                                <a class="btn btn-md btn-primary text-white" id="myBtn" onclick="myFunction()">Read
+                                    More</a>
                             </div>
                         </li>
                     </ul>
                     <p>
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                        in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum
+                        Nama itulah yang kemudian tetap bertahan hingga kini.
+                        PENS sendiri memiliki dua departemen yang berada di luar kampus utama yaitu di Sumenep dan
+                        Lamongan.
                     </p>
                 </div>
             </div>
@@ -922,20 +932,20 @@
 </main><!-- End #main -->
 
 <script>
-  function myFunction() {
-  var dots = document.getElementById("back");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+    function myFunction() {
+        var dots = document.getElementById("back");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
-    moreText.style.display = "inline";
-  }
-}
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+        }
+    }
 </script>
 @endsection
