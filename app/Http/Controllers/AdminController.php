@@ -4,11 +4,15 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Models\Major;
+use App\Models\Pmb;
+
 
 class AdminController extends Controller
 {
     public function index() {
-        $user = Auth::user();
-        return view('user.home.index', compact('user'));
+        $major = Major::all();
+        $pmbCount = Pmb::count();
+        return view('admin.home.index', compact('major', 'pmbCount'));
     }
 }

@@ -92,11 +92,5 @@
 @include('admin.majors.modal')
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-@section('script')
-<script>
-    $(document).ready(function () {
-        $('#table_majors').DataTable();
-    });
-</script>
-@endsection
+
 @endsection

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pens Psdku</title>
+    <title>PENS PSDKU</title>
 
     <!-- Favicons -->
     <link rel="icon" href="{{ asset('images/pens_sumenep.png')}}" type="image/png">
@@ -33,6 +33,7 @@
 
   @yield('main')
   <!-- Vendor JS Files -->
+  <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
   <script src="{{ asset('Bizland/assets/vendor/purecounter/purecounter.js') }}"></script>
   <script src="{{ asset('Bizland/assets/vendor/aos/aos.js') }}"></script>
   <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
@@ -40,7 +41,7 @@
   <script src="{{ asset('Bizland/assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
   <script src="{{ asset('Bizland/assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
   <script src="{{ asset('Bizland/assets/vendor/waypoints/noframework.waypoints.js') }}"></script>
-  <script src="{{ asset('assets/vendor/php-email-form/validate.js') }}"></script>
+  <script src="{{ asset('Bizland/assets/vendor/php-email-form/validate.js') }}"></script>
 
   <!-- Template Main JS File -->
   <script src="{{ asset('Bizland/assets/js/main.js') }}"></script>

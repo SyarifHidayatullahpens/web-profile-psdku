@@ -22,7 +22,7 @@
           <!-- Nav items -->
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="/dashboards"  role="button"  aria-controls="navbar-dashboards">
+              <a class="nav-link" href="/admin"  role="button"  aria-controls="navbar-dashboards">
                 <i class="fas fa-home text-primary"></i>
                 <span class="nav-link-text">Dashboards</span>
               </a>
