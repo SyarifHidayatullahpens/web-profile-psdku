@@ -134,12 +134,12 @@
     <section id="diploma-ti" class="portfolio-details">
         <div class="container">
         <div class="section-title">
-                <h3>DIPLOMA <span>TEKNIK INFORMATIKA</span></h3>
+                <h3>DIPLOMA 3<span>TEKNIK INFORMATIKA</span></h3>
             </div>
 
             <div class="row gy-4">
 
-                <div class="col-lg-8">
+                <div class="col-lg-6">
                     <div class="portfolio-details-slider swiper">
                         <div class="swiper-wrapper align-items-center">
 
@@ -160,7 +160,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <!-- <div class="portfolio-info">
                         <h3>Teknik Informatika dan Komputer</h3>
                         <ul>
@@ -173,10 +173,14 @@
                     <div class="portfolio-description">
                         <!-- <h2>This is an example of portfolio detail</h2> -->
                         <p>
-                            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore
-                            quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim.
-                            Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi
-                            nulla at esse enim cum deserunt eius.
+                        Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan dimasa yang akan datang 
+                        akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika Negeri Surabaya mendirikan 
+                        Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3 Teknik Informatika, 
+                        D4 Teknik Informatika, D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer. Dengan tujuan menjadi pusat 
+                        unggulan pendidikan teknologi rekayasa dibidang emerging technology yang terkait bidang Teknologi Informasi dan Komputer 
+                        untuk menghasilkan lulusan yang siap bersaing dipasar global, Departemen Teknik Informatika dan Komputer telah banyak 
+                        menghasilkan lulusan yang berkualifikasi unggul dan bekerja sebagai Programmer, Software Engineer, Hardware Designer, 
+                        Network Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical Support, Marketing/Sales, dan lain-lain.
                         </p>
                     </div>
                 </div>
@@ -190,11 +194,11 @@
     <section id="diploma-mmb" class="portfolio-details">
         <div class="container">
         <div class="section-title">
-                <h3>DIPLOMA <span>MULTIMEDIA BROADCASTING</span></h3>
+                <h3>DIPLOMA 3 <span>MULTIMEDIA BROADCASTING</span></h3>
             </div>
             <div class="row gy-4">
 
-                <div class="col-lg-8">
+                <div class="col-lg-6">
                     <div class="portfolio-details-slider swiper">
                         <div class="swiper-wrapper align-items-center">
 
@@ -215,7 +219,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <!-- <div class="portfolio-info">
                         <h3>Multimedia Broadcasting</h3>
                         <ul>
@@ -228,10 +232,14 @@
                     <div class="portfolio-description">
                         <!-- <h2>This is an example of portfolio detail</h2> -->
                         <p>
-                            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore
-                            quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim.
-                            Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi
-                            nulla at esse enim cum deserunt eius.
+                        Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan dimasa yang akan datang 
+                        akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika Negeri Surabaya mendirikan 
+                        Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3 Teknik Informatika, D4 Teknik Informatika, 
+                        D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer. Dengan tujuan menjadi pusat unggulan pendidikan teknologi rekayasa 
+                        dibidang emerging technology yang terkait bidang Teknologi Informasi dan Komputer untuk menghasilkan lulusan yang siap bersaing dipasar global, 
+                        Departemen Teknik Informatika dan Komputer telah banyak menghasilkan lulusan yang berkualifikasi unggul dan bekerja sebagai Programmer, 
+                        Software Engineer, Hardware Designer, Network Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical Support, 
+                        Marketing/Sales, dan lain-lain.
                         </p>
                     </div>
                 </div>
@@ -249,7 +257,7 @@
             </div>
             <div class="row gy-4">
 
-                <div class="col-lg-8">
+                <div class="col-lg-6">
                     <div class="portfolio-details-slider swiper">
                         <div class="swiper-wrapper align-items-center">
 
@@ -270,7 +278,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <!-- <div class="portfolio-info">
                         <h3>Teknik Informatika dan Komputer</h3>
                         <ul>
@@ -309,7 +317,7 @@
             </div>
             <div class="row gy-4">
 
-                <div class="col-lg-8">
+                <div class="col-lg-6">
                     <div class="portfolio-details-slider swiper">
                         <div class="swiper-wrapper align-items-center">
 
@@ -330,7 +338,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <!-- <div class="portfolio-info">
                         <h3>Multimedia Kreatif</h3>
                         <ul>
@@ -360,6 +368,238 @@
 
         </div>
     </section>
+               <!-- ======= snmpn ======= -->
+               <section id="snmpn" class="portfolio-details">
+        <div class="container">
+        <div class="section-title">
+                <h3>SNMPN<h3>
+            </div>
+            <div class="row gy-4">
+
+                <div class="col-lg-6">
+                    <div class="portfolio-details-slider swiper">
+                        <div class="swiper-wrapper align-items-center">
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-1.jpg') }}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-2.jpg') }}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-3.jpg') }}" alt="">
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- <div class="portfolio-info">
+                        <h3>Multimedia Broadcasting</h3>
+                        <ul>
+                            <li><strong>Category</strong>: Web design</li>
+                            <li><strong>Client</strong>: ASU Company</li>
+                            <li><strong>Project date</strong>: 01 March, 2020</li>
+                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                        </ul>
+                    </div> -->
+                    <div class="portfolio-description">
+                        <!-- <h2>This is an example of portfolio detail</h2> -->
+                        <br>
+                            <h4>Seleksi Nasional Masuk Politeknik Negeri Se-Indonesia</h4>
+                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">Seleksi Nasional Masuk Politeknik Negeri (SNMPN) 2021 merupakan seleksi Jalur Undangan yang diperuntukkan bagi calon peserta/siswa sekolah yang akan 
+                                melanjutkan pendidikan di Perguruan Tinggi (khusus jenjang Diploma 3) Bidang Vokasi atau Politeknik Negeri di seluruh wilayah Indonesia. 
+                                Pola seleksi ini tertuang dalam suatu sistem yang terpadu dan diselenggarakan secara serentak melalui seleksi prestasi akademik siswa selama mengikuti pendidikan di Sekolah Lanjutan Tingkat Atas.<span id="long"></span>
+                                <span id="more-info" style="display:none"><br>Pada tahun 2014-2019, nama SNMPN dikenal dengan nama Penelusuran Minat dan Kemampuan Politeknik Negeri (PMDK- PN) . Dengan diadakannya Forum Direktur Politeknik Negeri se-Indonesia (FDPNI) pada tahun 2019 di Surabaya,  
+                                maka ditetapkannya pola Penerimaan Mahasiswa Baru (PMB) jalur PMDK- PN berganti nama menjadi jalur SNMPN. Mekanisme pendaftaran dan persyaratan tetap sama, yang berubah hanya namanya saja. Hal ini bertujuan supaya arti kata Seleksi dalam SNMPN memiliki dan mencakup arti yang luas. 
+                                Pendaftaran calon peserta/Siswa melalui jalur SNMPN tidak dikenakan biaya apapun karena semua biaya telah dibebankan pada anggaran pemerintah. 
+                                Jalur SNMPN ini juga mengakomodir calon peserta/siswa yang diterima dan berasal dari keluarga ekonomi lemah tetapi mempunyai prestasi akademik tinggi.
+                                Informasi lengkap serta tata cara pendaftaran Jalur SNMPN dapat diakses pihak sekolah melalui situs <a href="http://snmpn.politeknik.or.id/">http://snmpn.politeknik.or.id/</a> dengan cara login menggunakan username dan password yang akan diberikan panitia kepada masing-masing sekolah dan mendaftarkan siswa-siswa terbaiknya. 
+                                Selanjutnya siswa-siswa tersebut akan diberikan usemame dan password yang dapat digunakan untuk memasukkan data secara on-line. 
+                                Selanjutnya kami mengharapkan kerjasama semua pihak yang terkait dengan sistem SNMPN 2021 sehingga proses ini dapat terlaksana sesuai dengan yang diharapkan.</span></p>
+                                <a class="btn btn-md btn-primary text-white" id="btn-info" onclick="moreInfo()">Read
+                                    More</a>
+                            <h4>Pengumuman SNMPN 2021</h4>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+               <!-- ======= snmptn ======= -->
+               <section id="snmptn" class="portfolio-details">
+        <div class="container">
+        <div class="section-title">
+                <h3>SNMPTN</h3>
+            </div>
+            <div class="row gy-4">
+
+                <div class="col-lg-6">
+                    <div class="portfolio-details-slider swiper">
+                        <div class="swiper-wrapper align-items-center">
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-1.jpg') }}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-2.jpg') }}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-3.jpg') }}" alt="">
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- <div class="portfolio-info">
+                        <h3>Multimedia Broadcasting</h3>
+                        <ul>
+                            <li><strong>Category</strong>: Web design</li>
+                            <li><strong>Client</strong>: ASU Company</li>
+                            <li><strong>Project date</strong>: 01 March, 2020</li>
+                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                        </ul>
+                    </div> -->
+                    <div class="portfolio-description">
+                        <!-- <h2>This is an example of portfolio detail</h2> -->
+                        <h4>Seleksi Nasional Masuk Perguruan Tinggi Negeri</h4>
+                            <br>
+                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">Seleksi Nasional Masuk Perguruan Tinggi Negeri (SNMPTN) 2021 merupakan seleksi Jalur Undangan yang diperuntukkan bagi calon peserta/siswa sekolah yang akan melanjutkan pendidikan di Perguruan Tinggi (khusus jenjang Sarjana Terapan) yang dilaksanakan serentak seluruh Indonesia. SNMPTN diselenggarakan pertama kali oleh Ditjen Dikti tahun 2008.</p>
+                            <br>
+                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">Pada awalnya, SNMPTN terdiri dari dua jalur yaitu SNMPTN undangan (seperti PMDK) melalui nilai rapot dan SNMPTN tulis melalui ujian tulis. Pada tahun 2013, SNMPTN tulis diubah nama menjadi Seleksi Bersama Masuk Perguruan Tinggi Negeri (SBMPTN). dan SNMPTN Undangan kemudian berganti nama menjadi SNMPTN (tidak pakai undangan) dengan kriteria seleksi penerimaan berdasarkan nilai rapot, nilai Ujian Nasional, dan prestasi akademis lainnya.</p>
+                            <br>
+                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">Pendaftaran calon peserta/Siswa melalui jalur SNMPTN tidak dikenakan biaya apapun karena semua biaya telah dibebankan pada anggaran pemerintah. Jalur SNMPTN ini juga mengakomodir calon peserta/siswa yang diterima dan berasal dari keluarga ekonomi lemah tetapi mempunyai prestasi akademik tinggi. </p>
+
+                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">Informasi lengkap serta tata cara pendaftaran Jalur SNMPTN dapat diakses pihak sekolah melalui situs http://ltmpt.ac.id/ dengan cara login menggunakan username dan password yang akan diberikan panitia kepada masing-masing sekolah dan mendaftarkan siswa-siswa terbaiknya. Selanjutnya siswa-siswa tersebut akan diberikan username dan password yang dapat digunakan untuk memasukkan data secara on-line. Selanjutnya kami mengharapkan kerjasama semua pihak yang terkait dengan sistem SNMPTN 2021 sehingga proses ini dapat terlaksana sesuai dengan yang diharapkan.</p>
+                            <br> <h4>Pengumuman SNMPTN 2021</h4>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+               <!-- ======= sbmpn ======= -->
+               <section id="sbmpn" class="portfolio-details">
+        <div class="container">
+        <div class="section-title">
+                <h3>SBMPN</h3>
+            </div>
+            <div class="row gy-4">
+
+                <div class="col-lg-6">
+                    <div class="portfolio-details-slider swiper">
+                        <div class="swiper-wrapper align-items-center">
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-1.jpg') }}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-2.jpg') }}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-3.jpg') }}" alt="">
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- <div class="portfolio-info">
+                        <h3>Multimedia Broadcasting</h3>
+                        <ul>
+                            <li><strong>Category</strong>: Web design</li>
+                            <li><strong>Client</strong>: ASU Company</li>
+                            <li><strong>Project date</strong>: 01 March, 2020</li>
+                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                        </ul>
+                    </div> -->
+                    <div class="portfolio-description">
+                        <!-- <h2>This is an example of portfolio detail</h2> -->
+                        <h4>Seleksi Bersama Masuk Politeknik Negeri se Indonesia</h4><br>
+                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">SBMPN atau Seleksi Bersama Masuk Politeknik Negeri merupakan jalur masuk Politeknik Negeri dengan cara tes tulis. Hal ini bertujuan untuk memilih calon mahasiswa yang mempunyai kemampuan akademik untuk mengikuti dan menyelesaikan pendidikan di Politeknik sesuai dengan batas waktu yang telah ditetapkan.</p><br>
+                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">Nama SBMPN adalah perubahan nama dari jalur UMPN (Ujian Masuk Politeknik Negeri). Pergantian nama merupakan hasil diskusi dan keputusan bersama dalam Forum Direktur Politeknik Negeri se-Indonesia yang diadakan di Surabaya pada Desember 2019. Untuk proses dan tes pendaftaran tetap sama, hanya berganti nama saja.</p><br>
+                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">Proses seleksi bagi peserta bisa mendaftar secara online. Semua peserta SBMPN 2021 akan diurutkan menurut nilai ujiannya, kemudian dialokasikan pada program studi pilihannya dengan ketentuan bahwa peserta yang lebih baik mendapat prioritas untuk dialokasikan lebih dahulu. Jika masih ada tempat di program studi pilihan pertama, ia akan diterima di program studi pilihan pertama.</p><br>
+                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">Jika tempat pada program studi pertama telah penuh dan masih ada tempat di program studi pilihan kedua, ia akan diterima di program studi pilihan kedua. Jika tempat pada program studi pilihan kedua telah penuh dan masih ada tempat di program studi pilihan ketiga, ia akan diterima di program studi pilihan ketiga, dan seterusnya. Jika tempat pada program studi pilihan pertama, kedua dan ketiga telah penuh dengan peserta yang lebih baik dari peserta tersebut, maka ia tidak akan diterima walaupun nilainya masih cukup tinggi.</p><br>
+                        <h4>Jadwal Pendaftaran SBMPN 2021</h4><br>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+                   <!-- ======= simandiri ======= -->
+                   <section id="simandiri" class="portfolio-details">
+        <div class="container">
+        <div class="section-title">
+                <h3>SIMANDIRI</h3>
+            </div>
+            <div class="row gy-4">
+
+                <div class="col-lg-6">
+                    <div class="portfolio-details-slider swiper">
+                        <div class="swiper-wrapper align-items-center">
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-1.jpg') }}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-2.jpg') }}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-3.jpg') }}" alt="">
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- <div class="portfolio-info">
+                        <h3>Multimedia Broadcasting</h3>
+                        <ul>
+                            <li><strong>Category</strong>: Web design</li>
+                            <li><strong>Client</strong>: ASU Company</li>
+                            <li><strong>Project date</strong>: 01 March, 2020</li>
+                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                        </ul>
+                    </div> -->
+                    <div class="portfolio-description">
+                        <!-- <h2>This is an example of portfolio detail</h2> -->
+                        <p>
+                            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore
+                            quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim.
+                            Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi
+                            nulla at esse enim cum deserunt eius.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
 
             <!-- Berita -->
     <section id="berita" class="portfolio-details">
@@ -369,7 +609,7 @@
             </div>
             <div class="row gy-4">
 
-                <div class="col-lg-8">
+                <div class="col-lg-6">
                     <div class="portfolio-details-slider swiper">
                         <div class="swiper-wrapper align-items-center">
 
@@ -378,19 +618,27 @@
                             </div>
 
                             <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/sew.jpeg') }}" alt="">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/lkmm.jpeg') }}" alt="">
                             </div>
 
-                            <!-- <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-3.jpg') }}" alt="">
-                            </div> -->
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/pengmas2.jpeg') }}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" alt="">
+                            </div>
 
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <!-- <div class="portfolio-info">
                         <h3>Multimedia Broadcasting</h3>
                         <ul>
@@ -415,7 +663,7 @@
 
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients section-bg">
+    <!-- <section id="clients" class="clients section-bg">
         <div class="container" data-aos="zoom-in">
 
             <div class="row">
@@ -446,11 +694,11 @@
 
             </div>
 
-        </div>
+        </div> -->
     </section><!-- End Clients Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <!-- <section id="services" class="services">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
@@ -513,11 +761,11 @@
 
             </div>
 
-        </div>
+        </div> -->
     </section><!-- End Services Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    <!-- <section id="testimonials" class="testimonials">
         <div class="container" data-aos="zoom-in">
 
             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -535,10 +783,10 @@
                                 risus at semper.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                        </div>
+                        </div> -->
                     </div><!-- End testimonial item -->
 
-                    <div class="swiper-slide">
+                    <!-- <div class="swiper-slide">
                         <div class="testimonial-item">
                             <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                             <h3>Sara Wilsson</h3>
@@ -550,10 +798,10 @@
                                 legam anim culpa.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                        </div>
+                        </div> -->
                     </div><!-- End testimonial item -->
 
-                    <div class="swiper-slide">
+                    <!-- <div class="swiper-slide">
                         <div class="testimonial-item">
                             <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                             <h3>Jena Karlis</h3>
@@ -564,10 +812,10 @@
                                 duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                        </div>
+                        </div> -->
                     </div><!-- End testimonial item -->
 
-                    <div class="swiper-slide">
+                    <!-- <div class="swiper-slide">
                         <div class="testimonial-item">
                             <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                             <h3>Matt Brandon</h3>
@@ -579,10 +827,10 @@
                                 labore illum veniam.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                        </div>
+                        </div> -->
                     </div><!-- End testimonial item -->
 
-                    <div class="swiper-slide">
+                    <!-- <div class="swiper-slide">
                         <div class="testimonial-item">
                             <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                             <h3>John Larson</h3>
@@ -594,18 +842,18 @@
                                 culpa fore nisi cillum quid.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                        </div>
+                        </div> -->
                     </div><!-- End testimonial item -->
 
-                </div>
+                <!-- </div>
                 <div class="swiper-pagination"></div>
             </div>
 
-        </div>
+        </div> -->
     </section><!-- End Testimonials Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <!-- <section id="portfolio" class="portfolio">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
@@ -738,11 +986,11 @@
 
             </div>
 
-        </div>
+        </div> -->
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
+    <!-- <section id="team" class="team section-bg">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
@@ -828,11 +1076,11 @@
 
             </div>
 
-        </div>
+        </div> -->
     </section><!-- End Team Section -->
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
+    <!-- <section id="pricing" class="pricing">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
@@ -915,11 +1163,11 @@
 
             </div>
 
-        </div>
+        </div> -->
     </section><!-- End Pricing Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg">
+    <!-- <section id="faq" class="faq section-bg">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
@@ -1024,7 +1272,7 @@
                 </div>
             </div>
 
-        </div>
+        </div> -->
     </section><!-- End Frequently Asked Questions Section -->
 
     <!-- ======= Contact Section ======= -->
@@ -1114,6 +1362,23 @@
         var dots = document.getElementById("back");
         var moreText = document.getElementById("more");
         var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+        }
+    }
+</script>
+<script>
+    function moreInfo() {
+        var dots = document.getElementById("long");
+        var moreText = document.getElementById("more-info");
+        var btnText = document.getElementById("btn-info");
 
         if (dots.style.display === "none") {
             dots.style.display = "inline";
