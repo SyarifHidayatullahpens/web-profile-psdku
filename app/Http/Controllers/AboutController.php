@@ -8,6 +8,8 @@ use App\Models\Major;
 use Auth;
 use Validator;
 use DataTables;
+use App\Http\Requests\StoreAboutRequest;
+use App\Http\Requests\UpdateAboutRequest;
 
 
 class AboutController extends Controller
@@ -23,13 +25,10 @@ class AboutController extends Controller
         return view('admin.abouts.create');
     }
 
-    public function store(Request $request)
+    public function store(StoreAboutRequest $request)
     {
-        $request->validate([
-            'description'   => 'required|string'
-        ]);
-
-        $about = About::create($request->all());
+        $validateData = $request->validated();
+        $about = About::create($validateData);
         
         return redirect()->route('abouts.index')->with('success', 'Data Added Successfully ');
 
@@ -45,13 +44,11 @@ class AboutController extends Controller
        return view('admin.abouts.edit', ['about' => $about]);
     }
 
-    public function update(Request $request, About $about)
+    public function update(UpdateAboutRequest $request, About $about)
     {
-        $request->validate([
-            'description'   => 'required|string'
-        ]);
+        $validateData = $request->validated();
 
-        $about = About::update($request->all());
+        $about = About::update($validateData);
         
         return redirect()->route('abouts.index')->with('success', 'Data Was Updated ');
     }

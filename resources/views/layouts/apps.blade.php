@@ -16,10 +16,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
 
+    <!-- DataTables -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/rowreorder/1.2.8/css/rowReorder.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+
     <link rel="stylesheet" href="{{ asset('css/toastr.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/loader.css')}}" type="text/css">
     <link rel="stylesheet" href="sweetalert2.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
     <link href="toastr.css" rel="stylesheet" />
     <link rel="stylesheet" href="{{ asset('css/bootstrap/bootstrap-grid.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap/bootstrap-grid.min.css') }}">
@@ -103,20 +108,13 @@
     <script src="{{ asset('js/sweetalert.min.js') }}"></script>
 
     <!-- Data Tables JS -->
-    <script src="{{ asset('vendor/datatables.net/js/jquery.dataTables.min.js')}}"></script>
-    <script src="{{ asset('vendor/datatables.net-bs4/js/dataTables.bootstrap4.min.js')}}"></script>
-    <script src="{{ asset('vendor/datatables.net-buttons/js/dataTables.buttons.min.js')}}"></script>
-    <script src="{{ asset('vendor/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js')}}"></script>
-    <script src="{{ asset('vendor/datatables.net-buttons/js/buttons.html5.min.js')}}"></script>
-    <script src="{{ asset('vendor/datatables.net-buttons/js/buttons.flash.min.js')}}"></script>
-    <script src="{{ asset('vendor/datatables.net-buttons/js/buttons.print.min.js')}}"></script>
-    <script src="{{ asset('vendor/datatables.net-select/js/dataTables.select.min.js')}}"></script>
-    <script src="https://cdn.datatables.net/buttons/2.0.1/js/buttons.colVis.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
     <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/rowreorder/1.2.8/js/dataTables.rowReorder.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.2.2/dist/sweetalert2.all.min.js"></script>
-
-
     <script src="{{ asset('vendor/select2/dist/js/select2.min.js')}}"></script>
     
     <script src="https://cdn.ckeditor.com/ckeditor5/31.0.0/classic/ckeditor.js"></script>
@@ -127,6 +125,6 @@
 
 </body>
 
-@yield('script')
+@stack('script')
 
 </html>

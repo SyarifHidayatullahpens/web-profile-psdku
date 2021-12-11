@@ -14,9 +14,6 @@
                         </ol>
                     </nav>
                 </div>
-                <div class="col-lg-6 col-5 text-right">
-                    <a href="{{ route('departements.create') }}" class="btn btn-sm btn-neutral">Add Departement</a>
-                </div>
             </div>
         </div>
     </div>
@@ -45,9 +42,12 @@
                                 <th scope="row">{{ $loop->iteration }}</th>
                                 <td>{{ $data->name }}</td>
                                 <td class="mx-2">
-                                    <a href="#"
-                                        class="btn btn-sm btn-primary rounded-circle" title="edit"><span><i
-                                                class="fas fa-edit"></i></span></a>
+                                    <a href="#"class="btn btn-sm btn-primary rounded-circle" title="edit">
+                                        <span><i class="fas fa-edit"></i></span>
+                                    </a>
+                                    <a href="#"class="btn btn-sm btn-warning rounded-circle" title="add">
+                                        <span><i class="fas fa-plus"></i></span>
+                                    </a>
                                     <a href="#"
                                         class="btn btn-sm btn-info rounded-circle" data-target="#show-modal"
                                         data-toogle="modal" title="show"><span><i class="far fa-eye"></i></span></a>
@@ -75,11 +75,16 @@
 </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-@section('script')
+@push('script')
 <script>
     $(document).ready(function () {
-        $('#table_departement').DataTable();
+        $('#table_departement').DataTable({
+            rowReorder: {
+                selector: 'td:nth-child(2)'
+            },
+            responsive: true
+        });
     });
 </script>
-@endsection
+@endpush
 @endsection

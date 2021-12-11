@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Departement;
 use App\Models\Major;
+use App\Http\Requests\StoreDepartementRequest;
+use App\Http\Requests\UpdateDepartementRequest;
 
 class DepartementController extends Controller
 {
@@ -17,7 +19,8 @@ class DepartementController extends Controller
 
     public function create()
     {
-        return view('admin.departements.create');
+        $major = Major::all()->first();
+        return view('admin.departements.create', compact('major'));
     }
 
     public function store(Request $request)

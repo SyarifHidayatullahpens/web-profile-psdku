@@ -7,13 +7,18 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">News</a></li>
+          <li class="dropdown"><a href="#"><span>Jalur Penerimaan</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+            <li><a href="#snpn">SNMPN</a></li>
+            <li><a href="#snmptn">SNMPTN</a></li>
+            <li><a href="#sbmpn">SBMPN</a></li>
+            <li><a href="#simandiri">SIMANDIRI</a></li>
+            </ul>
+            </li>
           <li class="dropdown"><a href="#"><span>Diploma</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
           <li><a href="#diploma-ti">Teknik Informatika</a></li>
           <li><a href="#diploma-mmb">Multimedia Broadcasting</a></li>
-              <!-- <li><a class="nav-link scrollto" href="#diploma-ti">Teknik Informatika dan Komputer</a></li>
-              <li><a class="nav-link scrollto" href="#diploma-mmb">Multimedia Kreatif</a></li> -->
           </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Departements</span> <i class="bi bi-chevron-down"></i></a>

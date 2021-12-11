@@ -30,7 +30,7 @@
 </div>
 <div class="container-fluid mt--6 d-flex justify-content-center">
     <!-- Table -->
-    <div class="card col-10 mb-4">
+    <div class="card col-12 mb-4">
         <!-- Card header -->
         <div class="card-header">
             <h3 class="mb-0">Add Departement</h3>
@@ -43,10 +43,8 @@
                     <div class="item col-md-6 fr">
                         <label class="form-control-label">Prodi</label>
                         <a href="javascript:void(0)" id="add-unit" class="fa fa-plus-circle text-primary fa-lg" ></a>
-                        <select class="js-example-basic-single" name="name" id="select2-prodi">
-                            <option value="AL">Alabama</option>
-                              ...
-                            <option value="WY">Wyoming</option>
+                        <select class="js-example-basic-single" name="name[]" id="select2-prodi">
+                            <option value="{{ $major->id }}">{{ $major->name }}</option>
                           </select>
                     </div>
                     <div class="col-md-6">

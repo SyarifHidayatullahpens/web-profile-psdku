@@ -28,7 +28,7 @@
             <form action="{{ route('pmbs.store') }}" method="POST" id="create_pmbs" enctype="multipart/form-data">
                 @csrf
                 <div class="row mb-2">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <label class="form-control-label">Title</label>
                         <input type="text" class="form-control" name="name" value="{{ old('name') }}">
 
@@ -38,10 +38,39 @@
                         </span>
                         @enderror
                     </div>
-                    <div class="col-md-6">
-                        <label class="form-control-label">Date</label>
-                        <input type="date" class="form-control" name="date">
-                        @error('date')
+                    <div class="col-md-4">
+                        <label class="form-control-label">Pendaftaran</label>
+                        <input type="date" class="form-control" name="start_data">
+                        @error('start_date')
+                        <span class="text-danger mb-2">
+                            {{ $message }}
+                        </span>
+                        @enderror
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-control-label">Penutupan</label>
+                        <input type="date" class="form-control" name="date_finish">
+                        @error('date_finish')
+                        <span class="text-danger mb-2">
+                            {{ $message }}
+                        </span>
+                        @enderror
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-md-4">
+                        <label class="form-control-label">Pendaftaran</label>
+                        <input type="date" class="form-control" name="annoucement">
+                        @error('annoucement')
+                        <span class="text-danger mb-2">
+                            {{ $message }}
+                        </span>
+                        @enderror
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-control-label">Pengumuman</label>
+                        <input type="date" class="form-control" name="re-registration">
+                        @error('re-registration')
                         <span class="text-danger mb-2">
                             {{ $message }}
                         </span>
@@ -58,8 +87,10 @@
                     </span>
                     @enderror
                 </div>
-                <button type="submit" class="btn btn-md btn-primary text-white float-right">Save</button>
-                <a class="btn btn-md btn-danger float-left" href="{{ route('pmbs.index') }}">Back</a>
+                <div class="float-right mt-4">
+                    <a class="btn btn-md btn-danger" href="{{ route('pmbs.index') }}">Back</a>
+                    <button type="submit" class="btn btn-md btn-primary text-white">Save</button>
+                </div>
             </form>
         </div>
     </div>
