@@ -30,8 +30,8 @@
                 <div class="card-header">
                     <h3 class="mb-0">Majors Data</h3>
                 </div>
-                <div class="table-responsive py-4" style="overflow-x: hidden">
-                    <table class="table table-striped" id="table_majors">
+                <div class="table-responsive py-4">
+                    <table class="table table-striped" id="table_majors" style="width: 100%">
                         <thead class="thead-light">
                             <tr>
                                 <th>No</th>

@@ -15,8 +15,8 @@ class StorePmbRequest extends FormRequest
     {
         return [
             'name'                 => 'required|string|min:4|max:20|unique:pmbs',
-            'start_date'           =>  'required|date',
-            'finish_date'          =>  'required|date',
+            'date_start'           =>  'required|date',
+            'date_finish'          =>  'required|date',
             'annoucement'          =>  'required|date',
             're_registration'      =>  'required|date',
             'description'          =>  'required|string',
@@ -26,7 +26,7 @@ class StorePmbRequest extends FormRequest
     public function messages() 
     {
         return [
-            'required'         => 'Atribute field is required'
+            'required'         => 'Field harus diisi'
         ];
     }
 }

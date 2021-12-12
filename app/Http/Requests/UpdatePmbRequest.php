@@ -15,10 +15,10 @@ class UpdatePmbRequest extends FormRequest
     {
         return [
             'name'                 => 'required|string|min:4|max:20|unique:pmbs',
-            'start_date'           =>  'required|date|date_format:d-m-Y',
-            'finish_date'          =>  'required|date|date_format:d-m-Y',
-            'annoucement'          =>  'required|date|date_format:d-m-Y',
-            're_registration'      =>  'required|date|date_format:d-m-Y',
+            'date_start'           =>  'required|date',
+            'date_finish'          =>  'required|date',
+            'annoucement'          =>  'required|date',
+            're_registration'      =>  'required|date',
             'description'          =>  'required|string',
         ];
     }

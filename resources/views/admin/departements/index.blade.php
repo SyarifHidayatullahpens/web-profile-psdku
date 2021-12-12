@@ -28,7 +28,7 @@
                     <h3 class="mb-0">Departements Data</h3>
                 </div>
                 <div class="table-responsive py-4">
-                    <table class="table align-items-center table-flush" id="table_departement">
+                    <table class="table align-items-center table-flush" id="table_departement" style="width: 100%">
                         <thead class="thead-light">
                             <tr>
                                 <th>No</th>

@@ -31,7 +31,7 @@
                     <h3 class="mb-0">PMB Data</h3>
                 </div>
                 <div class="table-responsive py-4">
-                    <table class="table table-flush" id="table_pmbs">
+                    <table class="table table-flush" id="table_pmbs" style="width: 100%">
                         <thead class="thead-light">
                             <tr>
                                 <th>No</th>
@@ -48,7 +48,10 @@
                             <tr>
                                 <th scope="row">{{ $loop->iteration }}</th>
                                 <td>{{ $data->name }}</td>
-                                <td>{{ $data->date }}</td>
+                                <td>{{ $data->date_start }}</td>
+                                <td>{{ $data->date_finish }}</td>
+                                <td>{{ $data->annoucement }}</td>
+                                <td>{{ $data->re_registration }}</td>
                                 <td class="mx-2">
                                     <a href="{{ route('pmbs.edit', $data->id) }}"
                                         class="btn btn-sm btn-primary rounded-circle" title="edit"><span><i
@@ -61,9 +64,8 @@
                                         @csrf
                                         @method('DELETE')
                                         <button type="submit" class=" btn btn-sm btn-danger text-white rounded-circle"
-                                            title="delete" onclick="return confirm('Apakah anda ingin menghapus item.?'); event.preventDefault();
-                                            document.getElementById('delete-item').submit();"><span
-                                                class="fas fa-trash-alt"></button>
+                                            title="delete" onclick="deleteItems()" data-id="{{ $data->id }}"
+                                            data-name="{{ $data->name }}"><span class="fas fa-trash-alt"></button>
                                     </form>
                                 </td>
                             </tr>
@@ -78,6 +80,8 @@
     </div>
     @include('layouts.pages-admin.footer')
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.all.min.js"></script>
 @push('script')
 <script>
     $(document).ready(function () {
@@ -89,6 +93,66 @@
             responsive: true
         });
     });
+
+    function deleteItems(e) {
+        let name = e.getAttribute('data-name');
+
+        let id = e.getAttribute('data-id');
+
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+                confirmButton: 'btn btn-success',
+                cancelButton: 'btn btn-danger'
+            },
+            buttonsStyling: false
+        });
+
+        swalWithBootstrapButtons.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Yes, delete it!',
+            cancelButtonText: 'No, cancel!',
+            reverseButtons: true
+        }).then((result) => {
+            if (result.value) {
+                if (result.isConfirmed) {
+
+                    $.ajax({
+                        type: 'DELETE',
+                        url: '{{url("/user/delete")}}/' + id,
+                        data: {
+                            "_token": "{{ csrf_token() }}",
+                        },
+                        success: function (data) {
+                            if (data.success) {
+                                swalWithBootstrapButtons.fire(
+                                    'Deleted!',
+                                    'Your file has been deleted.',
+                                    "success"
+                                );
+                                $("#" + id + "").remove();
+                            }
+
+                        }
+                    });
+
+                }
+
+            } else if (
+                result.dismiss === Swal.DismissReason.cancel
+            ) {
+                swalWithBootstrapButtons.fire(
+                    'Cancelled',
+                    'Your imaginary file is safe :)',
+                    'error'
+                );
+            }
+        });
+
+    }
+    }
 </script>
 @endpush
 @endsection
