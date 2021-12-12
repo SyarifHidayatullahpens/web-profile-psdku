@@ -381,15 +381,11 @@
                         <div class="swiper-wrapper align-items-center">
 
                             <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-1.jpg') }}" alt="">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/aa.png') }}" alt="">
                             </div>
 
                             <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-2.jpg') }}" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-3.jpg') }}" alt="">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/b.png') }}" alt="">
                             </div>
 
                         </div>
@@ -410,19 +406,19 @@
                     <div class="portfolio-description">
                         <!-- <h2>This is an example of portfolio detail</h2> -->
                         <br>
-                            <h4>Seleksi Nasional Masuk Politeknik Negeri Se-Indonesia</h4>
+                            <h4>Seleksi Nasional Masuk Politeknik Negeri</h4>
+                            <br>
                             <p style="text-align: justify; text-justify: inter-word; font-size:16px">Seleksi Nasional Masuk Politeknik Negeri (SNMPN) 2021 merupakan seleksi Jalur Undangan yang diperuntukkan bagi calon peserta/siswa sekolah yang akan 
                                 melanjutkan pendidikan di Perguruan Tinggi (khusus jenjang Diploma 3) Bidang Vokasi atau Politeknik Negeri di seluruh wilayah Indonesia. 
                                 Pola seleksi ini tertuang dalam suatu sistem yang terpadu dan diselenggarakan secara serentak melalui seleksi prestasi akademik siswa selama mengikuti pendidikan di Sekolah Lanjutan Tingkat Atas.<span id="long"></span>
-                                <span id="more-info" style="display:none"><br>Pada tahun 2014-2019, nama SNMPN dikenal dengan nama Penelusuran Minat dan Kemampuan Politeknik Negeri (PMDK- PN) . Dengan diadakannya Forum Direktur Politeknik Negeri se-Indonesia (FDPNI) pada tahun 2019 di Surabaya,  
+                                <span id="more-info" style="display:none"><br>Pada tahun 2014-2019, nama SNMPN dikenal dengan nama Penelusuran Minat dan Kemampuan Politeknik Negeri (PMDK- PN). Dengan diadakannya Forum Direktur Politeknik Negeri se-Indonesia (FDPNI) pada tahun 2019 di Surabaya,  
                                 maka ditetapkannya pola Penerimaan Mahasiswa Baru (PMB) jalur PMDK- PN berganti nama menjadi jalur SNMPN. Mekanisme pendaftaran dan persyaratan tetap sama, yang berubah hanya namanya saja. Hal ini bertujuan supaya arti kata Seleksi dalam SNMPN memiliki dan mencakup arti yang luas. 
                                 Pendaftaran calon peserta/Siswa melalui jalur SNMPN tidak dikenakan biaya apapun karena semua biaya telah dibebankan pada anggaran pemerintah. 
                                 Jalur SNMPN ini juga mengakomodir calon peserta/siswa yang diterima dan berasal dari keluarga ekonomi lemah tetapi mempunyai prestasi akademik tinggi.
                                 Informasi lengkap serta tata cara pendaftaran Jalur SNMPN dapat diakses pihak sekolah melalui situs <a href="http://snmpn.politeknik.or.id/">http://snmpn.politeknik.or.id/</a> dengan cara login menggunakan username dan password yang akan diberikan panitia kepada masing-masing sekolah dan mendaftarkan siswa-siswa terbaiknya. 
                                 Selanjutnya siswa-siswa tersebut akan diberikan usemame dan password yang dapat digunakan untuk memasukkan data secara on-line. 
                                 Selanjutnya kami mengharapkan kerjasama semua pihak yang terkait dengan sistem SNMPN 2021 sehingga proses ini dapat terlaksana sesuai dengan yang diharapkan.</span></p>
-                                <a class="btn btn-md btn-primary text-white" id="btn-info" onclick="moreInfo()">Read
-                                    More</a>
+                                <a class="btn btn-md btn-primary text-white" id="btn-info" onclick="moreInfo()">Read More</a>
                             <h4>Pengumuman SNMPN 2021</h4>
                     </div>
                 </div>
@@ -473,16 +469,19 @@
                     </div> -->
                     <div class="portfolio-description">
                         <!-- <h2>This is an example of portfolio detail</h2> -->
-                        <h4>Seleksi Nasional Masuk Perguruan Tinggi Negeri</h4>
+                        <br>
+                            <h4>Seleksi Nasional Masuk Perguruan Tinggi Negeri</h4>
                             <br>
-                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">Seleksi Nasional Masuk Perguruan Tinggi Negeri (SNMPTN) 2021 merupakan seleksi Jalur Undangan yang diperuntukkan bagi calon peserta/siswa sekolah yang akan melanjutkan pendidikan di Perguruan Tinggi (khusus jenjang Sarjana Terapan) yang dilaksanakan serentak seluruh Indonesia. SNMPTN diselenggarakan pertama kali oleh Ditjen Dikti tahun 2008.</p>
-                            <br>
-                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">Pada awalnya, SNMPTN terdiri dari dua jalur yaitu SNMPTN undangan (seperti PMDK) melalui nilai rapot dan SNMPTN tulis melalui ujian tulis. Pada tahun 2013, SNMPTN tulis diubah nama menjadi Seleksi Bersama Masuk Perguruan Tinggi Negeri (SBMPTN). dan SNMPTN Undangan kemudian berganti nama menjadi SNMPTN (tidak pakai undangan) dengan kriteria seleksi penerimaan berdasarkan nilai rapot, nilai Ujian Nasional, dan prestasi akademis lainnya.</p>
-                            <br>
-                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">Pendaftaran calon peserta/Siswa melalui jalur SNMPTN tidak dikenakan biaya apapun karena semua biaya telah dibebankan pada anggaran pemerintah. Jalur SNMPTN ini juga mengakomodir calon peserta/siswa yang diterima dan berasal dari keluarga ekonomi lemah tetapi mempunyai prestasi akademik tinggi. </p>
-
-                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">Informasi lengkap serta tata cara pendaftaran Jalur SNMPTN dapat diakses pihak sekolah melalui situs http://ltmpt.ac.id/ dengan cara login menggunakan username dan password yang akan diberikan panitia kepada masing-masing sekolah dan mendaftarkan siswa-siswa terbaiknya. Selanjutnya siswa-siswa tersebut akan diberikan username dan password yang dapat digunakan untuk memasukkan data secara on-line. Selanjutnya kami mengharapkan kerjasama semua pihak yang terkait dengan sistem SNMPTN 2021 sehingga proses ini dapat terlaksana sesuai dengan yang diharapkan.</p>
-                            <br> <h4>Pengumuman SNMPTN 2021</h4>
+                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">Seleksi Nasional Masuk Perguruan Tinggi Negeri (SNMPTN) 2021 merupakan seleksi Jalur Undangan yang diperuntukkan bagi 
+                            calon peserta/siswa sekolah yang akan melanjutkan pendidikan di Perguruan Tinggi (khusus jenjang Sarjana Terapan) yang dilaksanakan serentak seluruh Indonesia. SNMPTN diselenggarakan pertama kali oleh Ditjen Dikti tahun 2008.
+                            Pada awalnya, SNMPTN terdiri dari dua jalur yaitu SNMPTN undangan (seperti PMDK) melalui nilai rapot dan SNMPTN tulis melalui ujian tulis.<span id="long2"></span>
+                            <span id="more-info2" style="display:none"><br>Pada tahun 2013, SNMPTN tulis diubah nama menjadi Seleksi Bersama Masuk Perguruan Tinggi Negeri (SBMPTN) dan SNMPTN Undangan kemudian berganti nama menjadi SNMPTN (tidak pakai undangan) dengan kriteria seleksi penerimaan berdasarkan nilai rapot, 
+                            nilai Ujian Nasional, dan prestasi akademis lainnya. Pendaftaran calon peserta/Siswa melalui jalur SNMPTN tidak dikenakan biaya apapun karena semua biaya telah dibebankan pada anggaran pemerintah. Jalur SNMPTN ini juga mengakomodir calon peserta/siswa yang diterima dan berasal dari 
+                            keluarga ekonomi lemah tetapi mempunyai prestasi akademik tinggi. Informasi lengkap serta tata cara pendaftaran Jalur SNMPTN dapat diakses pihak sekolah melalui situs http://ltmpt.ac.id/ dengan cara login menggunakan username dan password yang 
+                            akan diberikan panitia kepada masing-masing sekolah dan mendaftarkan siswa-siswa terbaiknya. Selanjutnya siswa-siswa tersebut akan diberikan username dan password yang dapat digunakan untuk memasukkan data secara on-line. Selanjutnya kami mengharapkan 
+                            kerjasama semua pihak yang terkait dengan sistem SNMPTN 2021 sehingga proses ini dapat terlaksana sesuai dengan yang diharapkan.</span></p>
+                            <a class="btn btn-md btn-primary text-white" id="btn-info2" onclick="moreInfo()">Read More</a>
+                            <h4>Pengumuman SNMPTN 2021</h4>
                     </div>
                 </div>
 
@@ -504,17 +503,12 @@
                         <div class="swiper-wrapper align-items-center">
 
                             <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-1.jpg') }}" alt="">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/c.jpg') }}" alt="">
                             </div>
 
                             <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-2.jpg') }}" alt="">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/d.png') }}" alt="">
                             </div>
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-3.jpg') }}" alt="">
-                            </div>
-
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
@@ -532,11 +526,19 @@
                     </div> -->
                     <div class="portfolio-description">
                         <!-- <h2>This is an example of portfolio detail</h2> -->
+                        <br>
                         <h4>Seleksi Bersama Masuk Politeknik Negeri se Indonesia</h4><br>
-                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">SBMPN atau Seleksi Bersama Masuk Politeknik Negeri merupakan jalur masuk Politeknik Negeri dengan cara tes tulis. Hal ini bertujuan untuk memilih calon mahasiswa yang mempunyai kemampuan akademik untuk mengikuti dan menyelesaikan pendidikan di Politeknik sesuai dengan batas waktu yang telah ditetapkan.</p><br>
-                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">Nama SBMPN adalah perubahan nama dari jalur UMPN (Ujian Masuk Politeknik Negeri). Pergantian nama merupakan hasil diskusi dan keputusan bersama dalam Forum Direktur Politeknik Negeri se-Indonesia yang diadakan di Surabaya pada Desember 2019. Untuk proses dan tes pendaftaran tetap sama, hanya berganti nama saja.</p><br>
-                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">Proses seleksi bagi peserta bisa mendaftar secara online. Semua peserta SBMPN 2021 akan diurutkan menurut nilai ujiannya, kemudian dialokasikan pada program studi pilihannya dengan ketentuan bahwa peserta yang lebih baik mendapat prioritas untuk dialokasikan lebih dahulu. Jika masih ada tempat di program studi pilihan pertama, ia akan diterima di program studi pilihan pertama.</p><br>
-                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">Jika tempat pada program studi pertama telah penuh dan masih ada tempat di program studi pilihan kedua, ia akan diterima di program studi pilihan kedua. Jika tempat pada program studi pilihan kedua telah penuh dan masih ada tempat di program studi pilihan ketiga, ia akan diterima di program studi pilihan ketiga, dan seterusnya. Jika tempat pada program studi pilihan pertama, kedua dan ketiga telah penuh dengan peserta yang lebih baik dari peserta tersebut, maka ia tidak akan diterima walaupun nilainya masih cukup tinggi.</p><br>
+                        <p style="text-align: justify; text-justify: inter-word; font-size:16px">SBMPN atau Seleksi Bersama Masuk Politeknik Negeri merupakan jalur masuk Politeknik Negeri dengan cara tes tulis. 
+                            Hal ini bertujuan untuk memilih calon mahasiswa yang mempunyai kemampuan akademik untuk mengikuti dan menyelesaikan pendidikan 
+                            di Politeknik sesuai dengan batas waktu yang telah ditetapkan.<span id="long3"></span> 
+                            <span id="more-info3" style="display:none"><br>Nama SBMPN adalah perubahan nama dari jalur UMPN (Ujian Masuk Politeknik Negeri). Pergantian nama merupakan hasil diskusi dan keputusan 
+                            bersama dalam Forum Direktur Politeknik Negeri se-Indonesia yang diadakan di Surabaya pada Desember 2019. Untuk proses dan tes pendaftaran tetap sama, hanya berganti nama saja.
+                            Proses seleksi bagi peserta bisa mendaftar secara online. Semua peserta SBMPN 2021 akan diurutkan menurut nilai ujiannya, kemudian dialokasikan pada program studi pilihannya 
+                            dengan ketentuan bahwa peserta yang lebih baik mendapat prioritas untuk dialokasikan lebih dahulu. Jika masih ada tempat di program studi pilihan pertama, ia akan diterima di 
+                            program studi pilihan pertama. Jika tempat pada program studi pertama telah penuh dan masih ada tempat di program studi pilihan kedua, ia akan diterima di program studi pilihan kedua. 
+                            Jika tempat pada program studi pilihan kedua telah penuh dan masih ada tempat di program studi pilihan ketiga, ia akan diterima di program studi pilihan ketiga, dan seterusnya. 
+                            Jika tempat pada program studi pilihan pertama, kedua dan ketiga telah penuh dengan peserta yang lebih baik dari peserta tersebut, maka ia tidak akan diterima walaupun nilainya masih cukup tinggi.</span></p>
+                            <a class="btn btn-md btn-primary text-white" id="btn-info3" onclick="moreInfo()">Read More</a>
                         <h4>Jadwal Pendaftaran SBMPN 2021</h4><br>
                     </div>
                 </div>
@@ -559,15 +561,7 @@
                         <div class="swiper-wrapper align-items-center">
 
                             <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-1.jpg') }}" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-2.jpg') }}" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-3.jpg') }}" alt="">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/e.jpg') }}" alt="">
                             </div>
 
                         </div>
@@ -586,13 +580,16 @@
                         </ul>
                     </div> -->
                     <div class="portfolio-description">
-                        <!-- <h2>This is an example of portfolio detail</h2> -->
-                        <p>
-                            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore
-                            quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim.
-                            Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi
-                            nulla at esse enim cum deserunt eius.
-                        </p>
+                    <br>
+                        <h4>Seleksi Mandiri Politeknik Elektronika Negeri Surabaya</h4><br>
+                        <p style="text-align: justify; text-justify: inter-word; font-size:16px">
+                        SIMANDIRI PENS atau Seleksi Mandiri Politeknik Elektronika Negeri Surabaya dimaksudkan untuk memilih calon mahasiswa yang mempunyai kemampuan akademik untuk mengikuti dan menyelesaikan pendidikan di Politeknik sesuai dengan batas waktu yang telah ditetapkan.<span id="long3"></span> 
+                        <span id="more-info3" style="display:none"><br>Sehubungan dengan keadaan pandemi, Ujian Tulis Seleksi Mandiri (Simandiri) secara offline di kampus Politeknik Elektronika Negeri Surabaya (PENS) ditiadakan. Sebagai gantinya, Seleksi Mandiri dilakukan dengan sistem Ujian Tulis Berbasis Komputer (UTBK) 
+                        secara online dari tempat tinggal masing-masing dan wajib mengaktifkan web camera.
+                        Pendaftaran dan tes masuk dilaksanakan secara online dengan proses seleksi sebagai berikut. Semua peserta UTBK Online Simandiri akan diurutkan menurut nilai ujiannya, kemudian dialokasikan pada program studi pilhannya, dengan ketentuan bahwa peserta yang lebih baik mendapat prioritas untuk dialokasikan lebh dahulu. Jika masih ada tempat di program studi pilihan pertama, ia akan diterima di program studi pilihan pertama. Jika tempat pada program studi pertama telah penuh dan masih ada tempat di program studi pilihan kedua, ia akan diterima di program studi pilihan kedua. Jika tempat pada program studi pilihan kedua telah penuh dan masih ada tempat di program studi pilihan ketiga, ia akan diterima di program studi pilihan ketiga, dan seterusnya. Jika tempat pada program studi pilihan pertama, kedua dan ketiga telah penuh dengan peserta yang lebih baik dari peserta tersebut, maka ia tidak akan diterima walaupun nilainya masih cukup tinggi.
+                        </span></p>
+                        <a class="btn btn-md btn-primary text-white" id="btn-info3" onclick="moreInfo()">Read More</a>
+                        <h4>Jadwal Pendaftaran SIMANDIRI 2021</h4><br>
                     </div>
                 </div>
 
@@ -1379,6 +1376,43 @@
         var dots = document.getElementById("long");
         var moreText = document.getElementById("more-info");
         var btnText = document.getElementById("btn-info");
+        
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+        }
+    }
+</script>
+<script>
+    function moreInfo() {
+        var dots = document.getElementById("long2");
+        var moreText = document.getElementById("more-info2");
+        var btnText = document.getElementById("btn-info2");
+        
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+        }
+    }
+</script>
+<script>
+    function moreInfo() {
+        var dots = document.getElementById("long3");
+        var moreText = document.getElementById("more-info3");
+        var btnText = document.getElementById("btn-info3");
+        
 
         if (dots.style.display === "none") {
             dots.style.display = "inline";
