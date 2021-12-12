@@ -8,7 +8,7 @@
     <title>PENS PSDKU</title>
 
     <!-- Favicons -->
-    <link rel="icon" href="{{ asset('images/pens_sumenep.png')}}" type="image/png">
+    <link rel="icon" href="{{ asset('images/pens.png')}}" type="image/png">
 
 
     <!-- Google Fonts -->

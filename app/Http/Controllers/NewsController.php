@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\News;
 use  Storage;
+use App\Http\Requests\StoreNewsRequest;
+use App\Http\Requests\UpdateNewsRequest;
 
 class NewsController extends Controller
 {
@@ -19,13 +21,9 @@ class NewsController extends Controller
         return view('admin.news.create');
     }
 
-    public function store(Request $request)
+    public function store(StoreNewsRequest $request)
     {
-       $request->validate([
-           'name'           => 'required|string|max:100',
-           'image'          => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
-           'description'    => 'required|string',
-       ]);
+       $validateData = $request->validated();
 
        $image = $request->file('image');
 
@@ -51,14 +49,11 @@ class NewsController extends Controller
        return view('admin.news.edit',['task' => $task]);
     }
 
-    public function update(Request $request, $id)
+    public function update(UpdateNewsRequest $request, $id)
     {
         $news = News::findOrFail($id);
-        $request->validate([
-           'name'           => 'required|string|min:20|nullable',
-           'image'          => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048|nullable',
-           'description'    => 'required|text|nullable',
-        ]);
+
+        $validateData = $request->validated();
 
         if($request->file('image') == "") 
         {

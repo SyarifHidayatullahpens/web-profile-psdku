@@ -5,10 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Pmb;
 use Illuminate\Support\Facades\Storage;
-use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
 use DataTables;
-
+use App\Http\Requests\StorePmbRequest;
+use App\Http\Requests\UpdatePmbRequest;
 
 class PmbController extends Controller
 {
@@ -26,22 +26,13 @@ class PmbController extends Controller
         return view('admin.pmbs.create');
     }
     
-    public function store(Request $request)
+    public function store(StorePmbRequest $request)
     {
-        $request->validate([
-            'name'          => 'required|string|min:4|max:20|unique:pmbs',
-            'date'          =>  'required|date',
-            'description'   =>  'required|string',
-        ]);
+        $validateData = $request->validated();
 
-        $pmb = Pmb::create($request->all());
-        
-        if($pmb){
-            return redirect()->route('pmbs.index')->with('success','Data added Successfully');
-        }else {
-            return back()->with('warning','Please Check Form Input');
-        }
-      
+        $pmb = Pmb::create($validateData);
+     
+        return redirect()->route('pmbs.index')->with('success','Data added Successfully');
     }
 
     public function show(Pmb $pmb)
@@ -54,15 +45,11 @@ class PmbController extends Controller
        return view('admin.pmbs.edit', ['pmb' => $pmb]);
     }
 
-    public function update(Request $request, Pmb $pmb)
+    public function update(UpdatePmbRequest $request, Pmb $pmb)
     {
-       $request->validate([
-           'name'           => 'required|string|min:4|max:20|unique:pmbs',
-           'date'           => 'required|date',
-           'description'    => 'required|string',
-       ]);
+       $validateData = $request->validated();
 
-       $pmb->update($request->all());
+       $pmb->update($validateData);
 
        return redirect()->route('pmbs.index')->with('success', 'Data was Updated');
     }

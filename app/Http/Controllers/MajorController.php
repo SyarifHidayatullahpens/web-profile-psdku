@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Major;
 use DataTables;
+use App\Http\Requests\StoreMajorRequest;
+use App\Http\Requests\UpdateMajorRequest;
 
 class MajorController extends Controller
 {
@@ -19,16 +21,14 @@ class MajorController extends Controller
 
     public function create()
     {
+        return view('admin.majors.create');
     }
 
-    public function store(Request $request)
+    public function store(StoreMajorRequest $request)
     {
-        $request->validate([
-            'name'    => 'required|min:5|max:100|unique:majors',
-            'description' => 'required|string',
-        ]);
+        $validateData = $request->validated();
         
-        $major = Major::create($request->all());
+        $major = Major::create($validateData);
 
         return redirect()->route('majors.index')->with('success', 'Data added Successfully');
 
@@ -44,14 +44,11 @@ class MajorController extends Controller
        return view('admin.majors.edit',['major' => $major]);
     }
 
-    public function update(Request $request, Major $major)
+    public function update(UpdateMajorRequest $request, Major $major)
     {
-        $request->validate([
-            'name'    => 'required|min:5|max:100|unique:majors',
-            'description' => 'required|string',
-        ]);
+        $validateData = $request->validated();
         
-        $major = Major::update($request->all());
+        $major = Major::update($validateData);
 
         return redirect()->route('majors.index')->with('success', 'Data added Successfully');
         

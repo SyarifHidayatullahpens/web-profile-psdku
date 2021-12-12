@@ -15,23 +15,7 @@
                     </nav>
                 </div>
                 <div class="col-lg-6 col-5 text-right">
-                    <button class="btn btn-sm btn-neutral" id="btn-add" onclick="createModal()">Add Majors</button>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                ...
-                            </div>
-                        </div>
-                    </div>
+                    <a href="{{ route('majors.create') }}"class="btn btn-sm btn-neutral">Add Majors</a>
                 </div>
             </div>
         </div>
@@ -46,7 +30,7 @@
                 <div class="card-header">
                     <h3 class="mb-0">Majors Data</h3>
                 </div>
-                <div class="table-responsive py-4">
+                <div class="table-responsive py-4" style="overflow-x: hidden">
                     <table class="table table-striped" id="table_majors">
                         <thead class="thead-light">
                             <tr>
@@ -89,8 +73,18 @@
     </div>
     @include('layouts.pages-admin.footer')
 </div>
-@include('admin.majors.modal')
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
+@push('script')
+<script>
+    $(document).ready(function () {
+        $('#table_majors').DataTable({
+            rowReorder: {
+                selector: 'th:nth-child(2)'
+            },
+            responsive: true
+        });
+    });
+</script>
+@endpush
 @endsection
