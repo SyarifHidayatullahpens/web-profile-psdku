@@ -9,7 +9,7 @@
                     <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
                         <li class="breadcrumb-item"><a href="{{ url('dashboards') }}"><i class="fas fa-home"></i></a>
                         </li>
-                        <li class="breadcrumb-item"><a href="{{ route('news.index') }}">News</a></li>
+                        <li class="breadcrumb-item"><a href="{{ route('pmbs.index') }}">PMBS</a></li>
                     </ol>
                 </nav>
             </div>
@@ -40,8 +40,8 @@
                     </div>
                     <div class="col-md-4">
                         <label class="form-control-label">Pendaftaran</label>
-                        <input type="date" class="form-control" name="start_data">
-                        @error('start_date')
+                        <input type="date" class="form-control" name="date_start">
+                        @error('date_start')
                         <span class="text-danger mb-2">
                             {{ $message }}
                         </span>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="row mb-2">
                     <div class="col-md-4">
-                        <label class="form-control-label">Pendaftaran</label>
+                        <label class="form-control-label">Pengumuman</label>
                         <input type="date" class="form-control" name="annoucement">
                         @error('annoucement')
                         <span class="text-danger mb-2">
@@ -68,9 +68,9 @@
                         @enderror
                     </div>
                     <div class="col-md-4">
-                        <label class="form-control-label">Pengumuman</label>
-                        <input type="date" class="form-control" name="re-registration">
-                        @error('re-registration')
+                        <label class="form-control-label">Daftar Ulang</label>
+                        <input type="date" class="form-control" name="re_registration">
+                        @error('re_registration')
                         <span class="text-danger mb-2">
                             {{ $message }}
                         </span>

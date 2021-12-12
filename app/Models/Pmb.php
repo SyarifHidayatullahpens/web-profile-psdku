@@ -11,7 +11,7 @@ class Pmb extends Model
     
     
     protected $fillable = [
-        'name','start_date', 'finish_date','annoucement','re_registration', 'description'
+        'name','date_start', 'date_finish','annoucement','re_registration', 'description'
     ];
 
 

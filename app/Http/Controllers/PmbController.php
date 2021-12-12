@@ -57,6 +57,5 @@ class PmbController extends Controller
     public function destroy(Pmb $pmb)
     {
        $pmb->delete();
-       return back()->with('success', 'Data was deleted');
     }
 }
