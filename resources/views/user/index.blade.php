@@ -428,68 +428,6 @@
         </div>
     </section>
 
-               <!-- ======= snmptn ======= -->
-               <section id="snmptn" class="portfolio-details">
-        <div class="container">
-        <div class="section-title">
-                <h3>SNMPTN</h3>
-            </div>
-            <div class="row gy-4">
-
-                <div class="col-lg-6">
-                    <div class="portfolio-details-slider swiper">
-                        <div class="swiper-wrapper align-items-center">
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-1.jpg') }}" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-2.jpg') }}" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-3.jpg') }}" alt="">
-                            </div>
-
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- <div class="portfolio-info">
-                        <h3>Multimedia Broadcasting</h3>
-                        <ul>
-                            <li><strong>Category</strong>: Web design</li>
-                            <li><strong>Client</strong>: ASU Company</li>
-                            <li><strong>Project date</strong>: 01 March, 2020</li>
-                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-                        </ul>
-                    </div> -->
-                    <div class="portfolio-description">
-                        <!-- <h2>This is an example of portfolio detail</h2> -->
-                        <br>
-                            <h4>Seleksi Nasional Masuk Perguruan Tinggi Negeri</h4>
-                            <br>
-                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">Seleksi Nasional Masuk Perguruan Tinggi Negeri (SNMPTN) 2021 merupakan seleksi Jalur Undangan yang diperuntukkan bagi 
-                            calon peserta/siswa sekolah yang akan melanjutkan pendidikan di Perguruan Tinggi (khusus jenjang Sarjana Terapan) yang dilaksanakan serentak seluruh Indonesia. SNMPTN diselenggarakan pertama kali oleh Ditjen Dikti tahun 2008.
-                            Pada awalnya, SNMPTN terdiri dari dua jalur yaitu SNMPTN undangan (seperti PMDK) melalui nilai rapot dan SNMPTN tulis melalui ujian tulis.<span id="long2"></span>
-                            <span id="more-info2" style="display:none"><br>Pada tahun 2013, SNMPTN tulis diubah nama menjadi Seleksi Bersama Masuk Perguruan Tinggi Negeri (SBMPTN) dan SNMPTN Undangan kemudian berganti nama menjadi SNMPTN (tidak pakai undangan) dengan kriteria seleksi penerimaan berdasarkan nilai rapot, 
-                            nilai Ujian Nasional, dan prestasi akademis lainnya. Pendaftaran calon peserta/Siswa melalui jalur SNMPTN tidak dikenakan biaya apapun karena semua biaya telah dibebankan pada anggaran pemerintah. Jalur SNMPTN ini juga mengakomodir calon peserta/siswa yang diterima dan berasal dari 
-                            keluarga ekonomi lemah tetapi mempunyai prestasi akademik tinggi. Informasi lengkap serta tata cara pendaftaran Jalur SNMPTN dapat diakses pihak sekolah melalui situs http://ltmpt.ac.id/ dengan cara login menggunakan username dan password yang 
-                            akan diberikan panitia kepada masing-masing sekolah dan mendaftarkan siswa-siswa terbaiknya. Selanjutnya siswa-siswa tersebut akan diberikan username dan password yang dapat digunakan untuk memasukkan data secara on-line. Selanjutnya kami mengharapkan 
-                            kerjasama semua pihak yang terkait dengan sistem SNMPTN 2021 sehingga proses ini dapat terlaksana sesuai dengan yang diharapkan.</span></p>
-                            <a class="btn btn-md btn-primary text-white" id="btn-info2" onclick="moreInfo()">Read More</a>
-                            <h4>Pengumuman SNMPTN 2021</h4>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
                <!-- ======= sbmpn ======= -->
                <section id="sbmpn" class="portfolio-details">
         <div class="container">
@@ -556,20 +494,7 @@
             </div>
             <div class="row gy-4">
 
-                <div class="col-lg-6">
-                    <div class="portfolio-details-slider swiper">
-                        <div class="swiper-wrapper align-items-center">
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/e.jpg') }}" alt="">
-                            </div>
-
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <!-- <div class="portfolio-info">
                         <h3>Multimedia Broadcasting</h3>
                         <ul>
