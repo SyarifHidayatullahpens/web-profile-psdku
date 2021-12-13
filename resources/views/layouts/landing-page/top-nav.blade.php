@@ -1,7 +1,7 @@
 <!-- ======= Header ======= -->
 <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center line-height">
-    <img src="images\pens.png" width="50" height="50" class="logo">&nbsp</img>
+    <img src="{{ asset('images\pens.png') }}" width="50" height="50" class="logo">&nbsp
       <h1 class="logo"><a href=""><span>PSDKU</span>&nbspSUMENEP</a></h1>
       <nav id="navbar" class="navbar">
         <ul>

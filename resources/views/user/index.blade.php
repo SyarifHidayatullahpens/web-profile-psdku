@@ -7,12 +7,14 @@
         #more {
             display: none;
         }
+
         .contents {
-            text-align: justify; 
-            text-justify: inter-word; 
-            font-size:16px
+            text-align: justify;
+            text-justify: inter-word;
+            font-size: 16px
         }
-        .portfolio-item > img {
+
+        .portfolio-item>img {
             height: 236px;
             width: 356px;
             max-width: 100%;
@@ -24,7 +26,7 @@
 
     <!-- ======= Featured Services Section ======= -->
     <section id="featured-services" class="featured-services">
-         <div class="container" data-aos="fade-up">
+        <div class="container" data-aos="fade-up">
 
             <div class="row">
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
@@ -112,8 +114,8 @@
                                         Telekomunikasi (PET) 19881- 1992 Pada tanggal 15 Maret 1988, Pemerintah Jepang,
                                         melalui JICA secara resmi memberikan gedung kampus kepada pemerintah Indonesia
                                         lengkap dengan berbagai peralatan pendidikan. Selanjutnya pada tanggal 2 Juni
-                                        1988 Politeknik ini diresmikan dengan nama Politeknik Elektronika & 
-                                        Telekomunikasi(PET)dan sejak saat itulah tahun ajaran dimulai. 
+                                        1988 Politeknik ini diresmikan dengan nama Politeknik Elektronika &
+                                        Telekomunikasi(PET)dan sejak saat itulah tahun ajaran dimulai.
                                         <br>Kerjasama dengan JICA pun berlanjut
                                         dengan banyaknya pengajar politeknik yang dikirim ke berbagai perguruan tinggi
                                         teknologi di Jepang dan sebaliknya, pengiriman beberapa ahli dari Jepang ke
@@ -141,10 +143,10 @@
         </div>
     </section><!-- End About Section -->
 
-        <!-- ======= Diploma-ti ======= -->
+    <!-- ======= Diploma-ti ======= -->
     <section id="diploma-ti" class="portfolio-details">
         <div class="container">
-        <div class="section-title">
+            <div class="section-title">
                 <h3>DIPLOMA 3<span>TEKNIK INFORMATIKA</span></h3>
             </div>
 
@@ -174,14 +176,22 @@
                 <div class="col-lg-6">
                     <div class="portfolio-description">
                         <p>
-                        Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan dimasa yang akan datang 
-                        akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika Negeri Surabaya mendirikan 
-                        Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3 Teknik Informatika, 
-                        D4 Teknik Informatika, D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer. Dengan tujuan menjadi pusat 
-                        unggulan pendidikan teknologi rekayasa dibidang emerging technology yang terkait bidang Teknologi Informasi dan Komputer 
-                        untuk menghasilkan lulusan yang siap bersaing dipasar global, Departemen Teknik Informatika dan Komputer telah banyak 
-                        menghasilkan lulusan yang berkualifikasi unggul dan bekerja sebagai Programmer, Software Engineer, Hardware Designer, 
-                        Network Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical Support, Marketing/Sales, dan lain-lain.
+                            Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
+                            dimasa yang akan datang
+                            akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika
+                            Negeri Surabaya mendirikan
+                            Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3
+                            Teknik Informatika,
+                            D4 Teknik Informatika, D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer.
+                            Dengan tujuan menjadi pusat
+                            unggulan pendidikan teknologi rekayasa dibidang emerging technology yang terkait bidang
+                            Teknologi Informasi dan Komputer
+                            untuk menghasilkan lulusan yang siap bersaing dipasar global, Departemen Teknik Informatika
+                            dan Komputer telah banyak
+                            menghasilkan lulusan yang berkualifikasi unggul dan bekerja sebagai Programmer, Software
+                            Engineer, Hardware Designer,
+                            Network Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical
+                            Support, Marketing/Sales, dan lain-lain.
                         </p>
                     </div>
                 </div>
@@ -191,10 +201,10 @@
         </div>
     </section>
 
-            <!-- ======= Diploma-MMB ======= -->
+    <!-- ======= Diploma-MMB ======= -->
     <section id="diploma-mmb" class="portfolio-details">
         <div class="container">
-        <div class="section-title">
+            <div class="section-title">
                 <h3>DIPLOMA 3 <span>MULTIMEDIA BROADCASTING</span></h3>
             </div>
             <div class="row gy-4">
@@ -223,14 +233,21 @@
                 <div class="col-lg-6">
                     <div class="portfolio-description">
                         <p>
-                        Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan dimasa yang akan datang 
-                        akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika Negeri Surabaya mendirikan 
-                        Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3 Teknik Informatika, D4 Teknik Informatika, 
-                        D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer. Dengan tujuan menjadi pusat unggulan pendidikan teknologi rekayasa 
-                        dibidang emerging technology yang terkait bidang Teknologi Informasi dan Komputer untuk menghasilkan lulusan yang siap bersaing dipasar global, 
-                        Departemen Teknik Informatika dan Komputer telah banyak menghasilkan lulusan yang berkualifikasi unggul dan bekerja sebagai Programmer, 
-                        Software Engineer, Hardware Designer, Network Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical Support, 
-                        Marketing/Sales, dan lain-lain.
+                            Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
+                            dimasa yang akan datang
+                            akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika
+                            Negeri Surabaya mendirikan
+                            Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3
+                            Teknik Informatika, D4 Teknik Informatika,
+                            D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer. Dengan tujuan menjadi
+                            pusat unggulan pendidikan teknologi rekayasa
+                            dibidang emerging technology yang terkait bidang Teknologi Informasi dan Komputer untuk
+                            menghasilkan lulusan yang siap bersaing dipasar global,
+                            Departemen Teknik Informatika dan Komputer telah banyak menghasilkan lulusan yang
+                            berkualifikasi unggul dan bekerja sebagai Programmer,
+                            Software Engineer, Hardware Designer, Network Administrator, Computer System Analyst,
+                            Manager/Supervisor, Services/Technical Support,
+                            Marketing/Sales, dan lain-lain.
                         </p>
                     </div>
                 </div>
@@ -243,7 +260,7 @@
     <!-- ======= Departement TI ======= -->
     <section id="departement-ti" class="portfolio-details">
         <div class="container">
-        <div class="section-title">
+            <div class="section-title">
                 <h3>DEPARTEMENT <span>TEKNIK INFORMATIKA</span></h3>
             </div>
             <div class="row gy-4">
@@ -273,18 +290,25 @@
                     <div class="portfolio-description">
                         <!-- <h2>DEPARTEMENT TEKNIK INFORMATIKA DAN KOMPUTER</h2> -->
                         <p>
-                        Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan 
-                        dimasa yang akan datang akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, 
-                        Politeknik Elektronika Negeri Surabaya mendirikan Departemen Teknik Informatika dan Komputer yang 
-                        terdiri dari empat program studi, yaitu D3 Teknik Informatika, D4 Teknik Informatika, D4 Teknik Komputer, 
-                        serta S2 Terapan Teknik Informatika dan Komputer. Dengan tujuan menjadi pusat unggulan pendidikan teknologi 
-                        rekayasa dibidang emerging technology yang terkait bidang Teknologi Informasi dan Komputer untuk menghasilkan 
-                        lulusan yang siap bersaing dipasar global, Departemen Teknik Informatika dan Komputer telah banyak menghasilkan 
-                        lulusan yang berkualifikasi unggul dan bekerja sebagai Programmer, Software Engineer, Hardware Designer, Network 
-                        Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical Support, Marketing/Sales, dan lain-lain.
+                            Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
+                            dimasa yang akan datang akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu,
+                            Politeknik Elektronika Negeri Surabaya mendirikan Departemen Teknik Informatika dan Komputer
+                            yang
+                            terdiri dari empat program studi, yaitu D3 Teknik Informatika, D4 Teknik Informatika, D4
+                            Teknik Komputer,
+                            serta S2 Terapan Teknik Informatika dan Komputer. Dengan tujuan menjadi pusat unggulan
+                            pendidikan teknologi
+                            rekayasa dibidang emerging technology yang terkait bidang Teknologi Informasi dan Komputer
+                            untuk menghasilkan
+                            lulusan yang siap bersaing dipasar global, Departemen Teknik Informatika dan Komputer telah
+                            banyak menghasilkan
+                            lulusan yang berkualifikasi unggul dan bekerja sebagai Programmer, Software Engineer,
+                            Hardware Designer, Network
+                            Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical Support,
+                            Marketing/Sales, dan lain-lain.
                         </p>
-                     </div>
-                </div> 
+                    </div>
+                </div>
 
             </div>
 
@@ -294,7 +318,7 @@
     <!-- ======= Departements MMB ======= -->
     <section id="departement-mmb" class="portfolio-details">
         <div class="container">
-        <div class="section-title">
+            <div class="section-title">
                 <h3>DEPARTEMENT <span>MULTIMEDIA KREATIF</span></h3>
             </div>
             <div class="row gy-4">
@@ -323,15 +347,22 @@
                 <div class="col-lg-6">
                     <div class="portfolio-description">
                         <p>
-                        Departemen Teknologi Multimedia Kreatif (DTMK) Politeknik Elektronika Negeri Surabaya (PENS) 
-                        diresmikan pada tahun 2012. Departemen ini menaungi dua Program Studi (Prodi) yakni D3 Multimedia Broadcasting (MMB) 
-                        dan D4 Game Technology (GT). Kedua Prodi ini, bergerak dalam bidang film, video, musik, photography, televisi, radio, 
-                        dan game. Dengan bertujuan untuk menjadi pusat unggulan pendidikan teknologi multimedia dalam mengembangkan industri 
-                        kreatif. Untuk mencapai hal tersebut, Departemen ini menghasilkan insan-insan kreatif dengan kemampuan penguasaan 
-                        teknologi multimedia, serta berperan aktif dalam pengembangan industri kreatif di bidang multimedia. DTMK turut berperan 
-                        dalam penguatan sumber daya manusia, dimana didalamnya bertugas untuk melakukan perbaikan beban mengajar sesuai standar, 
-                        serta meningkatkan penelitian dan pengabdian pada masyarakat. Tidak hanya itu tetapi juga sebagai sarana dan prasarana 
-                        untuk mahasiswa.
+                            Departemen Teknologi Multimedia Kreatif (DTMK) Politeknik Elektronika Negeri Surabaya (PENS)
+                            diresmikan pada tahun 2012. Departemen ini menaungi dua Program Studi (Prodi) yakni D3
+                            Multimedia Broadcasting (MMB)
+                            dan D4 Game Technology (GT). Kedua Prodi ini, bergerak dalam bidang film, video, musik,
+                            photography, televisi, radio,
+                            dan game. Dengan bertujuan untuk menjadi pusat unggulan pendidikan teknologi multimedia
+                            dalam mengembangkan industri
+                            kreatif. Untuk mencapai hal tersebut, Departemen ini menghasilkan insan-insan kreatif dengan
+                            kemampuan penguasaan
+                            teknologi multimedia, serta berperan aktif dalam pengembangan industri kreatif di bidang
+                            multimedia. DTMK turut berperan
+                            dalam penguatan sumber daya manusia, dimana didalamnya bertugas untuk melakukan perbaikan
+                            beban mengajar sesuai standar,
+                            serta meningkatkan penelitian dan pengabdian pada masyarakat. Tidak hanya itu tetapi juga
+                            sebagai sarana dan prasarana
+                            untuk mahasiswa.
                         </p>
                     </div>
                 </div>
@@ -340,10 +371,10 @@
 
         </div>
     </section>
-               <!-- ======= snmpn ======= -->
-               <section id="snmpn" class="portfolio-details">
+    <!-- ======= snmpn ======= -->
+    <section id="snmpn" class="portfolio-details">
         <div class="container">
-        <div class="section-title">
+            <div class="section-title">
                 <h3>SNMPN<h3>
             </div>
             <div class="row gy-4">
@@ -368,22 +399,39 @@
                 <div class="col-lg-6">
                     <div class="portfolio-description">
                         <br>
-                            <h4>Seleksi Nasional Masuk Politeknik Negeri</h4>
-                            <br>
-                            <p class="contents">Seleksi Nasional Masuk Politeknik Negeri (SNMPN) 2021 merupakan seleksi Jalur Undangan yang diperuntukkan bagi calon peserta/siswa sekolah yang akan 
-                                melanjutkan pendidikan di Perguruan Tinggi (khusus jenjang Diploma 3) Bidang Vokasi atau Politeknik Negeri di seluruh wilayah Indonesia. 
-                                Pola seleksi ini tertuang dalam suatu sistem yang terpadu dan diselenggarakan secara serentak melalui seleksi prestasi akademik siswa selama mengikuti pendidikan di Sekolah Lanjutan Tingkat Atas.<span id="less-snmpn"></span>
-                                <span id="more-snmpn" style="display:none"><br>Pada tahun 2014-2019, nama SNMPN dikenal dengan nama Penelusuran Minat dan Kemampuan Politeknik Negeri (PMDK- PN). 
-                                Dengan diadakannya Forum Direktur Politeknik Negeri se-Indonesia (FDPNI) pada tahun 2019 di Surabaya,  
-                                maka ditetapkannya pola Penerimaan Mahasiswa Baru (PMB) jalur PMDK- PN berganti nama menjadi jalur SNMPN. 
-                                <br>Mekanisme pendaftaran dan persyaratan tetap sama, yang berubah hanya namanya saja. Hal ini bertujuan supaya arti kata Seleksi dalam SNMPN memiliki dan mencakup arti yang luas. 
-                                Pendaftaran calon peserta/Siswa melalui jalur SNMPN tidak dikenakan biaya apapun karena semua biaya telah dibebankan pada anggaran pemerintah. 
-                                Jalur SNMPN ini juga mengakomodir calon peserta/siswa yang diterima dan berasal dari keluarga ekonomi lemah tetapi mempunyai prestasi akademik tinggi.
-                                Informasi lengkap serta tata cara pendaftaran Jalur SNMPN dapat diakses pihak sekolah melalui situs <a href="http://snmpn.politeknik.or.id/">http://snmpn.politeknik.or.id/</a> dengan cara login menggunakan username dan password yang akan diberikan panitia kepada masing-masing sekolah dan mendaftarkan siswa-siswa terbaiknya. 
-                                Selanjutnya siswa-siswa tersebut akan diberikan usemame dan password yang dapat digunakan untuk memasukkan data secara on-line. 
-                                Selanjutnya kami mengharapkan kerjasama semua pihak yang terkait dengan sistem SNMPN 2021 sehingga proses ini dapat terlaksana sesuai dengan yang diharapkan.</span></p>
-                                <a class="btn btn-md btn-primary text-white" id="btn-snmpn" onclick="infoSnmpn()">Read More</a>
-                            <h4 class="mt-3">Pengumuman SNMPN 2021</h4>
+                        <h4>Seleksi Nasional Masuk Politeknik Negeri</h4>
+                        <br>
+                        <p class="contents">Seleksi Nasional Masuk Politeknik Negeri (SNMPN) 2021 merupakan seleksi
+                            Jalur Undangan yang diperuntukkan bagi calon peserta/siswa sekolah yang akan
+                            melanjutkan pendidikan di Perguruan Tinggi (khusus jenjang Diploma 3) Bidang Vokasi atau
+                            Politeknik Negeri di seluruh wilayah Indonesia.
+                            Pola seleksi ini tertuang dalam suatu sistem yang terpadu dan diselenggarakan secara
+                            serentak melalui seleksi prestasi akademik siswa selama mengikuti pendidikan di Sekolah
+                            Lanjutan Tingkat Atas.<span id="less-snmpn"></span>
+                            <span id="more-snmpn" style="display:none"><br>Pada tahun 2014-2019, nama SNMPN dikenal
+                                dengan nama Penelusuran Minat dan Kemampuan Politeknik Negeri (PMDK- PN).
+                                Dengan diadakannya Forum Direktur Politeknik Negeri se-Indonesia (FDPNI) pada tahun 2019
+                                di Surabaya,
+                                maka ditetapkannya pola Penerimaan Mahasiswa Baru (PMB) jalur PMDK- PN berganti nama
+                                menjadi jalur SNMPN.
+                                <br>Mekanisme pendaftaran dan persyaratan tetap sama, yang berubah hanya namanya saja.
+                                Hal ini bertujuan supaya arti kata Seleksi dalam SNMPN memiliki dan mencakup arti yang
+                                luas.
+                                Pendaftaran calon peserta/Siswa melalui jalur SNMPN tidak dikenakan biaya apapun karena
+                                semua biaya telah dibebankan pada anggaran pemerintah.
+                                Jalur SNMPN ini juga mengakomodir calon peserta/siswa yang diterima dan berasal dari
+                                keluarga ekonomi lemah tetapi mempunyai prestasi akademik tinggi.
+                                Informasi lengkap serta tata cara pendaftaran Jalur SNMPN dapat diakses pihak sekolah
+                                melalui situs <a
+                                    href="http://snmpn.politeknik.or.id/">http://snmpn.politeknik.or.id/</a> dengan cara
+                                login menggunakan username dan password yang akan diberikan panitia kepada masing-masing
+                                sekolah dan mendaftarkan siswa-siswa terbaiknya.
+                                Selanjutnya siswa-siswa tersebut akan diberikan usemame dan password yang dapat
+                                digunakan untuk memasukkan data secara on-line.
+                                Selanjutnya kami mengharapkan kerjasama semua pihak yang terkait dengan sistem SNMPN
+                                2021 sehingga proses ini dapat terlaksana sesuai dengan yang diharapkan.</span></p>
+                        <a class="btn btn-md btn-primary text-white" id="btn-snmpn" onclick="infoSnmpn()">Read More</a>
+                        <h4 class="mt-3">Pengumuman SNMPN 2021</h4>
                     </div>
                 </div>
 
@@ -392,10 +440,10 @@
         </div>
     </section>
 
-               <!-- ======= sbmpn ======= -->
-               <section id="sbmpn" class="portfolio-details">
+    <!-- ======= sbmpn ======= -->
+    <section id="sbmpn" class="portfolio-details">
         <div class="container">
-        <div class="section-title">
+            <div class="section-title">
                 <h3>SBMPN</h3>
             </div>
             <div class="row gy-4">
@@ -420,17 +468,31 @@
                     <div class="portfolio-description">
                         <br>
                         <h4>Seleksi Bersama Masuk Politeknik Negeri se Indonesia</h4><br>
-                        <p class="contents" style="">SBMPN atau Seleksi Bersama Masuk Politeknik Negeri merupakan jalur masuk Politeknik Negeri dengan cara tes tulis. 
-                            Hal ini bertujuan untuk memilih calon mahasiswa yang mempunyai kemampuan akademik untuk mengikuti dan menyelesaikan pendidikan 
-                            di Politeknik sesuai dengan batas waktu yang telah ditetapkan.<span id="less-sbmpn"></span> 
-                            <span id="more-sbmpn" style="display:none"><br>Nama SBMPN adalah perubahan nama dari jalur UMPN (Ujian Masuk Politeknik Negeri). Pergantian nama merupakan hasil diskusi dan keputusan 
-                            bersama dalam Forum Direktur Politeknik Negeri se-Indonesia yang diadakan di Surabaya pada Desember 2019. Untuk proses dan tes pendaftaran tetap sama, hanya berganti nama saja.
-                            Proses seleksi bagi peserta bisa mendaftar secara online. Semua peserta SBMPN 2021 akan diurutkan menurut nilai ujiannya, kemudian dialokasikan pada program studi pilihannya 
-                            dengan ketentuan bahwa peserta yang lebih baik mendapat prioritas untuk dialokasikan lebih dahulu. Jika masih ada tempat di program studi pilihan pertama, ia akan diterima di 
-                            program studi pilihan pertama. Jika tempat pada program studi pertama telah penuh dan masih ada tempat di program studi pilihan kedua, ia akan diterima di program studi pilihan kedua. 
-                            Jika tempat pada program studi pilihan kedua telah penuh dan masih ada tempat di program studi pilihan ketiga, ia akan diterima di program studi pilihan ketiga, dan seterusnya. 
-                            Jika tempat pada program studi pilihan pertama, kedua dan ketiga telah penuh dengan peserta yang lebih baik dari peserta tersebut, maka ia tidak akan diterima walaupun nilainya masih cukup tinggi.</span></p>
-                            <a class="btn btn-md btn-primary text-white" id="btn-sbmpn" onclick="moreSbmpn()">Read More</a>
+                        <p class="contents" style="">SBMPN atau Seleksi Bersama Masuk Politeknik Negeri merupakan jalur
+                            masuk Politeknik Negeri dengan cara tes tulis.
+                            Hal ini bertujuan untuk memilih calon mahasiswa yang mempunyai kemampuan akademik untuk
+                            mengikuti dan menyelesaikan pendidikan
+                            di Politeknik sesuai dengan batas waktu yang telah ditetapkan.<span id="less-sbmpn"></span>
+                            <span id="more-sbmpn" style="display:none"><br>Nama SBMPN adalah perubahan nama dari jalur
+                                UMPN (Ujian Masuk Politeknik Negeri). Pergantian nama merupakan hasil diskusi dan
+                                keputusan
+                                bersama dalam Forum Direktur Politeknik Negeri se-Indonesia yang diadakan di Surabaya
+                                pada Desember 2019. Untuk proses dan tes pendaftaran tetap sama, hanya berganti nama
+                                saja.
+                                Proses seleksi bagi peserta bisa mendaftar secara online. Semua peserta SBMPN 2021 akan
+                                diurutkan menurut nilai ujiannya, kemudian dialokasikan pada program studi pilihannya
+                                dengan ketentuan bahwa peserta yang lebih baik mendapat prioritas untuk dialokasikan
+                                lebih dahulu. Jika masih ada tempat di program studi pilihan pertama, ia akan diterima
+                                di
+                                program studi pilihan pertama. Jika tempat pada program studi pertama telah penuh dan
+                                masih ada tempat di program studi pilihan kedua, ia akan diterima di program studi
+                                pilihan kedua.
+                                Jika tempat pada program studi pilihan kedua telah penuh dan masih ada tempat di program
+                                studi pilihan ketiga, ia akan diterima di program studi pilihan ketiga, dan seterusnya.
+                                Jika tempat pada program studi pilihan pertama, kedua dan ketiga telah penuh dengan
+                                peserta yang lebih baik dari peserta tersebut, maka ia tidak akan diterima walaupun
+                                nilainya masih cukup tinggi.</span></p>
+                        <a class="btn btn-md btn-primary text-white" id="btn-sbmpn" onclick="moreSbmpn()">Read More</a>
                         <h4 class="mt-3">Jadwal Pendaftaran SBMPN 2021</h4><br>
                     </div>
                 </div>
@@ -440,25 +502,42 @@
         </div>
     </section>
 
-                   <!-- ======= simandiri ======= -->
-                   <section id="simandiri" class="portfolio-details">
+    <!-- ======= simandiri ======= -->
+    <section id="simandiri" class="portfolio-details">
         <div class="container">
-        <div class="section-title">
+            <div class="section-title">
                 <h3>SIMANDIRI</h3>
             </div>
             <div class="row gy-4">
 
                 <div class="col-lg-12">
                     <div class="portfolio-description">
-                    <br>
+                        <br>
                         <h4>Seleksi Mandiri Politeknik Elektronika Negeri Surabaya</h4><br>
                         <p class="contents">
-                        SIMANDIRI PENS atau Seleksi Mandiri Politeknik Elektronika Negeri Surabaya dimaksudkan untuk memilih calon mahasiswa yang mempunyai kemampuan akademik untuk mengikuti dan menyelesaikan pendidikan di Politeknik sesuai dengan batas waktu yang telah ditetapkan.<span id="less-simandiri"></span> 
-                        <span id="more-simandiri" style="display:none"><br>Sehubungan dengan keadaan pandemi, Ujian Tulis Seleksi Mandiri (Simandiri) secara offline di kampus Politeknik Elektronika Negeri Surabaya (PENS) ditiadakan. Sebagai gantinya, Seleksi Mandiri dilakukan dengan sistem Ujian Tulis Berbasis Komputer (UTBK) 
-                        secara online dari tempat tinggal masing-masing dan wajib mengaktifkan web camera.
-                        Pendaftaran dan tes masuk dilaksanakan secara online dengan proses seleksi sebagai berikut. Semua peserta UTBK Online Simandiri akan diurutkan menurut nilai ujiannya, kemudian dialokasikan pada program studi pilhannya, dengan ketentuan bahwa peserta yang lebih baik mendapat prioritas untuk dialokasikan lebh dahulu. Jika masih ada tempat di program studi pilihan pertama, ia akan diterima di program studi pilihan pertama. Jika tempat pada program studi pertama telah penuh dan masih ada tempat di program studi pilihan kedua, ia akan diterima di program studi pilihan kedua. Jika tempat pada program studi pilihan kedua telah penuh dan masih ada tempat di program studi pilihan ketiga, ia akan diterima di program studi pilihan ketiga, dan seterusnya. Jika tempat pada program studi pilihan pertama, kedua dan ketiga telah penuh dengan peserta yang lebih baik dari peserta tersebut, maka ia tidak akan diterima walaupun nilainya masih cukup tinggi.
-                        </span></p>
-                        <a class="btn btn-md btn-primary text-white" id="btn-simandiri" onclick="moreSimandiri()">Read More</a>
+                            SIMANDIRI PENS atau Seleksi Mandiri Politeknik Elektronika Negeri Surabaya dimaksudkan untuk
+                            memilih calon mahasiswa yang mempunyai kemampuan akademik untuk mengikuti dan menyelesaikan
+                            pendidikan di Politeknik sesuai dengan batas waktu yang telah ditetapkan.<span
+                                id="less-simandiri"></span>
+                            <span id="more-simandiri" style="display:none"><br>Sehubungan dengan keadaan pandemi, Ujian
+                                Tulis Seleksi Mandiri (Simandiri) secara offline di kampus Politeknik Elektronika Negeri
+                                Surabaya (PENS) ditiadakan. Sebagai gantinya, Seleksi Mandiri dilakukan dengan sistem
+                                Ujian Tulis Berbasis Komputer (UTBK)
+                                secara online dari tempat tinggal masing-masing dan wajib mengaktifkan web camera.
+                                Pendaftaran dan tes masuk dilaksanakan secara online dengan proses seleksi sebagai
+                                berikut. Semua peserta UTBK Online Simandiri akan diurutkan menurut nilai ujiannya,
+                                kemudian dialokasikan pada program studi pilhannya, dengan ketentuan bahwa peserta yang
+                                lebih baik mendapat prioritas untuk dialokasikan lebh dahulu. Jika masih ada tempat di
+                                program studi pilihan pertama, ia akan diterima di program studi pilihan pertama. Jika
+                                tempat pada program studi pertama telah penuh dan masih ada tempat di program studi
+                                pilihan kedua, ia akan diterima di program studi pilihan kedua. Jika tempat pada program
+                                studi pilihan kedua telah penuh dan masih ada tempat di program studi pilihan ketiga, ia
+                                akan diterima di program studi pilihan ketiga, dan seterusnya. Jika tempat pada program
+                                studi pilihan pertama, kedua dan ketiga telah penuh dengan peserta yang lebih baik dari
+                                peserta tersebut, maka ia tidak akan diterima walaupun nilainya masih cukup tinggi.
+                            </span></p>
+                        <a class="btn btn-md btn-primary text-white" id="btn-simandiri" onclick="moreSimandiri()">Read
+                            More</a>
                         <h4 class="mt-3">Jadwal Pendaftaran SIMANDIRI 2021</h4><br>
                     </div>
                 </div>
@@ -469,59 +548,79 @@
     </section>
     <section id="berita" class="portfolio">
         <div class="container" data-aos="fade-up">
-  
-          <div class="section-title">
-            <h2>Portfolio</h2>
-            <h3>Check our <span>Portfolio</span></h3>
-            <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
-          </div>
-  
-          <div class="row" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-12 d-flex justify-content-center">
-              <ul id="portfolio-flters">
-                <li data-filter=".filter-card">Card</li>
-              </ul>
+
+            <div class="section-title">
+                <h2>Portfolio</h2>
+                <h3>Check our <span>Portfolio</span></h3>
+                <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
+                    vitae autem.</p>
             </div>
-          </div>
-  
-          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="{{ asset('Bizland/assets/img/portfolio/lkmm.jpeg') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>LKMM PSDKU SUMENEP</h4>
-                <p>20 November 2000</p>
-                <a href="{{ asset('Bizland/assets/img/portfolio/lkmm.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="{{ url('news-galery/lkmm') }}" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+
+            <div class="row" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter=".filter-card">Card</li>
+                    </ul>
+                </div>
             </div>
-  
-           
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <a href="{{ asset('Bizland/assets/img/portfolio/portfolio-7.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <img src="{{ asset('Bizland/assets/img/portfolio/lkmm.jpeg') }}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>LKMM PSDKU SUMENEP</h4>
+                        <p>20 November 2000</p>
+                        <a href="{{ asset('Bizland/assets/img/portfolio/lkmm.jpeg') }}" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+                        <a href="#berita-lkmm" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <img src="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Card 1</h4>
+                        <p>Card</p>
+                        <a href="{{ asset('Bizland/assets/img/portfolio/portfolio-7.jpg') }}"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i
+                                class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-8.jpg') }}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Card 3</h4>
+                        <p>Card</p>
+                        <a href="{{ asset('Bizland/assets/img/portfolio/portfolio-8.jpg') }}"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i
+                                class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
+                </div>
+
             </div>
-  
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-8.jpg') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <a href="{{ asset('Bizland/assets/img/portfolio/portfolio-8.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-  
-          </div>
-  
+
         </div>
-      </section>
-            {{-- <!-- Berita -->
+    </section>
+
+    <section id="berita-lkmm" class="portfolio">
+        <div class="container" data-aos="fade-up">
+        <h2 class="text-center pt-5">dsnds</h2>
+            <div class="d-flex justify-content-center pt-2 mb-5">
+                <img src="{{ asset('Bizland/assets/img/portfolio/lkmm.jpeg') }}" class="img-fluid"
+                    style="width: 40vw; backround-size: cover;">
+            </div>
+        </div>
+    </section>
+
+    {{-- <!-- Berita -->
     <section id="berita" class="portfolio-details">
         <div class="container">
         <div class="section-title">
@@ -535,41 +634,43 @@
 
                             <div class="swiper-slide">
                                 <img src="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" alt="">
-                            </div>
+    </div>
 
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/lkmm.jpeg') }}" alt="">
-                            </div>
+    <div class="swiper-slide">
+        <img src="{{ asset('Bizland/assets/img/portfolio/lkmm.jpeg') }}" alt="">
+    </div>
 
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" alt="">
-                            </div>
+    <div class="swiper-slide">
+        <img src="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" alt="">
+    </div>
 
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/pengmas2.jpeg') }}" alt="">
-                            </div>
+    <div class="swiper-slide">
+        <img src="{{ asset('Bizland/assets/img/portfolio/pengmas2.jpeg') }}" alt="">
+    </div>
 
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" alt="">
-                            </div>
+    <div class="swiper-slide">
+        <img src="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" alt="">
+    </div>
 
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    </div>
+    </div>
 
-                <div class="col-lg-6">
-                    <div class="portfolio-description">
-                        <p>
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum beatae quo a iste mollitia qui, ratione ut 
-                       cupiditate accusantium enim magnam id corrupti! Aliquid consequuntur, eum tempore dolores nesciunt nam voluptas. Ut recusandae, amet aliquid voluptatibus iste aspernatur reprehenderit.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
+    <div class="col-lg-6">
+        <div class="portfolio-description">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum beatae quo a iste mollitia qui,
+                ratione ut
+                cupiditate accusantium enim magnam id corrupti! Aliquid consequuntur, eum tempore dolores nesciunt nam
+                voluptas. Ut recusandae, amet aliquid voluptatibus iste aspernatur reprehenderit.
+            </p>
         </div>
+    </div>
+
+    </div>
+
+    </div>
     </section> --}}
 
 
