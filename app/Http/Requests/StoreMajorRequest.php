@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class StoreNewsRequest extends FormRequest
+class StoreMajorRequest extends FormRequest
 {
     public function authorize()
     {
@@ -14,9 +14,8 @@ class StoreNewsRequest extends FormRequest
     public function rules()
     {
         return [
-           'name'           => 'required|string|min:20',
-           'image'          => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
-           'description'    => 'required|text',
+            'name'    => 'required|string|min:10|max:100',
+            'description'   => 'required|string'
         ];
     }
 

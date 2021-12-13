@@ -151,8 +151,7 @@
             }
         });
 
-    }
-    }
+    };
 </script>
 @endpush
 @endsection

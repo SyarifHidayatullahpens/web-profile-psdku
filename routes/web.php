@@ -26,7 +26,11 @@ Route::get('/', function () {
     return view('user.index');
 });
 
-
+Route::prefix('news-galery')->group(function () {
+    Route::get('/lkmm', function() { 
+        return view('admin.news-galery.lkmm');
+    });
+ });
 
 Route::middleware(['auth'])->group(function () {
     Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
@@ -35,6 +39,7 @@ Route::middleware(['auth'])->group(function () {
         Route::get('/admin', function () {
             return view('admin.home.index');
         });
+
         Route::resource('abouts',   AboutController::class);
         Route::resource('news',   NewsController::class);
         Route::resource('pmbs',   PmbController::class);
@@ -48,4 +53,3 @@ Route::middleware(['auth'])->group(function () {
         return redirect('/');
     });
 });
-

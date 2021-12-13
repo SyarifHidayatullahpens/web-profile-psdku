@@ -6,19 +6,6 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-<<<<<<< HEAD
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-=======
-          {{-- <li><a class="nav-link scrollto" href="#about">About</a></li> --}}
-          <li class="dropdown"><a href="#"><span>Jalur Penerimaan</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-            <li><a href="#snpn">SNMPN</a></li>
-            <li><a href="#snmptn">SNMPTN</a></li>
-            <li><a href="#sbmpn">SBMPN</a></li>
-            <li><a href="#simandiri">SIMANDIRI</a></li>
-            </ul>
-            </li>
->>>>>>> 0973f2c3674371c454dc9ec7fd84359c3125b2b7
           <li><a class="nav-link scrollto" href="#about">Tentang Kampus</a></li>
           <li class="dropdown"><a href="#hero"><span>Diploma</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
@@ -30,8 +17,6 @@
           <ul>
           <li><a href="#departement-ti">Teknik Informatika</a></li>
           <li><a href="#departement-mmb">Multimedia Broadcasting</a></li>
-              <!-- <li><a class="nav-link scrollto" href="#departement-ti">Teknik Informatika dan Komputer</a></li>
-              <li><a class="nav-link scrollto" href="departement-mmb">Multimedia Kreatif</a></li> -->
             </ul>
           </li>
           <li class="dropdown"><a href="#hero"><span>PMB</span> <i class="bi bi-chevron-down"></i></a>

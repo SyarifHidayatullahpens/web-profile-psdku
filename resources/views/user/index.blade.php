@@ -7,6 +7,17 @@
         #more {
             display: none;
         }
+        .contents {
+            text-align: justify; 
+            text-justify: inter-word; 
+            font-size:16px
+        }
+        .portfolio-item > img {
+            height: 236px;
+            width: 356px;
+            max-width: 100%;
+            background-size: cover;
+        }
     </style>
 </head>
 <main id="main">
@@ -161,17 +172,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <!-- <div class="portfolio-info">
-                        <h3>Teknik Informatika dan Komputer</h3>
-                        <ul>
-                            <li><strong>Category</strong>: Web design</li>
-                            <li><strong>Client</strong>: ASU Company</li>
-                            <li><strong>Project date</strong>: 01 March, 2020</li>
-                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-                        </ul>
-                    </div> -->
                     <div class="portfolio-description">
-                        <!-- <h2>This is an example of portfolio detail</h2> -->
                         <p>
                         Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan dimasa yang akan datang 
                         akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika Negeri Surabaya mendirikan 
@@ -220,17 +221,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <!-- <div class="portfolio-info">
-                        <h3>Multimedia Broadcasting</h3>
-                        <ul>
-                            <li><strong>Category</strong>: Web design</li>
-                            <li><strong>Client</strong>: ASU Company</li>
-                            <li><strong>Project date</strong>: 01 March, 2020</li>
-                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-                        </ul>
-                    </div> -->
                     <div class="portfolio-description">
-                        <!-- <h2>This is an example of portfolio detail</h2> -->
                         <p>
                         Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan dimasa yang akan datang 
                         akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika Negeri Surabaya mendirikan 
@@ -279,15 +270,6 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <!-- <div class="portfolio-info">
-                        <h3>Teknik Informatika dan Komputer</h3>
-                        <ul>
-                            <li><strong>Category</strong>: Web design</li>
-                            <li><strong>Client</strong>: ASU Company</li>
-                            <li><strong>Project date</strong>: 01 March, 2020</li>
-                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-                        </ul>
-                    </div> -->
                     <div class="portfolio-description">
                         <!-- <h2>DEPARTEMENT TEKNIK INFORMATIKA DAN KOMPUTER</h2> -->
                         <p>
@@ -301,8 +283,8 @@
                         lulusan yang berkualifikasi unggul dan bekerja sebagai Programmer, Software Engineer, Hardware Designer, Network 
                         Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical Support, Marketing/Sales, dan lain-lain.
                         </p>
-                    <!-- </div>
-                </div> -->
+                     </div>
+                </div> 
 
             </div>
 
@@ -339,17 +321,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <!-- <div class="portfolio-info">
-                        <h3>Multimedia Kreatif</h3>
-                        <ul>
-                            <li><strong>Category</strong>: Web design</li>
-                            <li><strong>Client</strong>: ASU Company</li>
-                            <li><strong>Project date</strong>: 01 March, 2020</li>
-                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-                        </ul>
-                    </div> -->
                     <div class="portfolio-description">
-                        <!-- <h2>DEPARTEMEN TEKNOLOGI MULTIMEDIA KREATIF</h2> -->
                         <p>
                         Departemen Teknologi Multimedia Kreatif (DTMK) Politeknik Elektronika Negeri Surabaya (PENS) 
                         diresmikan pada tahun 2012. Departemen ini menaungi dua Program Studi (Prodi) yakni D3 Multimedia Broadcasting (MMB) 
@@ -394,32 +366,24 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <!-- <div class="portfolio-info">
-                        <h3>Multimedia Broadcasting</h3>
-                        <ul>
-                            <li><strong>Category</strong>: Web design</li>
-                            <li><strong>Client</strong>: ASU Company</li>
-                            <li><strong>Project date</strong>: 01 March, 2020</li>
-                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-                        </ul>
-                    </div> -->
                     <div class="portfolio-description">
-                        <!-- <h2>This is an example of portfolio detail</h2> -->
                         <br>
                             <h4>Seleksi Nasional Masuk Politeknik Negeri</h4>
                             <br>
-                            <p style="text-align: justify; text-justify: inter-word; font-size:16px">Seleksi Nasional Masuk Politeknik Negeri (SNMPN) 2021 merupakan seleksi Jalur Undangan yang diperuntukkan bagi calon peserta/siswa sekolah yang akan 
+                            <p class="contents">Seleksi Nasional Masuk Politeknik Negeri (SNMPN) 2021 merupakan seleksi Jalur Undangan yang diperuntukkan bagi calon peserta/siswa sekolah yang akan 
                                 melanjutkan pendidikan di Perguruan Tinggi (khusus jenjang Diploma 3) Bidang Vokasi atau Politeknik Negeri di seluruh wilayah Indonesia. 
-                                Pola seleksi ini tertuang dalam suatu sistem yang terpadu dan diselenggarakan secara serentak melalui seleksi prestasi akademik siswa selama mengikuti pendidikan di Sekolah Lanjutan Tingkat Atas.<span id="long"></span>
-                                <span id="more-info" style="display:none"><br>Pada tahun 2014-2019, nama SNMPN dikenal dengan nama Penelusuran Minat dan Kemampuan Politeknik Negeri (PMDK- PN). Dengan diadakannya Forum Direktur Politeknik Negeri se-Indonesia (FDPNI) pada tahun 2019 di Surabaya,  
-                                maka ditetapkannya pola Penerimaan Mahasiswa Baru (PMB) jalur PMDK- PN berganti nama menjadi jalur SNMPN. Mekanisme pendaftaran dan persyaratan tetap sama, yang berubah hanya namanya saja. Hal ini bertujuan supaya arti kata Seleksi dalam SNMPN memiliki dan mencakup arti yang luas. 
+                                Pola seleksi ini tertuang dalam suatu sistem yang terpadu dan diselenggarakan secara serentak melalui seleksi prestasi akademik siswa selama mengikuti pendidikan di Sekolah Lanjutan Tingkat Atas.<span id="less-snmpn"></span>
+                                <span id="more-snmpn" style="display:none"><br>Pada tahun 2014-2019, nama SNMPN dikenal dengan nama Penelusuran Minat dan Kemampuan Politeknik Negeri (PMDK- PN). 
+                                Dengan diadakannya Forum Direktur Politeknik Negeri se-Indonesia (FDPNI) pada tahun 2019 di Surabaya,  
+                                maka ditetapkannya pola Penerimaan Mahasiswa Baru (PMB) jalur PMDK- PN berganti nama menjadi jalur SNMPN. 
+                                <br>Mekanisme pendaftaran dan persyaratan tetap sama, yang berubah hanya namanya saja. Hal ini bertujuan supaya arti kata Seleksi dalam SNMPN memiliki dan mencakup arti yang luas. 
                                 Pendaftaran calon peserta/Siswa melalui jalur SNMPN tidak dikenakan biaya apapun karena semua biaya telah dibebankan pada anggaran pemerintah. 
                                 Jalur SNMPN ini juga mengakomodir calon peserta/siswa yang diterima dan berasal dari keluarga ekonomi lemah tetapi mempunyai prestasi akademik tinggi.
                                 Informasi lengkap serta tata cara pendaftaran Jalur SNMPN dapat diakses pihak sekolah melalui situs <a href="http://snmpn.politeknik.or.id/">http://snmpn.politeknik.or.id/</a> dengan cara login menggunakan username dan password yang akan diberikan panitia kepada masing-masing sekolah dan mendaftarkan siswa-siswa terbaiknya. 
                                 Selanjutnya siswa-siswa tersebut akan diberikan usemame dan password yang dapat digunakan untuk memasukkan data secara on-line. 
                                 Selanjutnya kami mengharapkan kerjasama semua pihak yang terkait dengan sistem SNMPN 2021 sehingga proses ini dapat terlaksana sesuai dengan yang diharapkan.</span></p>
-                                <a class="btn btn-md btn-primary text-white" id="btn-info" onclick="moreInfo()">Read More</a>
-                            <h4>Pengumuman SNMPN 2021</h4>
+                                <a class="btn btn-md btn-primary text-white" id="btn-snmpn" onclick="infoSnmpn()">Read More</a>
+                            <h4 class="mt-3">Pengumuman SNMPN 2021</h4>
                     </div>
                 </div>
 
@@ -453,31 +417,21 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <!-- <div class="portfolio-info">
-                        <h3>Multimedia Broadcasting</h3>
-                        <ul>
-                            <li><strong>Category</strong>: Web design</li>
-                            <li><strong>Client</strong>: ASU Company</li>
-                            <li><strong>Project date</strong>: 01 March, 2020</li>
-                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-                        </ul>
-                    </div> -->
                     <div class="portfolio-description">
-                        <!-- <h2>This is an example of portfolio detail</h2> -->
                         <br>
                         <h4>Seleksi Bersama Masuk Politeknik Negeri se Indonesia</h4><br>
-                        <p style="text-align: justify; text-justify: inter-word; font-size:16px">SBMPN atau Seleksi Bersama Masuk Politeknik Negeri merupakan jalur masuk Politeknik Negeri dengan cara tes tulis. 
+                        <p class="contents" style="">SBMPN atau Seleksi Bersama Masuk Politeknik Negeri merupakan jalur masuk Politeknik Negeri dengan cara tes tulis. 
                             Hal ini bertujuan untuk memilih calon mahasiswa yang mempunyai kemampuan akademik untuk mengikuti dan menyelesaikan pendidikan 
-                            di Politeknik sesuai dengan batas waktu yang telah ditetapkan.<span id="long3"></span> 
-                            <span id="more-info3" style="display:none"><br>Nama SBMPN adalah perubahan nama dari jalur UMPN (Ujian Masuk Politeknik Negeri). Pergantian nama merupakan hasil diskusi dan keputusan 
+                            di Politeknik sesuai dengan batas waktu yang telah ditetapkan.<span id="less-sbmpn"></span> 
+                            <span id="more-sbmpn" style="display:none"><br>Nama SBMPN adalah perubahan nama dari jalur UMPN (Ujian Masuk Politeknik Negeri). Pergantian nama merupakan hasil diskusi dan keputusan 
                             bersama dalam Forum Direktur Politeknik Negeri se-Indonesia yang diadakan di Surabaya pada Desember 2019. Untuk proses dan tes pendaftaran tetap sama, hanya berganti nama saja.
                             Proses seleksi bagi peserta bisa mendaftar secara online. Semua peserta SBMPN 2021 akan diurutkan menurut nilai ujiannya, kemudian dialokasikan pada program studi pilihannya 
                             dengan ketentuan bahwa peserta yang lebih baik mendapat prioritas untuk dialokasikan lebih dahulu. Jika masih ada tempat di program studi pilihan pertama, ia akan diterima di 
                             program studi pilihan pertama. Jika tempat pada program studi pertama telah penuh dan masih ada tempat di program studi pilihan kedua, ia akan diterima di program studi pilihan kedua. 
                             Jika tempat pada program studi pilihan kedua telah penuh dan masih ada tempat di program studi pilihan ketiga, ia akan diterima di program studi pilihan ketiga, dan seterusnya. 
                             Jika tempat pada program studi pilihan pertama, kedua dan ketiga telah penuh dengan peserta yang lebih baik dari peserta tersebut, maka ia tidak akan diterima walaupun nilainya masih cukup tinggi.</span></p>
-                            <a class="btn btn-md btn-primary text-white" id="btn-info3" onclick="moreInfo()">Read More</a>
-                        <h4>Jadwal Pendaftaran SBMPN 2021</h4><br>
+                            <a class="btn btn-md btn-primary text-white" id="btn-sbmpn" onclick="moreSbmpn()">Read More</a>
+                        <h4 class="mt-3">Jadwal Pendaftaran SBMPN 2021</h4><br>
                     </div>
                 </div>
 
@@ -495,26 +449,17 @@
             <div class="row gy-4">
 
                 <div class="col-lg-12">
-                    <!-- <div class="portfolio-info">
-                        <h3>Multimedia Broadcasting</h3>
-                        <ul>
-                            <li><strong>Category</strong>: Web design</li>
-                            <li><strong>Client</strong>: ASU Company</li>
-                            <li><strong>Project date</strong>: 01 March, 2020</li>
-                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-                        </ul>
-                    </div> -->
                     <div class="portfolio-description">
                     <br>
                         <h4>Seleksi Mandiri Politeknik Elektronika Negeri Surabaya</h4><br>
-                        <p style="text-align: justify; text-justify: inter-word; font-size:16px">
-                        SIMANDIRI PENS atau Seleksi Mandiri Politeknik Elektronika Negeri Surabaya dimaksudkan untuk memilih calon mahasiswa yang mempunyai kemampuan akademik untuk mengikuti dan menyelesaikan pendidikan di Politeknik sesuai dengan batas waktu yang telah ditetapkan.<span id="long3"></span> 
-                        <span id="more-info3" style="display:none"><br>Sehubungan dengan keadaan pandemi, Ujian Tulis Seleksi Mandiri (Simandiri) secara offline di kampus Politeknik Elektronika Negeri Surabaya (PENS) ditiadakan. Sebagai gantinya, Seleksi Mandiri dilakukan dengan sistem Ujian Tulis Berbasis Komputer (UTBK) 
+                        <p class="contents">
+                        SIMANDIRI PENS atau Seleksi Mandiri Politeknik Elektronika Negeri Surabaya dimaksudkan untuk memilih calon mahasiswa yang mempunyai kemampuan akademik untuk mengikuti dan menyelesaikan pendidikan di Politeknik sesuai dengan batas waktu yang telah ditetapkan.<span id="less-simandiri"></span> 
+                        <span id="more-simandiri" style="display:none"><br>Sehubungan dengan keadaan pandemi, Ujian Tulis Seleksi Mandiri (Simandiri) secara offline di kampus Politeknik Elektronika Negeri Surabaya (PENS) ditiadakan. Sebagai gantinya, Seleksi Mandiri dilakukan dengan sistem Ujian Tulis Berbasis Komputer (UTBK) 
                         secara online dari tempat tinggal masing-masing dan wajib mengaktifkan web camera.
                         Pendaftaran dan tes masuk dilaksanakan secara online dengan proses seleksi sebagai berikut. Semua peserta UTBK Online Simandiri akan diurutkan menurut nilai ujiannya, kemudian dialokasikan pada program studi pilhannya, dengan ketentuan bahwa peserta yang lebih baik mendapat prioritas untuk dialokasikan lebh dahulu. Jika masih ada tempat di program studi pilihan pertama, ia akan diterima di program studi pilihan pertama. Jika tempat pada program studi pertama telah penuh dan masih ada tempat di program studi pilihan kedua, ia akan diterima di program studi pilihan kedua. Jika tempat pada program studi pilihan kedua telah penuh dan masih ada tempat di program studi pilihan ketiga, ia akan diterima di program studi pilihan ketiga, dan seterusnya. Jika tempat pada program studi pilihan pertama, kedua dan ketiga telah penuh dengan peserta yang lebih baik dari peserta tersebut, maka ia tidak akan diterima walaupun nilainya masih cukup tinggi.
                         </span></p>
-                        <a class="btn btn-md btn-primary text-white" id="btn-info3" onclick="moreInfo()">Read More</a>
-                        <h4>Jadwal Pendaftaran SIMANDIRI 2021</h4><br>
+                        <a class="btn btn-md btn-primary text-white" id="btn-simandiri" onclick="moreSimandiri()">Read More</a>
+                        <h4 class="mt-3">Jadwal Pendaftaran SIMANDIRI 2021</h4><br>
                     </div>
                 </div>
 
@@ -522,8 +467,61 @@
 
         </div>
     </section>
-
-            <!-- Berita -->
+    <section id="berita" class="portfolio">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Portfolio</h2>
+            <h3>Check our <span>Portfolio</span></h3>
+            <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+          </div>
+  
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter=".filter-card">Card</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img src="{{ asset('Bizland/assets/img/portfolio/lkmm.jpeg') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>LKMM PSDKU SUMENEP</h4>
+                <p>20 November 2000</p>
+                <a href="{{ asset('Bizland/assets/img/portfolio/lkmm.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="{{ url('news-galery/lkmm') }}" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+  
+           
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img src="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <a href="{{ asset('Bizland/assets/img/portfolio/portfolio-7.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-8.jpg') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 3</h4>
+                <p>Card</p>
+                <a href="{{ asset('Bizland/assets/img/portfolio/portfolio-8.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section>
+            {{-- <!-- Berita -->
     <section id="berita" class="portfolio-details">
         <div class="container">
         <div class="section-title">
@@ -561,19 +559,10 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <!-- <div class="portfolio-info">
-                        <h3>Multimedia Broadcasting</h3>
-                        <ul>
-                            <li><strong>Category</strong>: Web design</li>
-                            <li><strong>Client</strong>: ASU Company</li>
-                            <li><strong>Project date</strong>: 01 March, 2020</li>
-                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-                        </ul>
-                    </div> -->
                     <div class="portfolio-description">
-                        <!-- <h2>This is an example of portfolio detail</h2> -->
                         <p>
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum beatae quo a iste mollitia qui, ratione ut cupiditate accusantium enim magnam id corrupti! Aliquid consequuntur, eum tempore dolores nesciunt nam voluptas. Ut recusandae, amet aliquid voluptatibus iste aspernatur reprehenderit.
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum beatae quo a iste mollitia qui, ratione ut 
+                       cupiditate accusantium enim magnam id corrupti! Aliquid consequuntur, eum tempore dolores nesciunt nam voluptas. Ut recusandae, amet aliquid voluptatibus iste aspernatur reprehenderit.
                         </p>
                     </div>
                 </div>
@@ -581,621 +570,8 @@
             </div>
 
         </div>
-    </section>
+    </section> --}}
 
-
-    <!-- ======= Clients Section ======= -->
-    <!-- <section id="clients" class="clients section-bg">
-        <div class="container" data-aos="zoom-in">
-
-            <div class="row">
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-                </div>
-
-            </div>
-
-        </div> -->
-    </section><!-- End Clients Section -->
-
-    <!-- ======= Services Section ======= -->
-    <!-- <section id="services" class="services">
-        <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-                <h2>Services</h2>
-                <h3>Check our <span>Services</span></h3>
-                <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
-                    vitae autem.</p>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                        <h4><a href="">Lorem Ipsum</a></h4>
-                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
-                    data-aos-delay="200">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bx bx-file"></i></div>
-                        <h4><a href="">Sed ut perspiciatis</a></h4>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
-                    data-aos-delay="300">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bx bx-tachometer"></i></div>
-                        <h4><a href="">Magni Dolores</a></h4>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bx bx-world"></i></div>
-                        <h4><a href="">Nemo Enim</a></h4>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bx bx-slideshow"></i></div>
-                        <h4><a href="">Dele cardo</a></h4>
-                        <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bx bx-arch"></i></div>
-                        <h4><a href="">Divera don</a></h4>
-                        <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-                    </div>
-                </div>
-
-            </div>
-
-        </div> -->
-    </section><!-- End Services Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <!-- <section id="testimonials" class="testimonials">
-        <div class="container" data-aos="zoom-in">
-
-            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                <div class="swiper-wrapper">
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                            <h3>Saul Goodman</h3>
-                            <h4>Ceo &amp; Founder</h4>
-                            <p>
-                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
-                                rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                                risus at semper.
-                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                            </p>
-                        </div> -->
-                    </div><!-- End testimonial item -->
-
-                    <!-- <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                            <h3>Sara Wilsson</h3>
-                            <h4>Designer</h4>
-                            <p>
-                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
-                                cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
-                                legam anim culpa.
-                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                            </p>
-                        </div> -->
-                    </div><!-- End testimonial item -->
-
-                    <!-- <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                            <h3>Jena Karlis</h3>
-                            <h4>Store Owner</h4>
-                            <p>
-                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam
-                                duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                            </p>
-                        </div> -->
-                    </div><!-- End testimonial item -->
-
-                    <!-- <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                            <h3>Matt Brandon</h3>
-                            <h4>Freelancer</h4>
-                            <p>
-                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat
-                                minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore
-                                labore illum veniam.
-                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                            </p>
-                        </div> -->
-                    </div><!-- End testimonial item -->
-
-                    <!-- <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                            <h3>John Larson</h3>
-                            <h4>Entrepreneur</h4>
-                            <p>
-                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster
-                                veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam
-                                culpa fore nisi cillum quid.
-                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                            </p>
-                        </div> -->
-                    </div><!-- End testimonial item -->
-
-                <!-- </div>
-                <div class="swiper-pagination"></div>
-            </div>
-
-        </div> -->
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <!-- <section id="portfolio" class="portfolio">
-        <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-                <h2>Portfolio</h2>
-                <h3>Check our <span>Portfolio</span></h3>
-                <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
-                    vitae autem.</p>
-            </div>
-
-            <div class="row" data-aos="fade-up" data-aos-delay="100">
-                <div class="col-lg-12 d-flex justify-content-center">
-                    <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-card">Card</li>
-                        <li data-filter=".filter-web">Web</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>App 1</h4>
-                        <p>App</p>
-                        <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Web 3</h4>
-                        <p>Web</p>
-                        <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>App 2</h4>
-                        <p>App</p>
-                        <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Card 2</h4>
-                        <p>Card</p>
-                        <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Web 2</h4>
-                        <p>Web</p>
-                        <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>App 3</h4>
-                        <p>App</p>
-                        <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Card 1</h4>
-                        <p>Card</p>
-                        <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Card 3</h4>
-                        <p>Card</p>
-                        <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Web 3</h4>
-                        <p>Web</p>
-                        <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div> -->
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Team Section ======= -->
-    <!-- <section id="team" class="team section-bg">
-        <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-                <h2>Team</h2>
-                <h3>Our Hardworking <span>Team</span></h3>
-                <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
-                    vitae autem.</p>
-            </div>
-
-            <div class="row">
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>Walter White</h4>
-                            <span>Chief Executive Officer</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>Sarah Jhonson</h4>
-                            <span>Product Manager</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>William Anderson</h4>
-                            <span>CTO</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>Amanda Jepson</h4>
-                            <span>Accountant</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div> -->
-    </section><!-- End Team Section -->
-
-    <!-- ======= Pricing Section ======= -->
-    <!-- <section id="pricing" class="pricing">
-        <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-                <h2>Pricing</h2>
-                <h3>Check our <span>Pricing</span></h3>
-                <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
-                    vitae autem.</p>
-            </div>
-
-            <div class="row">
-
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="box">
-                        <h3>Free</h3>
-                        <h4><sup>$</sup>0<span> / month</span></h4>
-                        <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li class="na">Pharetra massa</li>
-                            <li class="na">Massa ultricies mi</li>
-                        </ul>
-                        <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
-                    <div class="box featured">
-                        <h3>Business</h3>
-                        <h4><sup>$</sup>19<span> / month</span></h4>
-                        <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li class="na">Massa ultricies mi</li>
-                        </ul>
-                        <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-                    <div class="box">
-                        <h3>Developer</h3>
-                        <h4><sup>$</sup>29<span> / month</span></h4>
-                        <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li>Massa ultricies mi</li>
-                        </ul>
-                        <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
-                    <div class="box">
-                        <span class="advanced">Advanced</span>
-                        <h3>Ultimate</h3>
-                        <h4><sup>$</sup>49<span> / month</span></h4>
-                        <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li>Massa ultricies mi</li>
-                        </ul>
-                        <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div> -->
-    </section><!-- End Pricing Section -->
-
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <!-- <section id="faq" class="faq section-bg">
-        <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-                <h2>F.A.Q</h2>
-                <h3>Frequently Asked <span>Questions</span></h3>
-                <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
-                    vitae autem.</p>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-xl-10">
-                    <ul class="faq-list">
-
-                        <li>
-                            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Non consectetur a
-                                erat nam at lectus urna duis? <i class="bi bi-chevron-down icon-show"></i><i
-                                    class="bi bi-chevron-up icon-close"></i></div>
-                            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet
-                                    non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
-                                    purus non.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Feugiat scelerisque
-                                varius morbi enim nunc faucibus a pellentesque? <i
-                                    class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
-                            </div>
-                            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
-                                    donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                    cursus turpis massa tincidunt dui.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Dolor sit amet
-                                consectetur adipiscing elit pellentesque habitant morbi? <i
-                                    class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
-                            </div>
-                            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
-                                    pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit.
-                                    Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis
-                                    tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                                </p>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Ac odio tempor orci
-                                dapibus. Aliquam eleifend mi in nulla? <i class="bi bi-chevron-down icon-show"></i><i
-                                    class="bi bi-chevron-up icon-close"></i></div>
-                            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
-                                    donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                    cursus turpis massa tincidunt dui.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Tempus quam
-                                pellentesque nec nam aliquam sem et tortor consequat? <i
-                                    class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
-                            </div>
-                            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in
-                                    est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl
-                                    suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-                                </p>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Tortor vitae purus
-                                faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i
-                                    class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
-                            </div>
-                            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo
-                                    integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc
-                                    eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                                    Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus.
-                                    Nibh tellus molestie nunc non blandit massa enim nec.
-                                </p>
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-
-        </div> -->
-    </section><!-- End Frequently Asked Questions Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -1279,75 +655,6 @@
 
 </main><!-- End #main -->
 
-<script>
-    function myFunction() {
-        var dots = document.getElementById("back");
-        var moreText = document.getElementById("more");
-        var btnText = document.getElementById("myBtn");
+<script src="{{ asset('js/read-more.js') }}"></script>
 
-        if (dots.style.display === "none") {
-            dots.style.display = "inline";
-            btnText.innerHTML = "Read more";
-            moreText.style.display = "none";
-        } else {
-            dots.style.display = "none";
-            btnText.innerHTML = "Read less";
-            moreText.style.display = "inline";
-        }
-    }
-</script>
-<script>
-    function moreInfo() {
-        var dots = document.getElementById("long");
-        var moreText = document.getElementById("more-info");
-        var btnText = document.getElementById("btn-info");
-        
-
-        if (dots.style.display === "none") {
-            dots.style.display = "inline";
-            btnText.innerHTML = "Read more";
-            moreText.style.display = "none";
-        } else {
-            dots.style.display = "none";
-            btnText.innerHTML = "Read less";
-            moreText.style.display = "inline";
-        }
-    }
-</script>
-<script>
-    function moreInfo() {
-        var dots = document.getElementById("long2");
-        var moreText = document.getElementById("more-info2");
-        var btnText = document.getElementById("btn-info2");
-        
-
-        if (dots.style.display === "none") {
-            dots.style.display = "inline";
-            btnText.innerHTML = "Read more";
-            moreText.style.display = "none";
-        } else {
-            dots.style.display = "none";
-            btnText.innerHTML = "Read less";
-            moreText.style.display = "inline";
-        }
-    }
-</script>
-<script>
-    function moreInfo() {
-        var dots = document.getElementById("long3");
-        var moreText = document.getElementById("more-info3");
-        var btnText = document.getElementById("btn-info3");
-        
-
-        if (dots.style.display === "none") {
-            dots.style.display = "inline";
-            btnText.innerHTML = "Read more";
-            moreText.style.display = "none";
-        } else {
-            dots.style.display = "none";
-            btnText.innerHTML = "Read less";
-            moreText.style.display = "inline";
-        }
-    }
-</script>
 @endsection
