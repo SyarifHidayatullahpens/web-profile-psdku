@@ -104,7 +104,7 @@
                             <i class="bx bx-images"></i>
                             <div>
                                 <h5>Sejarah PENS</h5>
-                                <p>Awal sejarah PENS dimulai pada tahun 1985. Saat itu, tim studi awal Japan
+                                <p class="contents">Awal sejarah PENS dimulai pada tahun 1985. Saat itu, tim studi awal Japan
                                     International Cooperation Agency (JICA) untuk bantuan dan kerjasama teknik yang
                                     dikepalai oleh Prof. Y. Naito dari Tokyo Institute of Technology, datang ke
                                     politeknik ini. Setelah melakukan pengamatan dan studi kelayakan di tahun 1986, JICA
@@ -157,7 +157,7 @@
                         <div class="swiper-wrapper align-items-center">
 
                             <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-1.jpg') }}" alt="">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-1.jpg') }}" alt="" >
                             </div>
 
                             <div class="swiper-slide">
@@ -175,23 +175,15 @@
 
                 <div class="col-lg-6">
                     <div class="portfolio-description">
-                        <p>
-                            Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
-                            dimasa yang akan datang
-                            akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika
-                            Negeri Surabaya mendirikan
-                            Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3
-                            Teknik Informatika,
-                            D4 Teknik Informatika, D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer.
-                            Dengan tujuan menjadi pusat
-                            unggulan pendidikan teknologi rekayasa dibidang emerging technology yang terkait bidang
-                            Teknologi Informasi dan Komputer
-                            untuk menghasilkan lulusan yang siap bersaing dipasar global, Departemen Teknik Informatika
-                            dan Komputer telah banyak
-                            menghasilkan lulusan yang berkualifikasi unggul dan bekerja sebagai Programmer, Software
-                            Engineer, Hardware Designer,
-                            Network Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical
-                            Support, Marketing/Sales, dan lain-lain.
+                        <p class="contents">
+                        Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan dimasa yang akan datang 
+                        akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika Negeri Surabaya mendirikan 
+                        Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3 Teknik Informatika, 
+                        D4 Teknik Informatika, D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer. Dengan tujuan menjadi pusat 
+                        unggulan pendidikan teknologi rekayasa dibidang emerging technology yang terkait bidang Teknologi Informasi dan Komputer 
+                        untuk menghasilkan lulusan yang siap bersaing dipasar global, Departemen Teknik Informatika dan Komputer telah banyak 
+                        menghasilkan lulusan yang berkualifikasi unggul dan bekerja sebagai Programmer, Software Engineer, Hardware Designer, 
+                        Network Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical Support, Marketing/Sales, dan lain-lain.
                         </p>
                     </div>
                 </div>
@@ -232,22 +224,15 @@
 
                 <div class="col-lg-6">
                     <div class="portfolio-description">
-                        <p>
-                            Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
-                            dimasa yang akan datang
-                            akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika
-                            Negeri Surabaya mendirikan
-                            Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3
-                            Teknik Informatika, D4 Teknik Informatika,
-                            D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer. Dengan tujuan menjadi
-                            pusat unggulan pendidikan teknologi rekayasa
-                            dibidang emerging technology yang terkait bidang Teknologi Informasi dan Komputer untuk
-                            menghasilkan lulusan yang siap bersaing dipasar global,
-                            Departemen Teknik Informatika dan Komputer telah banyak menghasilkan lulusan yang
-                            berkualifikasi unggul dan bekerja sebagai Programmer,
-                            Software Engineer, Hardware Designer, Network Administrator, Computer System Analyst,
-                            Manager/Supervisor, Services/Technical Support,
-                            Marketing/Sales, dan lain-lain.
+                    <p class="contents">
+                        Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan dimasa yang akan datang 
+                        akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika Negeri Surabaya mendirikan 
+                        Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3 Teknik Informatika, D4 Teknik Informatika, 
+                        D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer. Dengan tujuan menjadi pusat unggulan pendidikan teknologi rekayasa 
+                        dibidang emerging technology yang terkait bidang Teknologi Informasi dan Komputer untuk menghasilkan lulusan yang siap bersaing dipasar global, 
+                        Departemen Teknik Informatika dan Komputer telah banyak menghasilkan lulusan yang berkualifikasi unggul dan bekerja sebagai Programmer, 
+                        Software Engineer, Hardware Designer, Network Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical Support, 
+                        Marketing/Sales, dan lain-lain.
                         </p>
                     </div>
                 </div>
@@ -289,7 +274,7 @@
                 <div class="col-lg-6">
                     <div class="portfolio-description">
                         <!-- <h2>DEPARTEMENT TEKNIK INFORMATIKA DAN KOMPUTER</h2> -->
-                        <p>
+                        <p class="contents">
                             Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
                             dimasa yang akan datang akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu,
                             Politeknik Elektronika Negeri Surabaya mendirikan Departemen Teknik Informatika dan Komputer
@@ -346,7 +331,7 @@
 
                 <div class="col-lg-6">
                     <div class="portfolio-description">
-                        <p>
+                        <p class="contents">
                             Departemen Teknologi Multimedia Kreatif (DTMK) Politeknik Elektronika Negeri Surabaya (PENS)
                             diresmikan pada tahun 2012. Departemen ini menaungi dua Program Studi (Prodi) yakni D3
                             Multimedia Broadcasting (MMB)
@@ -548,131 +533,52 @@
     </section>
     <section id="berita" class="portfolio">
         <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-                <h2>Portfolio</h2>
-                <h3>Check our <span>Portfolio</span></h3>
-                <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
-                    vitae autem.</p>
+  
+          <div class="section-title">
+            <h3>BERITA</span></h3>
+          </div>
+  
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter=".filter-card"></li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img src="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>PENS SIAP KEMBANGKAN SDM UNTUK MASYARAKAT SUMENEP</h4>
+                <p>Selasa, 16 Februari 2021</p><br>
+                <a href="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+                <a href="{{ url('news-galery/persetujuan') }}" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+           
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img src="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Penerapan Aplikasi Pelayanan Desa Berbasis Mobile</h4>
+                <p>12 September 2020</p>
+                <a href="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+                <a href="{{ url('news-galery/pengmas1') }}" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
             </div>
 
-            <div class="row" data-aos="fade-up" data-aos-delay="100">
-                <div class="col-lg-12 d-flex justify-content-center">
-                    <ul id="portfolio-flters">
-                        <li data-filter=".filter-card">Card</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <img src="{{ asset('Bizland/assets/img/portfolio/lkmm.jpeg') }}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>LKMM PSDKU SUMENEP</h4>
-                        <p>20 November 2000</p>
-                        <a href="{{ asset('Bizland/assets/img/portfolio/lkmm.jpeg') }}" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-                        <a href="#berita-lkmm" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <img src="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Card 1</h4>
-                        <p>Card</p>
-                        <a href="{{ asset('Bizland/assets/img/portfolio/portfolio-7.jpg') }}"
-                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i
-                                class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-8.jpg') }}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                        <h4>Card 3</h4>
-                        <p>Card</p>
-                        <a href="{{ asset('Bizland/assets/img/portfolio/portfolio-8.jpg') }}"
-                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i
-                                class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                class="bx bx-link"></i></a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <section id="berita-lkmm" class="portfolio">
-        <div class="container" data-aos="fade-up">
-        <h2 class="text-center pt-5">dsnds</h2>
-            <div class="d-flex justify-content-center pt-2 mb-5">
-                <img src="{{ asset('Bizland/assets/img/portfolio/lkmm.jpeg') }}" class="img-fluid"
-                    style="width: 40vw; backround-size: cover;">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img src="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>PENS Kampus Sumenep Luncurkan Asiapp Sebagai Solusi Santri</h4>
+                <p>Sabtu 21 September 2021</p>
+                <a href="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+                <a href="{{ url('news-galery/pengmas3') }}" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
             </div>
         </div>
-    </section>
-
-    {{-- <!-- Berita -->
-    <section id="berita" class="portfolio-details">
-        <div class="container">
-        <div class="section-title">
-                <h3>BERITA</h3>
-            </div>
-            <div class="row gy-4">
-
-                <div class="col-lg-6">
-                    <div class="portfolio-details-slider swiper">
-                        <div class="swiper-wrapper align-items-center">
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" alt="">
-    </div>
-
-    <div class="swiper-slide">
-        <img src="{{ asset('Bizland/assets/img/portfolio/lkmm.jpeg') }}" alt="">
-    </div>
-
-    <div class="swiper-slide">
-        <img src="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" alt="">
-    </div>
-
-    <div class="swiper-slide">
-        <img src="{{ asset('Bizland/assets/img/portfolio/pengmas2.jpeg') }}" alt="">
-    </div>
-
-    <div class="swiper-slide">
-        <img src="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" alt="">
-    </div>
-
-    </div>
-    <div class="swiper-pagination"></div>
-    </div>
-    </div>
-
-    <div class="col-lg-6">
-        <div class="portfolio-description">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum beatae quo a iste mollitia qui,
-                ratione ut
-                cupiditate accusantium enim magnam id corrupti! Aliquid consequuntur, eum tempore dolores nesciunt nam
-                voluptas. Ut recusandae, amet aliquid voluptatibus iste aspernatur reprehenderit.
-            </p>
-        </div>
-    </div>
-
-    </div>
-
-    </div>
-    </section> --}}
-
+      </section>    
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">

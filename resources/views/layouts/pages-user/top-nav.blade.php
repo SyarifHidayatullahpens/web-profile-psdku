@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-light shadow-lg">
+<nav class="navbar navbar-expand-lg bg-light p">
     <div class="container">
         <a class="navbar-brand mb-4 position-relative" href="/">
         <!-- <img src="images/h.png" width=" 60px" height="60px" style="margin-right: 1px; float:left; margin-top:15px"> -->
@@ -11,6 +11,7 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
+                
                 <li class="nav-item">
                     <a class="nav-link" href="#hero">Home</a>
                 </li>
