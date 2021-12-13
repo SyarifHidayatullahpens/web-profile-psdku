@@ -14,7 +14,7 @@ class UpdatePmbRequest extends FormRequest
     public function rules()
     {
         return [
-            'name'                 => 'required|string|min:4|max:20|unique:pmbs',
+            'name'                 => 'required|string|min:4|max:20',
             'date_start'           =>  'required|date',
             'date_finish'          =>  'required|date',
             'annoucement'          =>  'required|date',

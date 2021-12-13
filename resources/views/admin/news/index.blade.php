@@ -41,12 +41,30 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <th>No</th>
-                  <th>Name</th>
-                  <th class="rounded-circle h-30 w-30"><img src="{{ asset('brand/pens3.png') }}"></th>
-                  <th>Action</th>
-                </tr>
+                @foreach ($news as $data)    
+                  <tr>
+                    <th scrope="row">{{ $loop->iteration }}</th>
+                    <td>{{ $data->name }}</td>
+                    <td class="rounded-circle" style="widtd: 60px; height:60px;"><img src="{{ asset('images/pens.png') }}">{{ $data->image }}</td>
+                    <td class="mx-2">
+                      <a href="{{ route('majors.edit', $data->id) }}"
+                        class="btn btn-sm btn-primary rounded-circle" title="edit"><span><i
+                          class="fas fa-edit"></i></span></a>
+                          <a href="{{ route('majors.show', $data->id) }}"
+                            class="btn btn-sm btn-info rounded-circle" data-target="#show-modal"
+                            data-toogle="modal" title="show"><span><i class="far fa-eye"></i></span></a>
+                            <form action="{{ route('majors.destroy', [$data->id]) }}" method="POST"
+                              class="d-inline ">
+                              @csrf
+                              @method('DELETE')
+                              <button type="submit" class=" btn btn-sm btn-danger text-white rounded-circle"
+                              title="delete" onclick="return confirm('Apakah anda ingin menghapus item.?'); event.preventDefault();
+                              document.getElementById('delete-item').submit();"><span
+                                  class="fas fa-trash-alt"></button>
+                                </form>
+                              </td>
+                  </tr>
+                @endforeach
               </tbody>
             </table>
           </div>

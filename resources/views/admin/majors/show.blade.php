@@ -28,7 +28,7 @@
             <div class="description">
                 <label class="form-control-label">Description</label>
                 <textarea class="form-control" id="description" name="description"
-                    rows="5">{{ $major->description }}</textarea>
+                    rows="5" readonly>{{ $major->description }}</textarea>
             </div>
             <div class="float-right mt-4">
                 <a class="btn btn-md btn-danger" href="{{ route('majors.index') }}">Back</a>
@@ -40,8 +40,8 @@
 @include('admin.ckeditor')
 <script>
     $('#description').ckeditor({
-        readOnly: true,
         height: 200,
+        readOnly: true,
     });
 </script>
 @endsection

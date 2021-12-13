@@ -17,8 +17,6 @@
           <ul>
           <li><a href="#departement-ti">Teknik Informatika</a></li>
           <li><a href="#departement-mmb">Multimedia Broadcasting</a></li>
-              <!-- <li><a class="nav-link scrollto" href="#departement-ti">Teknik Informatika dan Komputer</a></li>
-              <li><a class="nav-link scrollto" href="departement-mmb">Multimedia Kreatif</a></li> -->
             </ul>
           </li>
           <li class="dropdown"><a href="#hero"><span>PMB</span> <i class="bi bi-chevron-down"></i></a>

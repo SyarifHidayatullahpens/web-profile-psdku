@@ -19,7 +19,7 @@
 
 <div class="container-fluid mt--6 d-flex justify-content-center">
     <!-- Table -->
-    <div class="card col-10 mb-4">
+    <div class="card col-12 mb-4">
         <!-- Card header -->
         <div class="card-header">
             <h3 class="mb-0">Add Major</h3>

@@ -31,10 +31,10 @@
 
 <div class="container-fluid mt--6">
     <!-- Table -->
-    <div class="card col-10 mb-4" style="margin-left: 100px; margin-right: 100px">
+    <div class="card col-12 mb-4">
         <!-- Card header -->
         <div class="card-header">
-            <h3 class="mb-0">Add News</h3>
+            <h3 class="mb-0">Edit News</h3>
         </div>
         <div class="card-body">
             <form method="POST" action="{{ route('majors.update', $major->id) }}" enctype="multipart/form-data">
