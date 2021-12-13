@@ -144,7 +144,7 @@
                         <div class="swiper-wrapper align-items-center">
 
                             <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-1.jpg') }}" alt="">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-1.jpg') }}" alt="" >
                             </div>
 
                             <div class="swiper-slide">
@@ -535,23 +535,23 @@
                     <div class="portfolio-details-slider swiper">
                         <div class="swiper-wrapper align-items-center">
 
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" id="image1">
                                 <img src="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" alt="">
                             </div>
 
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" id="image2">
                                 <img src="{{ asset('Bizland/assets/img/portfolio/lkmm.jpeg') }}" alt="">
                             </div>
 
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" id="image3">
                                 <img src="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" alt="">
                             </div>
 
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" id="image4">
                                 <img src="{{ asset('Bizland/assets/img/portfolio/pengmas2.jpeg') }}" alt="">
                             </div>
 
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" id="image5">
                                 <img src="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" alt="">
                             </div>
 
@@ -572,8 +572,20 @@
                     </div> -->
                     <div class="portfolio-description">
                         <!-- <h2>This is an example of portfolio detail</h2> -->
-                        <p>
+                        <p id="text1" style="display: none">
                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum beatae quo a iste mollitia qui, ratione ut cupiditate accusantium enim magnam id corrupti! Aliquid consequuntur, eum tempore dolores nesciunt nam voluptas. Ut recusandae, amet aliquid voluptatibus iste aspernatur reprehenderit.
+                        </p>
+                        <p id="text2" style="display: none">
+                            a
+                        </p>
+                        <p id="text3" style="display: none">
+                            b
+                        </p>
+                        <p id="text4" style="display: none">
+                            c
+                        </p>
+                        <p id="text5" style="display: none" >
+                            d
                         </p>
                     </div>
                 </div>
@@ -1348,6 +1360,38 @@
             btnText.innerHTML = "Read less";
             moreText.style.display = "inline";
         }
+    }
+</script>
+<script>
+    var image1 = document.getElementById("image1");
+    var image2 = document.getElementById("image2");
+    var image3 = document.getElementById("image3");
+    var image4 = document.getElementById("image4");
+    var image5 = document.getElementById("image5");
+    
+    if(image1.className == "active"){
+        console.log("a");
+        // var text = document.getElementById("text1").style.display = "block";
+    }else if(image2.className == "swiper-slide-active"){
+        console.log("b");
+        // document.getElementById("text1").style.display = "none";
+        // document.getElementById("text2").style.display = "block";
+    }else if(image3.className == "swiper-slide-active"){
+        console.log("c");
+        // document.getElementById("text2").style.display = "none";
+        // document.getElementById("text3").style.display = "block";
+    }else if(image4.className == "swiper-slide-active"){
+        console.log("d");
+        // document.getElementById("text4").style.display = "block";
+        // document.getElementById("text3").style.display = "none";
+    }else if(image5.className == "swiper-slide-active"){
+        console.log("e");
+        // document.getElementById("text5").style.display = "block";
+        // document.getElementById("text4").style.display = "none";
+    }else{
+        console.log("f");
+        // document.getElementById("text5").style.display = "none";
+        // document.getElementById("text1").style.display = "block";
     }
 </script>
 @endsection
