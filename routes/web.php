@@ -27,8 +27,17 @@ Route::get('/', function () {
 });
 
 Route::prefix('news-galery')->group(function () {
+    Route::get('/persetujuan', function() { 
+        return view('admin.news-galery.persetujuan');
+    });
     Route::get('/lkmm', function() { 
         return view('admin.news-galery.lkmm');
+    });
+    Route::get('/pengmas1', function() { 
+        return view('admin.news-galery.pengmas1');
+    });
+    Route::get('/pengmas3', function() { 
+        return view('admin.news-galery.pengmas3');
     });
  });
 

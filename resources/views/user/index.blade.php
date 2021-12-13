@@ -102,7 +102,7 @@
                             <i class="bx bx-images"></i>
                             <div>
                                 <h5>Sejarah PENS</h5>
-                                <p>Awal sejarah PENS dimulai pada tahun 1985. Saat itu, tim studi awal Japan
+                                <p class="contents" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">>Awal sejarah PENS dimulai pada tahun 1985. Saat itu, tim studi awal Japan
                                     International Cooperation Agency (JICA) untuk bantuan dan kerjasama teknik yang
                                     dikepalai oleh Prof. Y. Naito dari Tokyo Institute of Technology, datang ke
                                     politeknik ini. Setelah melakukan pengamatan dan studi kelayakan di tahun 1986, JICA
@@ -173,7 +173,7 @@
 
                 <div class="col-lg-6">
                     <div class="portfolio-description">
-                        <p>
+                        <p class="contents" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
                         Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan dimasa yang akan datang 
                         akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika Negeri Surabaya mendirikan 
                         Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3 Teknik Informatika, 
@@ -222,7 +222,7 @@
 
                 <div class="col-lg-6">
                     <div class="portfolio-description">
-                        <p>
+                    <p class="contents" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
                         Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan dimasa yang akan datang 
                         akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika Negeri Surabaya mendirikan 
                         Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3 Teknik Informatika, D4 Teknik Informatika, 
@@ -272,7 +272,7 @@
                 <div class="col-lg-6">
                     <div class="portfolio-description">
                         <!-- <h2>DEPARTEMENT TEKNIK INFORMATIKA DAN KOMPUTER</h2> -->
-                        <p>
+                        <p class="contents" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
                         Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan 
                         dimasa yang akan datang akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, 
                         Politeknik Elektronika Negeri Surabaya mendirikan Departemen Teknik Informatika dan Komputer yang 
@@ -322,7 +322,7 @@
 
                 <div class="col-lg-6">
                     <div class="portfolio-description">
-                        <p>
+                    <p class="contents" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
                         Departemen Teknologi Multimedia Kreatif (DTMK) Politeknik Elektronika Negeri Surabaya (PENS) 
                         diresmikan pada tahun 2012. Departemen ini menaungi dua Program Studi (Prodi) yakni D3 Multimedia Broadcasting (MMB) 
                         dan D4 Game Technology (GT). Kedua Prodi ini, bergerak dalam bidang film, video, musik, photography, televisi, radio, 
@@ -370,7 +370,7 @@
                         <br>
                             <h4>Seleksi Nasional Masuk Politeknik Negeri</h4>
                             <br>
-                            <p class="contents">Seleksi Nasional Masuk Politeknik Negeri (SNMPN) 2021 merupakan seleksi Jalur Undangan yang diperuntukkan bagi calon peserta/siswa sekolah yang akan 
+                            <p class="contents" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">Seleksi Nasional Masuk Politeknik Negeri (SNMPN) 2021 merupakan seleksi Jalur Undangan yang diperuntukkan bagi calon peserta/siswa sekolah yang akan 
                                 melanjutkan pendidikan di Perguruan Tinggi (khusus jenjang Diploma 3) Bidang Vokasi atau Politeknik Negeri di seluruh wilayah Indonesia. 
                                 Pola seleksi ini tertuang dalam suatu sistem yang terpadu dan diselenggarakan secara serentak melalui seleksi prestasi akademik siswa selama mengikuti pendidikan di Sekolah Lanjutan Tingkat Atas.<span id="less-snmpn"></span>
                                 <span id="more-snmpn" style="display:none"><br>Pada tahun 2014-2019, nama SNMPN dikenal dengan nama Penelusuran Minat dan Kemampuan Politeknik Negeri (PMDK- PN). 
@@ -393,7 +393,7 @@
     </section>
 
                <!-- ======= sbmpn ======= -->
-               <section id="sbmpn" class="portfolio-details">
+        <section id="sbmpn" class="portfolio-details">
         <div class="container">
         <div class="section-title">
                 <h3>SBMPN</h3>
@@ -420,7 +420,7 @@
                     <div class="portfolio-description">
                         <br>
                         <h4>Seleksi Bersama Masuk Politeknik Negeri se Indonesia</h4><br>
-                        <p class="contents" style="">SBMPN atau Seleksi Bersama Masuk Politeknik Negeri merupakan jalur masuk Politeknik Negeri dengan cara tes tulis. 
+                        <p class="contents" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px"> SBMPN atau Seleksi Bersama Masuk Politeknik Negeri merupakan jalur masuk Politeknik Negeri dengan cara tes tulis. 
                             Hal ini bertujuan untuk memilih calon mahasiswa yang mempunyai kemampuan akademik untuk mengikuti dan menyelesaikan pendidikan 
                             di Politeknik sesuai dengan batas waktu yang telah ditetapkan.<span id="less-sbmpn"></span> 
                             <span id="more-sbmpn" style="display:none"><br>Nama SBMPN adalah perubahan nama dari jalur UMPN (Ujian Masuk Politeknik Negeri). Pergantian nama merupakan hasil diskusi dan keputusan 
@@ -452,7 +452,7 @@
                     <div class="portfolio-description">
                     <br>
                         <h4>Seleksi Mandiri Politeknik Elektronika Negeri Surabaya</h4><br>
-                        <p class="contents">
+                        <p class="contents" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
                         SIMANDIRI PENS atau Seleksi Mandiri Politeknik Elektronika Negeri Surabaya dimaksudkan untuk memilih calon mahasiswa yang mempunyai kemampuan akademik untuk mengikuti dan menyelesaikan pendidikan di Politeknik sesuai dengan batas waktu yang telah ditetapkan.<span id="less-simandiri"></span> 
                         <span id="more-simandiri" style="display:none"><br>Sehubungan dengan keadaan pandemi, Ujian Tulis Seleksi Mandiri (Simandiri) secara offline di kampus Politeknik Elektronika Negeri Surabaya (PENS) ditiadakan. Sebagai gantinya, Seleksi Mandiri dilakukan dengan sistem Ujian Tulis Berbasis Komputer (UTBK) 
                         secara online dari tempat tinggal masing-masing dan wajib mengaktifkan web camera.
@@ -471,119 +471,53 @@
         <div class="container" data-aos="fade-up">
   
           <div class="section-title">
-            <h2>Portfolio</h2>
-            <h3>Check our <span>Portfolio</span></h3>
-            <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+            <h3>BERITA</span></h3>
           </div>
   
           <div class="row" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-12 d-flex justify-content-center">
               <ul id="portfolio-flters">
-                <li data-filter=".filter-card">Card</li>
+                <li data-filter=".filter-card"></li>
               </ul>
             </div>
           </div>
   
           <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
   
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="{{ asset('Bizland/assets/img/portfolio/lkmm.jpeg') }}" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img src="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>LKMM PSDKU SUMENEP</h4>
-                <p>20 November 2000</p>
-                <a href="{{ asset('Bizland/assets/img/portfolio/lkmm.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="{{ url('news-galery/lkmm') }}" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                <h4>PENS SIAP KEMBANGKAN SDM UNTUK MASYARAKAT SUMENEP</h4>
+                <p>Selasa, 16 Februari 2021</p><br>
+                <a href="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+                <a href="{{ url('news-galery/persetujuan') }}" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
-  
            
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
               <img src="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <a href="{{ asset('Bizland/assets/img/portfolio/portfolio-7.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                <h4>Penerapan Aplikasi Pelayanan Desa Berbasis Mobile</h4>
+                <p>12 September 2020</p>
+                <a href="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+                <a href="{{ url('news-galery/pengmas1') }}" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
-  
+
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-8.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <a href="{{ asset('Bizland/assets/img/portfolio/portfolio-8.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                <h4>PENS Kampus Sumenep Luncurkan Asiapp Sebagai Solusi Santri</h4>
+                <p>Sabtu 21 September 2021</p>
+                <a href="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+                <a href="{{ url('news-galery/pengmas3') }}" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
   
           </div>
   
         </div>
-      </section>
-            {{-- <!-- Berita -->
-    <section id="berita" class="portfolio-details">
-        <div class="container">
-        <div class="section-title">
-                <h3>BERITA</h3>
-            </div>
-            <div class="row gy-4">
-
-                <div class="col-lg-6">
-                    <div class="portfolio-details-slider swiper">
-                        <div class="swiper-wrapper align-items-center">
-
-                            <div class="swiper-slide" id="image1">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" alt="">
-                            </div>
-
-                            <div class="swiper-slide" id="image2">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/lkmm.jpeg') }}" alt="">
-                            </div>
-
-                            <div class="swiper-slide" id="image3">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" alt="">
-                            </div>
-
-                            <div class="swiper-slide" id="image4">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/pengmas2.jpeg') }}" alt="">
-                            </div>
-
-                            <div class="swiper-slide" id="image5">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" alt="">
-                            </div>
-
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="portfolio-description">
-                        <p>
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum beatae quo a iste mollitia qui, ratione ut 
-                       cupiditate accusantium enim magnam id corrupti! Aliquid consequuntur, eum tempore dolores nesciunt nam voluptas. Ut recusandae, amet aliquid voluptatibus iste aspernatur reprehenderit.
-                        </p>
-                        <p id="text2" style="display: none">
-                            a
-                        </p>
-                        <p id="text3" style="display: none">
-                            b
-                        </p>
-                        <p id="text4" style="display: none">
-                            c
-                        </p>
-                        <p id="text5" style="display: none" >
-                            d
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section> --}}
-
+      </section>    
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
