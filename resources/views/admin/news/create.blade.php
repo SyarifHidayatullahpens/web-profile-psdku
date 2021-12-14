@@ -39,7 +39,7 @@
                 @csrf
                 <div class="row">
                     <div class="col-md-6">
-                        <label class="form-control-label">Title</label>
+                        <label class="form-control-label">Judul</label>
                         <input type="text" class="form-control @error('name') is-invalid @enderror" name="name"
                             value="{{ old('name') }}">
 
@@ -49,8 +49,19 @@
                         </span>
                         @enderror
                     </div>
+
                     <div class="col-md-6">
-                        <label class="form-control-label">Image</label>
+                        <label class="form-control-label">Tanggal</label>
+                        <input type="date" class="form-control" name="date">
+                        @error('date')
+                        <span class="text-danger mb-2">
+                            {{ $message }}
+                        </span>
+                        @enderror
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-control-label">Gambar</label>
                         <div class="input-group input-group-merge">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-images text-primary"></i></span>

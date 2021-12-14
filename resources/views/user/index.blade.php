@@ -11,7 +11,10 @@
         .contents {
             text-align: justify;
             text-justify: inter-word;
-            font-size: 16px
+            font-size: 14px;
+            font-family: "Open sans", sans-serif;
+            line-height: 28px;
+            word-spacing: 0;
         }
 
         .portfolio-item>img {
@@ -104,7 +107,8 @@
                             <i class="bx bx-images"></i>
                             <div>
                                 <h5>Sejarah PENS</h5>
-                                <p class="contents">Awal sejarah PENS dimulai pada tahun 1985. Saat itu, tim studi awal Japan
+                                <p class="contents">Awal sejarah PENS dimulai pada tahun 1985. Saat itu, tim studi awal
+                                    Japan
                                     International Cooperation Agency (JICA) untuk bantuan dan kerjasama teknik yang
                                     dikepalai oleh Prof. Y. Naito dari Tokyo Institute of Technology, datang ke
                                     politeknik ini. Setelah melakukan pengamatan dan studi kelayakan di tahun 1986, JICA
@@ -157,7 +161,7 @@
                         <div class="swiper-wrapper align-items-center">
 
                             <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-1.jpg') }}" alt="" >
+                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-1.jpg') }}" alt="">
                             </div>
 
                             <div class="swiper-slide">
@@ -174,16 +178,28 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="portfolio-description">
-                        <p class="contents">
-                        Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan dimasa yang akan datang 
-                        akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika Negeri Surabaya mendirikan 
-                        Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3 Teknik Informatika, 
-                        D4 Teknik Informatika, D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer. Dengan tujuan menjadi pusat 
-                        unggulan pendidikan teknologi rekayasa dibidang emerging technology yang terkait bidang Teknologi Informasi dan Komputer 
-                        untuk menghasilkan lulusan yang siap bersaing dipasar global, Departemen Teknik Informatika dan Komputer telah banyak 
-                        menghasilkan lulusan yang berkualifikasi unggul dan bekerja sebagai Programmer, Software Engineer, Hardware Designer, 
-                        Network Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical Support, Marketing/Sales, dan lain-lain.
+                    <div class="bego">
+                        <p class="contents text-break">
+                            Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
+                            dimasa yang akan datang
+                            akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika
+                            Negeri Surabaya mendirikan
+                            Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3
+                            Teknik Informatika,
+                            D4 Teknik Informatika, D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer.
+                            Dengan tujuan menjadi pusat
+                            unggulan pendidikan teknologi rekayasa dibidang emerging technology yang terkait bidang
+                            Teknologi Informasi dan Komputer
+                            untuk menghasilkan lulusan yang siap bersaing dipasar global, Departemen Teknik Informatika
+                            dan Komputer telah banyak
+                            menghasilkan lulusan yang berkualifikasi unggul dan bekerja sebagai Programmer, Software
+                            Engineer, Hardware Designer,
+                            Network Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical
+                            Support, Marketing/Sales, dan lain-lain.
+                        </p>
+                        <br>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, iure.
                         </p>
                     </div>
                 </div>
@@ -224,15 +240,22 @@
 
                 <div class="col-lg-6">
                     <div class="portfolio-description">
-                    <p class="contents">
-                        Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan dimasa yang akan datang 
-                        akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika Negeri Surabaya mendirikan 
-                        Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3 Teknik Informatika, D4 Teknik Informatika, 
-                        D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer. Dengan tujuan menjadi pusat unggulan pendidikan teknologi rekayasa 
-                        dibidang emerging technology yang terkait bidang Teknologi Informasi dan Komputer untuk menghasilkan lulusan yang siap bersaing dipasar global, 
-                        Departemen Teknik Informatika dan Komputer telah banyak menghasilkan lulusan yang berkualifikasi unggul dan bekerja sebagai Programmer, 
-                        Software Engineer, Hardware Designer, Network Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical Support, 
-                        Marketing/Sales, dan lain-lain.
+                        <p class="contents">
+                            Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
+                            dimasa yang akan datang
+                            akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika
+                            Negeri Surabaya mendirikan
+                            Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3
+                            Teknik Informatika, D4 Teknik Informatika,
+                            D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer. Dengan tujuan menjadi
+                            pusat unggulan pendidikan teknologi rekayasa
+                            dibidang emerging technology yang terkait bidang Teknologi Informasi dan Komputer untuk
+                            menghasilkan lulusan yang siap bersaing dipasar global,
+                            Departemen Teknik Informatika dan Komputer telah banyak menghasilkan lulusan yang
+                            berkualifikasi unggul dan bekerja sebagai Programmer,
+                            Software Engineer, Hardware Designer, Network Administrator, Computer System Analyst,
+                            Manager/Supervisor, Services/Technical Support,
+                            Marketing/Sales, dan lain-lain.
                         </p>
                     </div>
                 </div>
@@ -533,132 +556,171 @@
     </section>
     <section id="berita" class="portfolio">
         <div class="container" data-aos="fade-up">
-  
-          <div class="section-title">
-            <h3>BERITA</span></h3>
-          </div>
-  
-          <div class="row" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-12 d-flex justify-content-center">
-              <ul id="portfolio-flters">
-                <li data-filter=".filter-card"></li>
-              </ul>
-            </div>
-          </div>
-  
-          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-  
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>PENS SIAP KEMBANGKAN SDM UNTUK MASYARAKAT SUMENEP</h4>
-                <p>Selasa, 16 Februari 2021</p><br>
-                <a href="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
-                <a href="{{ url('news-galery/persetujuan') }}" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-           
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Penerapan Aplikasi Pelayanan Desa Berbasis Mobile</h4>
-                <p>12 September 2020</p>
-                <a href="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
-                <a href="{{ url('news-galery/pengmas1') }}" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>PENS Kampus Sumenep Luncurkan Asiapp Sebagai Solusi Santri</h4>
-                <p>Sabtu 21 September 2021</p>
-                <a href="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
-                <a href="{{ url('news-galery/pengmas3') }}" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-        </div>
-      </section>    
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Contact</h2>
-                <h3><span>Contact Us</span></h3>
-                <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
-                    vitae autem.</p>
+                <h3>BERITA</span></h3>
             </div>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
-                <div class="col-lg-6">
-                    <div class="info-box mb-4">
-                        <i class="bx bx-map"></i>
-                        <h3>Our Address</h3>
-                        <p>A108 Adam Street, New York, NY 535022</p>
-                    </div>
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter=".filter-card"></li>
+                    </ul>
                 </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="info-box  mb-4">
-                        <i class="bx bx-envelope"></i>
-                        <h3>Email Us</h3>
-                        <p>contact@example.com</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="info-box  mb-4">
-                        <i class="bx bx-phone-call"></i>
-                        <h3>Call Us</h3>
-                        <p>+1 5589 55488 55</p>
-                    </div>
-                </div>
-
             </div>
 
-            <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-                <div class="col-lg-6 ">
-                    <iframe class="mb-4 mb-lg-0"
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                        frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <img src="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>PENS SIAP KEMBANGKAN SDM UNTUK MASYARAKAT SUMENEP</h4>
+                        <p>Selasa, 16 Februari 2021</p><br>
+                        <a href="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+                        <a href="#berita1" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
                 </div>
 
-                <div class="col-lg-6">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                            <div class="col form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                                    required>
-                            </div>
-                            <div class="col form-group">
-                                <input type="email" class="form-control" name="email" id="email"
-                                    placeholder="Your Email" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                                required>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" placeholder="Message"
-                                required></textarea>
-                        </div>
-                        <div class="my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                        </div>
-                        <div class="text-center"><button type="submit">Send Message</button></div>
-                    </form>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <img src="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Penerapan Aplikasi Pelayanan Desa Berbasis Mobile</h4>
+                        <p>12 September 2020</p>
+                        <a href="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i
+                                class="bx bx-plus"></i></a>
+                        <a href="{{ url('news-galery/pengmas1') }}" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
                 </div>
 
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <img src="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>PENS Kampus Sumenep Luncurkan Asiapp Sebagai Solusi Santri</h4>
+                        <p>Sabtu 21 September 2021</p>
+                        <a href="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i
+                                class="bx bx-plus"></i></a>
+                        <a href="{{ url('news-galery/pengmas3') }}" class="details-link" title="More Details"><i
+                                class="bx bx-link"></i></a>
+                    </div>
+                </div>
             </div>
+    </section>
+
+
+    <section id="berita1" class="portfolio">
+        <div class="container" data-aos="fade-up">
+            <h2 class="text-center pt-5">dsnds</h2>
+            <div class="d-flex justify-content-center pt-2 mb-5">
+                <img src="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" class="img-fluid"
+                    style="width: 40vw; backround-size: cover;">
+            </div>
+            <p class="contents">Desa Pegantenan adalah sebuah desa
+                yang terletak di Kecamatan Pegantenan Kabupaten Pamekasan Dengan luas wilayah kurang lebih 258.1765 Ha
+                dan mempunyai jumlah penduduk 3.492 jiwa (Anonymous, 2018).
+                Desa yang merupakan salah satu desa percontohan di Kabupaten Pamekasan ini dikenal dengan sejumlah
+                prestasinya, baik di tingkat Kabupaten hingga Provinsi, salahsatunya yakni pada tahun 2018 Desa
+                Pegantenan meraih peringkat ke-3 dalam. Perangkingan Desa Terbaik dan Pendampingan P3MD Terbaik
+                dalam. Pembangunan dan Pemberdayaan Masyarakat
+                Desa Provinsi Jawa Timur Tujuan dari kegiatan pengabdian ini adalah untuk meningkatkan pelayanan Desa
+                Pegantenan dalam memberikan pelayanan
+                kepada warga dalam pembuataan surat-surat. Selain itu warga juga bisa menerima pengumuman penting dari
+                desa melalui aplikasi tersebut. Begitu juga warga bisa
+                
+                                <br>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, iure.
+                menyampaikan aspirasi dan info kejadian di Desa Pegantenan malalui aplikasi tersebut. Dengan adanya
+                aplikasi ini diharapkan. Pemerintah Desa dapat berkomunikasi dan
+                berinteraksi langsung dengan masyarakat secara update, akurat dan efisien sehingga memudahkan masyarakat
+                Desa Pegantenan. 
+            </p>
 
         </div>
-    </section><!-- End Contact Section -->
+        </div>
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Contact</h2>
+                    <h3><span>Contact Us</span></h3>
+                    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas
+                        atque
+                        vitae autem.</p>
+                </div>
+
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-6">
+                        <div class="info-box mb-4">
+                            <i class="bx bx-map"></i>
+                            <h3>Our Address</h3>
+                            <p>A108 Adam Street, New York, NY 535022</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="info-box  mb-4">
+                            <i class="bx bx-envelope"></i>
+                            <h3>Email Us</h3>
+                            <p>contact@example.com</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="info-box  mb-4">
+                            <i class="bx bx-phone-call"></i>
+                            <h3>Call Us</h3>
+                            <p>+1 5589 55488 55</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="col-lg-6 ">
+                        <iframe class="mb-4 mb-lg-0"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                            frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="row">
+                                <div class="col form-group">
+                                    <input type="text" name="name" class="form-control" id="name"
+                                        placeholder="Your Name" required>
+                                </div>
+                                <div class="col form-group">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject"
+                                    placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                    required></textarea>
+                            </div>
+                            <div class="my-3">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                            </div>
+                            <div class="text-center"><button type="submit">Send Message</button></div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Contact Section -->
 
 </main><!-- End #main -->
 

@@ -15,6 +15,7 @@ class StoreNewsRequest extends FormRequest
     {
         return [
            'name'           => 'required|string|min:20',
+           'date'           => 'required|date',
            'image'          => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
            'description'    => 'required|text',
         ];
