@@ -46,7 +46,9 @@
                   <tr>
                     <th scrope="row">{{ $loop->iteration }}</th>
                     <td>{{ $data->name }}</td>
-                    <td class="rounded-circle" style="widtd: 60px; height:60px;"><img src="{{ asset('images/pens.png') }}">{{ $data->image }}</td>
+                    <td>
+                      <img src="{{ Storage::url('storage/images/') .$data->image }} " class="rounded-circle" style="width: 60px; height:60px;">
+                    </td>
                     <td>{{ $data->date }}</td>
                     <td class="mx-2">
                       <a href="{{ route('majors.edit', $data->id) }}"

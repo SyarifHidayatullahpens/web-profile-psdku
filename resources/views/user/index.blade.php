@@ -3,20 +3,33 @@
 @section('content')
 
 <head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <style>
         #more {
             display: none;
         }
 
         .contents {
-            text-align: justify;
+            text-align: left;
             text-justify: inter-word;
-            font-size: 14px;
-            font-family: "Open sans", sans-serif;
+            font-size: 15px;
+            /* font-family: "Open sans", sans-serif; */
+            font-family: 'Roboto', sans-serif;
             line-height: 28px;
+            padding: 0;
+            word-spacing: 0;
+            word-break: break-all;
+            /* height: 400px; */
+        }
+        .iconbox p{
+            line-height: 24px;
             word-spacing: 0;
         }
-
+        #more-simandiri {
+            padding-top: 10px !important;
+        }
         .portfolio-item>img {
             height: 236px;
             width: 356px;
@@ -26,7 +39,6 @@
     </style>
 </head>
 <main id="main">
-
     <!-- ======= Featured Services Section ======= -->
     <section id="featured-services" class="featured-services">
         <div class="container" data-aos="fade-up">
@@ -148,120 +160,66 @@
     </section><!-- End About Section -->
 
     <!-- ======= Diploma-ti ======= -->
-    <section id="diploma-ti" class="portfolio-details">
+    <section id="diploma-ti" class="featured-services">
         <div class="container">
             <div class="section-title">
-                <h3>DIPLOMA 3<span>TEKNIK INFORMATIKA</span></h3>
+                <h3>DIPLOMA 3&nbsp<span>TEKNIK INFORMATIKA</span></h3>
             </div>
 
-            <div class="row gy-4">
-
-                <div class="col-lg-6">
-                    <div class="portfolio-details-slider swiper">
-                        <div class="swiper-wrapper align-items-center">
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-1.jpg') }}" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-2.jpg') }}" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-3.jpg') }}" alt="">
-                            </div>
-
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
+            <div class="col-md-12d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                    <p class="description">
+                        Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
+                        dimasa yang akan datang
+                        akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika
+                        Negeri Surabaya mendirikan
+                        Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3
+                        Teknik Informatika,
+                        D4 Teknik Informatika, D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer.
+                        <br class="mt-2">Dengan tujuan menjadi pusat
+                        unggulan pendidikan teknologi rekayasa dibidang emerging technology yang terkait bidang
+                        Teknologi Informasi dan Komputer
+                        untuk menghasilkan lulusan yang siap bersaing dipasar global, Departemen Teknik Informatika
+                        dan Komputer telah banyak
+                        menghasilkan lulusan yang berkualifikasi unggul dan bekerja sebagai Programmer, Software
+                        Engineer, Hardware Designer,
+                        Network Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical
+                        Support, Marketing/Sales, dan lain-lain.
+                    </p>
                 </div>
-
-                <div class="col-lg-6">
-                    <div class="bego">
-                        <p class="contents text-break">
-                            Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
-                            dimasa yang akan datang
-                            akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika
-                            Negeri Surabaya mendirikan
-                            Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3
-                            Teknik Informatika,
-                            D4 Teknik Informatika, D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer.
-                            Dengan tujuan menjadi pusat
-                            unggulan pendidikan teknologi rekayasa dibidang emerging technology yang terkait bidang
-                            Teknologi Informasi dan Komputer
-                            untuk menghasilkan lulusan yang siap bersaing dipasar global, Departemen Teknik Informatika
-                            dan Komputer telah banyak
-                            menghasilkan lulusan yang berkualifikasi unggul dan bekerja sebagai Programmer, Software
-                            Engineer, Hardware Designer,
-                            Network Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical
-                            Support, Marketing/Sales, dan lain-lain.
-                        </p>
-                        <br>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, iure.
-                        </p>
-                    </div>
-                </div>
-
             </div>
 
         </div>
     </section>
 
     <!-- ======= Diploma-MMB ======= -->
-    <section id="diploma-mmb" class="portfolio-details">
+    <section id="diploma-mmb" class="featured-services">
         <div class="container">
             <div class="section-title">
                 <h3>DIPLOMA 3 <span>MULTIMEDIA BROADCASTING</span></h3>
             </div>
-            <div class="row gy-4">
 
-                <div class="col-lg-6">
-                    <div class="portfolio-details-slider swiper">
-                        <div class="swiper-wrapper align-items-center">
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-1.jpg') }}" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-2.jpg') }}" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-3.jpg') }}" alt="">
-                            </div>
-
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
+            <div class="col-md-12 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                    <p class="description">
+                        Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
+                        dimasa yang akan datang
+                        akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika
+                        Negeri Surabaya mendirikan
+                        Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3
+                        Teknik Informatika, D4 Teknik Informatika,
+                        D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer.<br> Dengan tujuan menjadi
+                        pusat unggulan pendidikan teknologi rekayasa
+                        dibidang emerging technology yang terkait bidang Teknologi Informasi dan Komputer untuk
+                        menghasilkan lulusan yang siap bersaing dipasar global,
+                        Departemen Teknik Informatika dan Komputer telah banyak menghasilkan lulusan yang
+                        berkualifikasi unggul dan bekerja sebagai Programmer,
+                        Software Engineer, Hardware Designer, Network Administrator, Computer System Analyst,
+                        Manager/Supervisor, Services/Technical Support,
+                        Marketing/Sales, dan lain-lain.
+                    </p>
                 </div>
-
-                <div class="col-lg-6">
-                    <div class="portfolio-description">
-                        <p class="contents">
-                            Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
-                            dimasa yang akan datang
-                            akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika
-                            Negeri Surabaya mendirikan
-                            Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3
-                            Teknik Informatika, D4 Teknik Informatika,
-                            D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer. Dengan tujuan menjadi
-                            pusat unggulan pendidikan teknologi rekayasa
-                            dibidang emerging technology yang terkait bidang Teknologi Informasi dan Komputer untuk
-                            menghasilkan lulusan yang siap bersaing dipasar global,
-                            Departemen Teknik Informatika dan Komputer telah banyak menghasilkan lulusan yang
-                            berkualifikasi unggul dan bekerja sebagai Programmer,
-                            Software Engineer, Hardware Designer, Network Administrator, Computer System Analyst,
-                            Manager/Supervisor, Services/Technical Support,
-                            Marketing/Sales, dan lain-lain.
-                        </p>
-                    </div>
-                </div>
-
             </div>
-
         </div>
     </section>
 
@@ -297,14 +255,14 @@
                 <div class="col-lg-6">
                     <div class="portfolio-description">
                         <!-- <h2>DEPARTEMENT TEKNIK INFORMATIKA DAN KOMPUTER</h2> -->
-                        <p class="contents">
+                        <p class="description">
                             Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
                             dimasa yang akan datang akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu,
                             Politeknik Elektronika Negeri Surabaya mendirikan Departemen Teknik Informatika dan Komputer
                             yang
                             terdiri dari empat program studi, yaitu D3 Teknik Informatika, D4 Teknik Informatika, D4
                             Teknik Komputer,
-                            serta S2 Terapan Teknik Informatika dan Komputer. Dengan tujuan menjadi pusat unggulan
+                            serta S2 Terapan Teknik Informatika dan Komputer. <br>Dengan tujuan menjadi pusat unggulan
                             pendidikan teknologi
                             rekayasa dibidang emerging technology yang terkait bidang Teknologi Informasi dan Komputer
                             untuk menghasilkan
@@ -360,7 +318,7 @@
                             Multimedia Broadcasting (MMB)
                             dan D4 Game Technology (GT). Kedua Prodi ini, bergerak dalam bidang film, video, musik,
                             photography, televisi, radio,
-                            dan game. Dengan bertujuan untuk menjadi pusat unggulan pendidikan teknologi multimedia
+                            dan game.<br> Dengan bertujuan untuk menjadi pusat unggulan pendidikan teknologi multimedia
                             dalam mengembangkan industri
                             kreatif. Untuk mencapai hal tersebut, Departemen ini menghasilkan insan-insan kreatif dengan
                             kemampuan penguasaan
@@ -535,7 +493,7 @@
                                 Pendaftaran dan tes masuk dilaksanakan secara online dengan proses seleksi sebagai
                                 berikut. Semua peserta UTBK Online Simandiri akan diurutkan menurut nilai ujiannya,
                                 kemudian dialokasikan pada program studi pilhannya, dengan ketentuan bahwa peserta yang
-                                lebih baik mendapat prioritas untuk dialokasikan lebh dahulu. Jika masih ada tempat di
+                                lebih baik mendapat prioritas untuk dialokasikan lebh dahulu.<br class="mt-2"> Jika masih ada tempat di
                                 program studi pilihan pertama, ia akan diterima di program studi pilihan pertama. Jika
                                 tempat pada program studi pertama telah penuh dan masih ada tempat di program studi
                                 pilihan kedua, ia akan diterima di program studi pilihan kedua. Jika tempat pada program
