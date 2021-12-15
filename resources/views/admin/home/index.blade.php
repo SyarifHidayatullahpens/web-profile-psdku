@@ -1,5 +1,6 @@
 @extends('layouts.pages-admin.main-content')
 @section('content')
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Favicon -->
 <div class="header bg-primary pb-6">
   <div class="container-fluid">
@@ -141,5 +142,5 @@
       </div>
     </div>
   </div>
-    
+
 @endsection

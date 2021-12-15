@@ -13,6 +13,7 @@ class NewsController extends Controller
     public function index(Request $request)
     {
         $news = News::all();
+        // dd($news);
         return view('admin.news.index',compact('news'));
     }
 
@@ -33,6 +34,7 @@ class NewsController extends Controller
 
             News::create([
                 'name'              => $request->name,
+                'date'              => $request->date,
                 'image'              => $image_name[0].".".$ext,
                 'description'       => $request->description,
             ]);

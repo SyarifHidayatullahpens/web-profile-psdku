@@ -14,9 +14,10 @@ class StoreNewsRequest extends FormRequest
     public function rules()
     {
         return [
-           'name'           => 'required|string|min:20',
+           'name'           => 'required|string|min:2',
+           'date'           => 'required|date',
            'image'          => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
-           'description'    => 'required|text',
+           'description'    => 'required|string',
         ];
     }
 
