@@ -1,6 +1,6 @@
 <!-- ======= Footer ======= -->
 <footer id="footer">
-    <div class="footer-top">
+    <!-- <div class="footer-top">
         <div class="container">
             <div class="row">
 
@@ -51,16 +51,43 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="container py-4">
+    <!-- <div class="container py-4">
         <div class="copyright">
-            &copy; Copyright <strong><span>BizLand</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>PENS</span></strong>PSDKU SUMENEP
         </div>
         <div class="credits">Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
+    </div> -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <p style="float: left; width: 500px; text-align: left; font-size: 15px">
+              <i class="fa fa-map-marker"   ></i>
+              Jl Raya Lenteng KM 2 Batuan,
+              Sumenep, Jawa Timur<br>
+              <a href="#" class="twitter"><i class="fa fa-whatsapp" style="margin-left: -3px;"></i></a>
+              <strong>Kampus Sumenep :</strong> 0813 9464 6263<br>
+              <a href="#" class="twitter"><i class="fa fa-whatsapp" style="margin-left: -3px;"></i></a>
+              <strong>Kampus Surabaya :</strong> +62 31 594 7280<br>
+              <a href="#" class="twitter"><i class="fa fa-envelope" style="margin-left: -3px;"></i></a>
+              <strong>Email :</strong> penspsdkusumenep@gmail.com<br>
+            </p>
+            <br>
+          <div class="container py-4">
+        <div class="copyright">
+            <!-- &copy; Copyright <strong><span>PENS</span></strong>PSDKU SUMENEP -->
+        </div>
+        <div class="credits"> &copy; Copyright 2021<strong><span>PENS</span></strong>&nbspPSDKU SUMENEP
+        </div>
+          </div>
+      </div>
     </div>
-</footer><!-- End Footer -->
+</footer>
+
+<!-- End Footer -->
 
 <div id="preloader"></div>
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
