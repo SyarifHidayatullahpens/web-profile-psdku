@@ -1,6 +1,8 @@
-@extends('layouts.landing-page.news')
+@extends('layouts.landing-page.main-content')
+<!-- @extends('layouts.landing-page.news') -->
 
 @section('content')
+
 
 <section id="berita" class="portfolio-details">
         <div class="container">

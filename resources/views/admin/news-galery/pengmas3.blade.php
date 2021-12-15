@@ -1,7 +1,7 @@
 @extends('layouts.landing-page.news')
 
 @section('content')
-
+@include('user.index')
 <section id="berita" class="portfolio-details">
         <div class="container">
         <div class="section-title">

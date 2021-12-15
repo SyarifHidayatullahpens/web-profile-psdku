@@ -443,7 +443,7 @@
               <div class="portfolio-info">
                 <h4>PENS SIAP KEMBANGKAN SDM UNTUK MASYARAKAT SUMENEP</h4>
                 <p>Selasa, 16 Februari 2021</p><br><br>
-                <a href="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+           git      <a href="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
                 <a href="{{ url('news-galery/persetujuan') }}" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -462,7 +462,6 @@
               <img src="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>PENS KAMPUS SUMENEP LUNCURKAN ASIAPP SEBAGAI SOLUSI SANTRI</h4>
-                <p>Sabtu 21 September 2021</p><br>
                 <a href="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
                 <a href="{{ url('news-galery/pengmas3') }}" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
