@@ -39,13 +39,14 @@
     </style>
 </head>
 <main id="main">
-   <!-- ======= About Section ======= -->
+
+    <!-- ======= About Section ======= -->
     <section id="about" class="about section-bg">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
                 <h2>Tentang Kampus</h2>
-                <h3>PENS <span>PSDKU</span></h3>
+                <h3><span>PENS PSDKU SUMENEP</h3>
             </div>
 
             <div class="row">
@@ -55,24 +56,19 @@
                 <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
                     data-aos-delay="100">
                     <h3>Profile PENS</h3>
-                    <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore
-                        magna aliqua.
-                    </p>
                     <ul>
                         <li>
                             <i class="bx bx-map">
                             </i>
                             <div>
                                 <h5>Alamat</h5>
-                                <p>Jl. Raya Lenteng Km2 Batuan, Sumenep, Jawa timur, 69451</p>
+                                <p> Jl. Raya Lenteng Km2, Sumenep, Jawa timur, 69451</p>
                             </div>
                         </li>
                         <li>
                             <i class="bx bx-images"></i>
                             <div>
-                                <h5>Sejarah PENS</h5>
+                                <h5>Sejarah PENS</h5><br>
                                 <p class="description" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
                                     Awal sejarah PENS dimulai pada tahun 1985. Saat itu, tim studi awal
                                     Japan
@@ -97,17 +93,15 @@
                                         yang merupakan bagian dari Institut Teknologi Sepuluh Nopember Surabaya (ITS).
                                         Politeknik Elektronika Negeri Surabaya (PENS) 1996 hingga sekarang Pada tahun
                                         1996, nama politeknik ini kembali diubah oleh Menteri Pendidikan dan Kebudayaan
-                                        menjadi Politeknik Elektronika Negeri Surabaya (PENS)</span></p>
+                                        menjadi Politeknik Elektronika Negeri Surabaya (PENS).<br>
+                                        Nama itulah yang kemudian tetap bertahan hingga kini.
+                                        PENS sendiri memiliki dua departemen yang berada di luar kampus utama yaitu di Sumenep dan
+                                        Lamongan.</span></p>
                                 <a class="btn btn-md btn-primary text-white" id="myBtn" onclick="myFunction()">Read
                                     More</a>
                             </div>
                         </li>
                     </ul>
-                    <p>
-                        Nama itulah yang kemudian tetap bertahan hingga kini.
-                        PENS sendiri memiliki dua departemen yang berada di luar kampus utama yaitu di Sumenep dan
-                        Lamongan.
-                    </p>
                 </div>
             </div>
 
@@ -197,6 +191,7 @@
                             <div class="swiper-slide">
                                 <img src="{{ asset('Bizland/assets/img/portfolio/b.jpg') }}" alt="">
                             </div>
+
                             <div class="swiper-slide">
                                 <img src="{{ asset('Bizland/assets/img/portfolio/ss.jpeg') }}" alt="">
                             </div>
@@ -275,7 +270,7 @@
                             dan game.<br> Dengan bertujuan untuk menjadi pusat unggulan pendidikan teknologi multimedia
                             dalam mengembangkan industri
                             kreatif. Untuk mencapai hal tersebut, Departemen ini menghasilkan insan-insan kreatif dengan
-                            kemampuan penguasaan
+                            kemampuan penguasaans
                             teknologi multimedia, serta berperan aktif dalam pengembangan industri kreatif di bidang
                             multimedia. DTMK turut berperan
                             dalam penguatan sumber daya manusia, dimana didalamnya bertugas untuk melakukan perbaikan
@@ -527,9 +522,6 @@
                 <div class="section-title">
                     <h2>Contact</h2>
                     <h3><span>Contact Us</span></h3>
-                    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas
-                        atque
-                        vitae autem.</p>
                 </div>
 
                 <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -537,7 +529,7 @@
                         <div class="info-box mb-4">
                             <i class="bx bx-map"></i>
                             <h3>Our Address</h3>
-                            <p>A108 Adam Street, New York, NY 535022</p>
+                            <p> Jl. Raya Lenteng Km2, Sumenep, Jawa timur, 69451</p>
                         </div>
                     </div>
 
@@ -545,7 +537,7 @@
                         <div class="info-box  mb-4">
                             <i class="bx bx-envelope"></i>
                             <h3>Email Us</h3>
-                            <p>contact@example.com</p>
+                            <p>penspsdkusumenep@gmail.com</p>
                         </div>
                     </div>
 
@@ -553,7 +545,7 @@
                         <div class="info-box  mb-4">
                             <i class="bx bx-phone-call"></i>
                             <h3>Call Us</h3>
-                            <p>+1 5589 55488 55</p>
+                            <p>081394646263</p>
                         </div>
                     </div>
 
