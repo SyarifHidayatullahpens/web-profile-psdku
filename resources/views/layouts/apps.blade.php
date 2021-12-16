@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
     <meta name="author" content="Creative Tim">
-    <title>PENS PSDKU</title>
+    <title>PSDKU SUMENEP</title>
     <!-- Favicon -->
     <link rel="icon" href="{{ asset('images/pens.png') }}" type="image/png">
 
@@ -69,7 +69,6 @@
 </head>
 
 <body>
-    <x:notify-messages />
     <!-- Sidenav -->
     @include('layouts.pages-admin.sidebar')
     <!-- Main content -->
@@ -93,19 +92,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <!-- Optional JS -->
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="{{ asset('js/toastr.min.js') }}"></script>
-    <script src="{{ asset('vendor/chart.js/dist/Chart.min.js')}}"></script>
-    <script src="{{ asset('vendor/quill/dist/quill.min.js') }}"></script>
-    <script src="{{ asset('vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js') }}"></script>
-    <script src="{{ asset('vendor/chart.js/dist/Chart.extension.js')}}"></script>
-    <script src="{{ asset('vendor/jvectormap-next/jquery-jvectormap.min.js')}}"></script>
-    <script src="{{ asset('vendor/dropzone/dist/min/dropzone.min.js') }}"></script>
-    <script src="{{ asset('js/vendor/jvectormap/jquery-jvectormap-world-mill.js')}}"></script>
-    <script src="{{ asset('vendor/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js') }}"></script>
-    <script src="{{ asset('js/jquery-3.6.0.min.js') }}"></script>
-    <script src="{{ asset('js/sweetalert.min.js') }}"></script>
+  
 
     <!-- Data Tables JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
