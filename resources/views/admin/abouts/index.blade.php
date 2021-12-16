@@ -16,6 +16,7 @@
                 </div>
                 <div class="col-lg-6 col-5 text-right">
                     <a href="{{ route('abouts.create') }}" class="btn btn-sm btn-neutral">Add</a>
+                    <a href="javascript:void(0)" class="btn btn-warning" id="tambah-data">Add </a>
                 </div>
             </div>
         </div>
@@ -69,11 +70,10 @@
             </div>
         </div>
     </div>
+    @include('admin.abouts.modal')
     @include('layouts.pages-admin.footer')
 </div>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-@push('script')
 <script>
     $(document).ready(function () {
         $('#table_about').DataTable({
@@ -82,7 +82,11 @@
             },
             responsive: true
         });
+
     });
+        $('#tambah-data').click(function() {
+            console.log('ajsh');
+            $('#create-modal').modal('show');
+        });
 </script>
-@endpush
 @endsection
