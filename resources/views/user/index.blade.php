@@ -119,7 +119,8 @@
                             <i class="bx bx-images"></i>
                             <div>
                                 <h5>Sejarah PENS</h5>
-                                <p class="contents">Awal sejarah PENS dimulai pada tahun 1985. Saat itu, tim studi awal
+                                <p class="description" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
+                                    Awal sejarah PENS dimulai pada tahun 1985. Saat itu, tim studi awal
                                     Japan
                                     International Cooperation Agency (JICA) untuk bantuan dan kerjasama teknik yang
                                     dikepalai oleh Prof. Y. Naito dari Tokyo Institute of Technology, datang ke
@@ -168,7 +169,7 @@
 
             <div class="col-md-12d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-                    <p class="description">
+                     <p class="description" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
                         Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
                         dimasa yang akan datang
                         akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika
@@ -201,7 +202,7 @@
 
             <div class="col-md-12 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-                    <p class="description">
+                    <p class="description" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">   
                         Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
                         dimasa yang akan datang
                         akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika
@@ -236,13 +237,12 @@
                         <div class="swiper-wrapper align-items-center">
 
                             <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/b.jpg') }}" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
                                 <img src="{{ asset('Bizland/assets/img/portfolio/f.jpeg') }}" alt="">
                             </div>
 
+                            <div class="swiper-slide">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/b.jpg') }}" alt="">
+                            </div>
                             <div class="swiper-slide">
                                 <img src="{{ asset('Bizland/assets/img/portfolio/ss.jpeg') }}" alt="">
                             </div>
@@ -255,7 +255,7 @@
                 <div class="col-lg-6">
                     <div class="portfolio-description">
                         <!-- <h2>DEPARTEMENT TEKNIK INFORMATIKA DAN KOMPUTER</h2> -->
-                        <p class="description">
+                        <p class="description" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
                             Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
                             dimasa yang akan datang akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu,
                             Politeknik Elektronika Negeri Surabaya mendirikan Departemen Teknik Informatika dan Komputer
@@ -312,7 +312,7 @@
 
                 <div class="col-lg-6">
                     <div class="portfolio-description">
-                        <p class="contents">
+                    <p class="description" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
                             Departemen Teknologi Multimedia Kreatif (DTMK) Politeknik Elektronika Negeri Surabaya (PENS)
                             diresmikan pada tahun 2012. Departemen ini menaungi dua Program Studi (Prodi) yakni D3
                             Multimedia Broadcasting (MMB)
@@ -367,7 +367,8 @@
                         <br>
                         <h4>Seleksi Nasional Masuk Politeknik Negeri</h4>
                         <br>
-                        <p class="contents">Seleksi Nasional Masuk Politeknik Negeri (SNMPN) 2021 merupakan seleksi
+                        <p class="description" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
+                        Seleksi Nasional Masuk Politeknik Negeri (SNMPN) 2021 merupakan seleksi
                             Jalur Undangan yang diperuntukkan bagi calon peserta/siswa sekolah yang akan
                             melanjutkan pendidikan di Perguruan Tinggi (khusus jenjang Diploma 3) Bidang Vokasi atau
                             Politeknik Negeri di seluruh wilayah Indonesia.
@@ -434,7 +435,8 @@
                     <div class="portfolio-description">
                         <br>
                         <h4>Seleksi Bersama Masuk Politeknik Negeri se Indonesia</h4><br>
-                        <p class="contents" style="">SBMPN atau Seleksi Bersama Masuk Politeknik Negeri merupakan jalur
+                        <p class="description" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
+                        SBMPN atau Seleksi Bersama Masuk Politeknik Negeri merupakan jalur
                             masuk Politeknik Negeri dengan cara tes tulis.
                             Hal ini bertujuan untuk memilih calon mahasiswa yang mempunyai kemampuan akademik untuk
                             mengikuti dan menyelesaikan pendidikan
@@ -480,7 +482,7 @@
                     <div class="portfolio-description">
                         <br>
                         <h4>Seleksi Mandiri Politeknik Elektronika Negeri Surabaya</h4><br>
-                        <p class="contents">
+                        <p class="description" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
                             SIMANDIRI PENS atau Seleksi Mandiri Politeknik Elektronika Negeri Surabaya dimaksudkan untuk
                             memilih calon mahasiswa yang mempunyai kemampuan akademik untuk mengikuti dan menyelesaikan
                             pendidikan di Politeknik sesuai dengan batas waktu yang telah ditetapkan.<span
@@ -534,7 +536,7 @@
               <div class="portfolio-info">
                 <h4>PENS SIAP KEMBANGKAN SDM UNTUK MASYARAKAT SUMENEP</h4>
                 <p>Selasa, 16 Februari 2021</p><br><br>
-           git      <a href="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+                <a href="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
                 <a href="{{ url('news-galery/persetujuan') }}" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -553,6 +555,7 @@
               <img src="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>PENS KAMPUS SUMENEP LUNCURKAN ASIAPP SEBAGAI SOLUSI SANTRI</h4>
+                <p>Sabtu, 23 Oktober 2021</p><br>
                 <a href="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
                 <a href="{{ url('news-galery/pengmas3') }}" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
@@ -605,7 +608,7 @@
                 <div class="row" data-aos="fade-up" data-aos-delay="100">
 
         </div>
-    </section>End Contact Section -->
+    </section>
 
 </main><!-- End #main -->
 
