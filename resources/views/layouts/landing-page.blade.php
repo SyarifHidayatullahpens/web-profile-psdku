@@ -2,11 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    
     <title>PSDKU SUMENEP</title>
 
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    
     <!-- Favicons -->
     <link rel="icon" href="{{ asset('images/pens.png')}}" type="image/png">
 

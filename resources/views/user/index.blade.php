@@ -30,7 +30,7 @@
         #more-simandiri {
             padding-top: 10px !important;
         }
-        .portfolio-item>img {
+        .portfolio-item > img {
             height: 236px;
             width: 356px;
             max-width: 100%;
@@ -38,6 +38,8 @@
         }
     </style>
 </head>
+
+
 <main id="main">
    <!-- ======= About Section ======= -->
     <section id="about" class="about section-bg">
@@ -73,7 +75,7 @@
                             <i class="bx bx-images"></i>
                             <div>
                                 <h5>Sejarah PENS</h5>
-                                <p class="description" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
+                                <p class="description">
                                     Awal sejarah PENS dimulai pada tahun 1985. Saat itu, tim studi awal
                                     Japan
                                     International Cooperation Agency (JICA) untuk bantuan dan kerjasama teknik yang
@@ -123,7 +125,7 @@
 
             <div class="col-md-12d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-                     <p class="description" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
+                     <p class="description">
                         Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
                         dimasa yang akan datang
                         akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika
@@ -156,7 +158,7 @@
 
             <div class="col-md-12 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-                    <p class="description" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">   
+                    <p class="description">   
                         Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
                         dimasa yang akan datang
                         akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika
@@ -191,14 +193,14 @@
                         <div class="swiper-wrapper align-items-center">
 
                             <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/f.jpeg') }}" alt="">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/f.jpeg') }}" style="height: 301.297px;">
                             </div>
 
                             <div class="swiper-slide">
                                 <img src="{{ asset('Bizland/assets/img/portfolio/b.jpg') }}" alt="">
                             </div>
                             <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/ss.jpeg') }}" alt="">
+                                <img src="{{ asset('Bizland/assets/img/portfolio/ss.jpeg') }}" style="height: 301.297px;">
                             </div>
 
                         </div>
@@ -207,9 +209,9 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="portfolio-description">
+                    <div class="portfolio-description" style="margin-top: -35px">
                         <!-- <h2>DEPARTEMENT TEKNIK INFORMATIKA DAN KOMPUTER</h2> -->
-                        <p class="description" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
+                        <p class="description">
                             Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
                             dimasa yang akan datang akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu,
                             Politeknik Elektronika Negeri Surabaya mendirikan Departemen Teknik Informatika dan Komputer
@@ -254,11 +256,6 @@
                             <div class="swiper-slide">
                                 <img src="{{ asset('Bizland/assets/img/portfolio/s.jpg') }}" alt="">
                             </div>
-
-                            <!-- <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/portfolio-details-3.jpg') }}" alt="">
-                            </div> -->
-
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
@@ -266,7 +263,7 @@
 
                 <div class="col-lg-6">
                     <div class="portfolio-description">
-                    <p class="description" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
+                    <p class="description" style="margin-top: -35px">
                             Departemen Teknologi Multimedia Kreatif (DTMK) Politeknik Elektronika Negeri Surabaya (PENS)
                             diresmikan pada tahun 2012. Departemen ini menaungi dua Program Studi (Prodi) yakni D3
                             Multimedia Broadcasting (MMB)
@@ -321,7 +318,7 @@
                         <br>
                         <h4>Seleksi Nasional Masuk Politeknik Negeri</h4>
                         <br>
-                        <p class="description" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
+                        <p class="description">
                         Seleksi Nasional Masuk Politeknik Negeri (SNMPN) 2021 merupakan seleksi
                             Jalur Undangan yang diperuntukkan bagi calon peserta/siswa sekolah yang akan
                             melanjutkan pendidikan di Perguruan Tinggi (khusus jenjang Diploma 3) Bidang Vokasi atau
@@ -386,10 +383,10 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="portfolio-description">
+                    <div class="portfolio-description" style="margin-top: -35px">
                         <br>
                         <h4>Seleksi Bersama Masuk Politeknik Negeri se Indonesia</h4><br>
-                        <p class="description" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
+                        <p class="description">
                         SBMPN atau Seleksi Bersama Masuk Politeknik Negeri merupakan jalur
                             masuk Politeknik Negeri dengan cara tes tulis.
                             Hal ini bertujuan untuk memilih calon mahasiswa yang mempunyai kemampuan akademik untuk
@@ -436,7 +433,7 @@
                     <div class="portfolio-description">
                         <br>
                         <h4>Seleksi Mandiri Politeknik Elektronika Negeri Surabaya</h4><br>
-                        <p class="description" style="margin-top: -35px; text-align: justify; text-justify: inter-word; font-size:16px">
+                        <p class="description">
                             SIMANDIRI PENS atau Seleksi Mandiri Politeknik Elektronika Negeri Surabaya dimaksudkan untuk
                             memilih calon mahasiswa yang mempunyai kemampuan akademik untuk mengikuti dan menyelesaikan
                             pendidikan di Politeknik sesuai dengan batas waktu yang telah ditetapkan.<span
@@ -519,50 +516,6 @@
   
         </div>
       </section>    
-
-        <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>Contact</h2>
-                    <h3><span>Contact Us</span></h3>
-                    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas
-                        atque
-                        vitae autem.</p>
-                </div>
-
-                <div class="row" data-aos="fade-up" data-aos-delay="100">
-                    <div class="col-lg-6">
-                        <div class="info-box mb-4">
-                            <i class="bx bx-map"></i>
-                            <h3>Our Address</h3>
-                            <p>A108 Adam Street, New York, NY 535022</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="info-box  mb-4">
-                            <i class="bx bx-envelope"></i>
-                            <h3>Email Us</h3>
-                            <p>contact@example.com</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="info-box  mb-4">
-                            <i class="bx bx-phone-call"></i>
-                            <h3>Call Us</h3>
-                            <p>+1 5589 55488 55</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row" data-aos="fade-up" data-aos-delay="100">
-
-        </div>
-    </section>
 
 </main><!-- End #main -->
 
