@@ -1,4 +1,4 @@
-@extends('layouts.landing-page.main-content')
+@extends('layouts.landing-page.top-nav')
 <!-- @extends('layouts.landing-page.news') -->
 
 @section('content')
