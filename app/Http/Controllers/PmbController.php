@@ -16,7 +16,20 @@ class PmbController extends Controller
     {
         $pmb  = Pmb::all();
         if ($request->ajax()) {
-            return DataTables::of($pmb)->make(true);
+            return DataTables::of($pmb)
+            ->addColumn('action', function($data){
+                $btn .= '<a href="/products/'.$row->id.'/edit" class="btn btn-icon btn-primary btn-icon-only rounded-circle">
+                <span class="btn-inner--icon"><i class="fas fa-pen-square"></i></span></a>';
+                $btn = '&nbsp;&nbsp';
+                $btn =  '<button class="btn btn-icon btn-default btn-icon-only rounded-circle btn-show" data-toggle="modal" data-id="'.$row->id.'">
+                <span class="btn-inner--icon"><i class="fas fa-eye"></i></span></button>';
+                $btn = '&nbsp;&nbsp';
+                $btn = '<button class="btn btn-icon btn-danger btn-icon-only rounded-circle" onclick="deleteItem(this)" data-name="'.$row->product_name.'" data-id="'.$row->id.'">
+                <span class="btn-inner--icon"><i class="fas fa-trash-alt"></i></span></button>';
+            })
+            ->rawColumns(['action'])
+            ->addIndexColumn()
+            ->make(true);
         }
         return view('admin.pmbs.index', compact('pmb'));
     }

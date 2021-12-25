@@ -77,7 +77,6 @@
     </div>
     @include('layouts.pages-admin.footer')
   </div>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 @push('script')
 <script>
     $(document).ready(function () {
