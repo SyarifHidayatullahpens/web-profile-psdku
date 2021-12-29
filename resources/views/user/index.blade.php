@@ -118,8 +118,8 @@
             </div>
 
             <div class="col-md-12d-flex align-items-stretch mb-5 mb-lg-0">
-                <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-                     <p class="description">
+             
+                     <p class="description" style="text-align:justify;">
                         Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
                         dimasa yang akan datang
                         akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika
@@ -137,7 +137,7 @@
                         Network Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical
                         Support, Marketing/Sales, dan lain-lain.
                     </p>
-                </div>
+               
             </div>
 
         </div>
@@ -151,8 +151,8 @@
             </div>
 
             <div class="col-md-12 d-flex align-items-stretch mb-5 mb-lg-0">
-                <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-                    <p class="description">   
+                
+                    <p class="description"style="text-align:justify;">   
                         Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
                         dimasa yang akan datang
                         akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu, Politeknik Elektronika
@@ -169,7 +169,7 @@
                         Manager/Supervisor, Services/Technical Support,
                         Marketing/Sales, dan lain-lain.
                     </p>
-                </div>
+               
             </div>
         </div>
     </section>
@@ -206,7 +206,7 @@
                 <div class="col-lg-6">
                     <div class="portfolio-description" style="margin-top: -35px">
                         <!-- <h2>DEPARTEMENT TEKNIK INFORMATIKA DAN KOMPUTER</h2> -->
-                        <p class="description">
+                        <p class="description" style="text-align:justify;">
                             Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
                             dimasa yang akan datang akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu,
                             Politeknik Elektronika Negeri Surabaya mendirikan Departemen Teknik Informatika dan Komputer
@@ -258,7 +258,7 @@
 
                 <div class="col-lg-6">
                     <div class="portfolio-description">
-                    <p class="description" style="margin-top: -35px">
+                    <p class="description" style="margin-top: -35px;text-align:justify">
                             Departemen Teknologi Multimedia Kreatif (DTMK) Politeknik Elektronika Negeri Surabaya (PENS)
                             diresmikan pada tahun 2012. Departemen ini menaungi dua Program Studi (Prodi) yakni D3
                             Multimedia Broadcasting (MMB)
@@ -313,7 +313,7 @@
                         <br>
                         <h4>Seleksi Nasional Masuk Politeknik Negeri</h4>
                         <br>
-                        <p class="description">
+                        <p class="description" style="text-align:justify;">
                         Seleksi Nasional Masuk Politeknik Negeri (SNMPN) 2021 merupakan seleksi
                             Jalur Undangan yang diperuntukkan bagi calon peserta/siswa sekolah yang akan
                             melanjutkan pendidikan di Perguruan Tinggi (khusus jenjang Diploma 3) Bidang Vokasi atau
@@ -381,7 +381,7 @@
                     <div class="portfolio-description" style="margin-top: -35px">
                         <br>
                         <h4>Seleksi Bersama Masuk Politeknik Negeri se Indonesia</h4><br>
-                        <p class="description">
+                        <p class="description" style="text-align:justify;">
                         SBMPN atau Seleksi Bersama Masuk Politeknik Negeri merupakan jalur
                             masuk Politeknik Negeri dengan cara tes tulis.
                             Hal ini bertujuan untuk memilih calon mahasiswa yang mempunyai kemampuan akademik untuk
@@ -428,7 +428,7 @@
                     <div class="portfolio-description">
                         <br>
                         <h4>Seleksi Mandiri Politeknik Elektronika Negeri Surabaya</h4><br>
-                        <p class="description">
+                        <p class="description" style="text-align:justify;"> 
                             SIMANDIRI PENS atau Seleksi Mandiri Politeknik Elektronika Negeri Surabaya dimaksudkan untuk
                             memilih calon mahasiswa yang mempunyai kemampuan akademik untuk mengikuti dan menyelesaikan
                             pendidikan di Politeknik sesuai dengan batas waktu yang telah ditetapkan.<span

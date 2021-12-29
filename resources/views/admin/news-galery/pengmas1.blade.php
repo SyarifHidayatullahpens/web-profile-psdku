@@ -7,7 +7,7 @@
 <section id="berita" class="portfolio-details">
         <div class="container">
         <div class="section-title">
-                <h3>pamekasan</h3>
+                <h3>PENERAPAN APLIKASI PELAYANAN DESA BERBASIS MOBILE</h3>
             </div>
             <div class="row gy-4">
 
@@ -16,11 +16,11 @@
                         <div class="swiper-wrapper align-items-center">
 
                         <div class="swiper-slide">
-                            <img src="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" alt="">
+                            <img src="{{ asset('Bizland/assets/img/portfolio/pengmas2.jpeg') }}" alt="">
                         </div>
 
                         <div class="swiper-slide">
-                            <img src="{{ asset('Bizland/assets/img/portfolio/pengmas2.jpeg') }}" alt="">
+                            <img src="{{ asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" alt="">
                         </div>
 
                         <div class="swiper-slide">
