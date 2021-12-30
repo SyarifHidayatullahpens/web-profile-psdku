@@ -15,7 +15,8 @@
                     </nav>
                 </div>
                 <div class="col-lg-6 col-5 text-right">
-                    <a href="{{ route('pmbs.create') }}" class="btn btn-sm btn-neutral" id="tombol-add">Add PMB</a>
+                    <a href="{{ route('pmbs.create') }}" class="btn btn-sm btn-neutral" id="tambah-data">Add PMB</a>
+                    <a href="javascript:void(0)" class="btn btn-warning" id="adds-data">Add </a>
                 </div>
             </div>
         </div>
@@ -43,115 +44,70 @@
                                 <th>Action</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            @forelse ($pmb as $data)
-                            <tr>
-                                <th scope="row">{{ $loop->iteration }}</th>
-                                <td>{{ $data->name }}</td>
-                                <td>{{ $data->date_start }}</td>
-                                <td>{{ $data->date_finish }}</td>
-                                <td>{{ $data->annoucement }}</td>
-                                <td>{{ $data->re_registration }}</td>
-                                <td class="mx-2">
-                                    <a href="{{ route('pmbs.edit', $data->id) }}"
-                                        class="btn btn-sm btn-primary rounded-circle" title="edit"><span><i
-                                                class="fas fa-edit"></i></span></a>
-                                    <a href="{{ route('pmbs.show', $data->id) }}"
-                                        class="btn btn-sm btn-info rounded-circle" data-target="#show-modal"
-                                        data-toogle="modal" title="show"><span><i class="far fa-eye"></i></span></a>
-                                    <form action="{{ route('pmbs.destroy', [$data->id]) }}" method="POST"
-                                        class="d-inline ">
-                                        @csrf
-                                        @method('DELETE')
-                                        <button type="submit" class=" btn btn-sm btn-danger text-white rounded-circle"
-                                            title="delete" onclick="deleteItems()" data-id="{{ $data->id }}"
-                                            data-name="{{ $data->name }}"><span class="fas fa-trash-alt"></button>
-                                    </form>
-                                </td>
-                            </tr>
-                            @empty
-
-                            @endforelse
-                        </tbody>
+                        <tfoot>
+                                <th>No</th>
+                                <th>Title</th>
+                                <th>Pendaftaran</th>
+                                <th>Penutupan</th>
+                                <th>Pengumuman</th>
+                                <th>Daftar Ulang</th>
+                                <th>Action</th>
+                        </tfoot>
                     </table>
                 </div>
             </div>
         </div>
     </div>
+    @include('admin.pmbs.modal')
     @include('layouts.pages-admin.footer')
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.all.min.js"></script>
-@push('script')
+@include('admin.ckeditor')
 <script>
     $(document).ready(function () {
         $('#table_pmbs').DataTable({
+            processing: true,
+            serverSide: true,
+            ajax: {
+                url: "{{  route('pmbs.index') }}",
+                type: 'GET'
+            },
             "scrollX": false,
             rowReorder: {
                 selector: 'th:nth-child(2)'
             },
-            responsive: true
+            responsive: true,
+            columns: [
+                {
+                
+                    data: 'DT_RowIndex',
+                
+                },
+                {
+                    data: 'date_start',
+                },
+                {
+                    data: 'date_finish',
+                },
+                {
+                    data: 'annoucement',
+                },
+                {
+                    data: 're_registration'
+                },  
+            ],
+        });
+
+        $('#adds-data').click(function() {
+            console.log('haai');
+            $('#create-modal').modal('show');
+            $('#modal-judul').text('Create Pmb');
+            $('#description').ckeditor({
+                height: 60,
+            });
         });
     });
 
-    function deleteItems(e) {
-        let name = e.getAttribute('data-name');
 
-        let id = e.getAttribute('data-id');
-
-        const swalWithBootstrapButtons = Swal.mixin({
-            customClass: {
-                confirmButton: 'btn btn-success',
-                cancelButton: 'btn btn-danger'
-            },
-            buttonsStyling: false
-        });
-
-        swalWithBootstrapButtons.fire({
-            title: 'Are you sure?',
-            text: "You won't be able to revert this!",
-            icon: 'warning',
-            showCancelButton: true,
-            confirmButtonText: 'Yes, delete it!',
-            cancelButtonText: 'No, cancel!',
-            reverseButtons: true
-        }).then((result) => {
-            if (result.value) {
-                if (result.isConfirmed) {
-
-                    $.ajax({
-                        type: 'DELETE',
-                        url: '{{url("/user/delete")}}/' + id,
-                        data: {
-                            "_token": "{{ csrf_token() }}",
-                        },
-                        success: function (data) {
-                            if (data.success) {
-                                swalWithBootstrapButtons.fire(
-                                    'Deleted!',
-                                    'Your file has been deleted.',
-                                    "success"
-                                );
-                                $("#" + id + "").remove();
-                            }
-
-                        }
-                    });
-
-                }
-
-            } else if (
-                result.dismiss === Swal.DismissReason.cancel
-            ) {
-                swalWithBootstrapButtons.fire(
-                    'Cancelled',
-                    'Your imaginary file is safe :)',
-                    'error'
-                );
-            }
-        });
-
-    };
 </script>
-@endpush
 @endsection

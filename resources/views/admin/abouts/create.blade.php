@@ -21,7 +21,9 @@
     <div class="card mb-4">
         <!-- Card header -->
         <div class="card-header">
-            <h3 class="mb-0">Add About Campus</h3>
+            <a class="btn-sm btn-primary text-white d-inline" href="{{ route('abouts.index') }}"><span> <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </span>back</a>
+            <h3 class="mb-0 d-inline">Add About Campus</h3>
         </div>
         <div class="card-body">
            
@@ -38,7 +40,6 @@
                     @enderror
                 </div>
                 <button type="submit" class="btn btn-md btn-primary text-white float-right">Save</button>
-                <a class="btn btn-md btn-danger float-left" href="{{ route('abouts.index') }}">Back</a>
             </form>
         </div>
     </div>
