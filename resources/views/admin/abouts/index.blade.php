@@ -16,7 +16,7 @@
                 </div>
                 <div class="col-lg-6 col-5 text-right">
                     <a href="{{ route('abouts.create') }}" class="btn btn-sm btn-neutral">Add</a>
-                    <a href="javascript:void(0)" class="btn btn-warning" id="tambah-data">Add </a>
+                    <!-- <a href="javascript:void(0)" class="btn btn-warning" id="tambah-data">Add </a> -->
                 </div>
             </div>
         </div>
@@ -50,15 +50,9 @@
                                     <a href="{{ route('abouts.edit', $data->id) }}"
                                         class="btn btn-sm btn-primary rounded-circle" title="edit"><span><i
                                                 class="fas fa-edit"></i></span></a>
-                                    <form action="{{ route('abouts.destroy', [$data->id]) }}" method="POST"
-                                        class="d-inline ">
-                                        @csrf
-                                        @method('DELETE')
-                                        <button type="submit" class=" btn btn-sm btn-danger text-white rounded-circle"
-                                            title="delete" onclick="return confirm('Apakah anda ingin menghapus item.?'); event.preventDefault();
-                                          document.getElementById('delete-item').submit();"><span
-                                                class="fas fa-trash-alt"></button>
-                                    </form>
+                                    @method('DELETE')
+                                    <button class="btn btn-sm btn-danger text-white rounded-circle delete"
+                                        title="delete" data-id="{{$data->id}}"><i class="fa fa-trash"></i></button>
                                 </td>
                             </tr>
                             @empty
@@ -88,5 +82,45 @@
             console.log('ajsh');
             $('#create-modal').modal('show');
         });
+</script>
+<script type="text/javascript">
+    $('.delete').click( function(){
+        var id = $(this).attr('data-id');
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+                confirmButton: 'btn btn-success',
+                cancelButton: 'btn btn-danger'
+            },
+            buttonsStyling: false
+            });
+
+            swalWithBootstrapButtons.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Yes, delete it!',
+            cancelButtonText: 'No, cancel!',
+            reverseButtons: true
+            }).then((result) => {
+            if (result.isConfirmed) {
+                window.location = "{{url('about',)}}/"+id
+                swalWithBootstrapButtons.fire(
+                'Deleted!',
+                'Your file has been deleted.',
+                'success'
+                )
+            } else if (
+                /* Read more about handling dismissals below */
+                result.dismiss === Swal.DismissReason.cancel
+            ) {
+                swalWithBootstrapButtons.fire(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+                )
+            }
+        });
+    });
 </script>
 @endsection

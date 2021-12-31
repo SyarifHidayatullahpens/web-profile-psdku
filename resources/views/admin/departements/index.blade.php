@@ -55,9 +55,8 @@
                                         class="d-inline ">
                                         @csrf
                                         @method('DELETE')
-                                        <button type="submit" class=" btn btn-sm btn-danger text-white rounded-circle"
-                                            title="delete" onclick="return confirm('Apakah anda ingin menghapus item.?'); event.preventDefault();
-                                            document.getElementById('delete-item').submit();"><span
+                                        <button type="submit" class=" btn btn-sm btn-danger text-white rounded-circle delete" data-id="$data->id"
+                                            title="delete"><span
                                                 class="fas fa-trash-alt"></button>
                                     </form>
                                 </td>
@@ -82,6 +81,44 @@
                 selector: 'td:nth-child(2)'
             },
             responsive: true
+        });
+    });
+    $('.delete').click( function(){
+        var id = $(this).attr('data-id');
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+                confirmButton: 'btn btn-success',
+                cancelButton: 'btn btn-danger'
+            },
+            buttonsStyling: false
+            });
+
+            swalWithBootstrapButtons.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Yes, delete it!',
+            cancelButtonText: 'No, cancel!',
+            reverseButtons: true
+            }).then((result) => {
+            if (result.isConfirmed) {
+                window.location = "{{url('departement',)}}/"+id
+                swalWithBootstrapButtons.fire(
+                'Deleted!',
+                'Your file has been deleted.',
+                'success'
+                )
+            } else if (
+                /* Read more about handling dismissals below */
+                result.dismiss === Swal.DismissReason.cancel
+            ) {
+                swalWithBootstrapButtons.fire(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+                )
+            }
         });
     });
 </script>

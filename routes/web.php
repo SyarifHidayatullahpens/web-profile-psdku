@@ -45,6 +45,9 @@ Route::middleware(['auth'])->group(function () {
         Route::get('/admin', function () {
             return view('admin.home.index');
         });
+        Route::get('/about/{id}', [App\Http\Controllers\AboutController::class, 'destroy']);
+        Route::get('/departement/{id}', [App\Http\Controllers\DepartementController::class, 'destroy']);
+        Route::get('/new/{id}', [App\Http\Controllers\NewsController::class, 'destroy']);
 
         Route::resource('abouts',   AboutController::class);
         Route::resource('news',   NewsController::class);

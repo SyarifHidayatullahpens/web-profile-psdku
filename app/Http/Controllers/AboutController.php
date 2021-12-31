@@ -10,7 +10,7 @@ use Validator;
 use DataTables;
 use App\Http\Requests\StoreAboutRequest;
 use App\Http\Requests\UpdateAboutRequest;
-
+use DB;
 
 class AboutController extends Controller
 {
@@ -53,9 +53,9 @@ class AboutController extends Controller
         return redirect()->route('abouts.index')->with('success', 'Data Was Updated ');
     }
 
-    public function destroy(About $about)
+    public function destroy($id)
     {
-       $about->delete();  
-       return back()->with('success','Deleted Successfully');
+        DB::table('abouts')->where(['id'=>$id])->delete();
+       return back();
     }
 }

@@ -47,26 +47,21 @@
                     <th scrope="row">{{ $loop->iteration }}</th>
                     <td>{{ $data->name }}</td>
                     <td>
-                      <img src="{{ Storage::url('storage/images/') .$data->image }} " class="rounded-circle" style="width: 60px; height:60px;">
+                      <img src="images/<?= $data->image ?>" style="width: 60px; height:60px;">
                     </td>
                     <td>{{ $data->date }}</td>
                     <td class="mx-2">
-                      <a href="{{ route('majors.edit', $data->id) }}"
+                      <a href="{{ route('news.edit', $data->id) }}"
                         class="btn btn-sm btn-primary rounded-circle" title="edit"><span><i
                           class="fas fa-edit"></i></span></a>
-                          <a href="{{ route('majors.show', $data->id) }}"
-                            class="btn btn-sm btn-info rounded-circle" data-target="#show-modal"
-                            data-toogle="modal" title="show"><span><i class="far fa-eye"></i></span></a>
-                            <form action="{{ route('majors.destroy', [$data->id]) }}" method="POST"
-                              class="d-inline ">
-                              @csrf
-                              @method('DELETE')
-                              <button type="submit" class=" btn btn-sm btn-danger text-white rounded-circle"
-                              title="delete" onclick="return confirm('Apakah anda ingin menghapus item.?'); event.preventDefault();
-                              document.getElementById('delete-item').submit();"><span
-                                  class="fas fa-trash-alt"></button>
-                                </form>
-                              </td>
+                      <a href="{{ route('majors.show', $data->id) }}"
+                        class="btn btn-sm btn-info rounded-circle" data-target="#show-modal"
+                        data-toogle="modal" title="show"><span><i class="far fa-eye"></i></span></a>
+                          @method('DELETE')
+                          <button type="submit" class=" btn btn-sm btn-danger text-white rounded-circle delete" data-id="{{$data->id}}"
+                          title="delete"><span
+                              class="fas fa-trash-alt"></button>
+                      </td>
                   </tr>
                 @endforeach
               </tbody>
@@ -85,6 +80,44 @@
             selector: 'td:nth-child(2)'
           },
           responsive: true
+        });
+    });
+    $('.delete').click( function(){
+        var id = $(this).attr('data-id');
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+                confirmButton: 'btn btn-success',
+                cancelButton: 'btn btn-danger'
+            },
+            buttonsStyling: false
+            });
+
+            swalWithBootstrapButtons.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Yes, delete it!',
+            cancelButtonText: 'No, cancel!',
+            reverseButtons: true
+            }).then((result) => {
+            if (result.isConfirmed) {
+                window.location = "{{url('new',)}}/"+id
+                swalWithBootstrapButtons.fire(
+                'Deleted!',
+                'Your file has been deleted.',
+                'success'
+                )
+            } else if (
+                /* Read more about handling dismissals below */
+                result.dismiss === Swal.DismissReason.cancel
+            ) {
+                swalWithBootstrapButtons.fire(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+                )
+            }
         });
     });
 </script>

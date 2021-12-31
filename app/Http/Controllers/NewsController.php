@@ -30,11 +30,10 @@ class NewsController extends Controller
 
             $image_name = str_split(md5($image), 20);
             $ext = $image->getClientOriginalExtension();
-            $image->storeAs('public/images', $image_name[0].".".$ext);
+            $image->move("images", $image_name[0].".".$ext);
 
             News::create([
                 'name'              => $request->name,
-                'date'              => $request->date,
                 'image'              => $image_name[0].".".$ext,
                 'description'       => $request->description,
             ]);
@@ -48,7 +47,7 @@ class NewsController extends Controller
 
     public function edit(News $news)
     {
-       return view('admin.news.edit',['task' => $task]);
+       return view('admin.news.edit',['news' => $news]);
     }
 
     public function update(UpdateNewsRequest $request, $id)
@@ -65,13 +64,13 @@ class NewsController extends Controller
                 'description'          => $request->description,
             ]);
         } else {
-            Storage::disk('local')->delete('public/images/'.$news->image);
+            Storage::disk("local")->delete("images".$news->image);
     
             //upload new image
             $image = $request->file('image');
             $image_name = str_split(md5($image),20);
             $ext = $image->getClientOriginalExtension();
-            $image->storeAs('public/images', $image_name[0].".".$ext);
+            $image->move("images", $image_name[0].".".$ext);
 
             $news->update([
                 'name'                  => $request->name,
@@ -90,6 +89,6 @@ class NewsController extends Controller
         Storage::disk('local')->delete('public/images/' .$news->image);
         $news->delete();
 
-        return back()->with('success', 'Delete Data Success');
+        return back();
     }
 }

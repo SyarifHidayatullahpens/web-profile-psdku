@@ -35,7 +35,7 @@
             <h3 class="mb-0">Edit News</h3>
         </div>
         <div class="card-body">
-            <form  enctype="multipart/form-data">
+            <form action="{{route('news.update', $news->id)}}" method="post" enctype="multipart/form-data">
                 @method('PUT')
                 @csrf
                 <div class="row">
@@ -92,7 +92,7 @@
                 </div>
                 <div class="float-right mt-4">
                     <a class="btn btn-md btn-danger" href="{{ route('news.index') }}">Back</a>
-                    <a type="submit" class="btn btn-md btn-primary text-white">Save</a>
+                    <input type="submit" class="btn btn-md btn-primary text-white" value="Save">
                 </div>
         </div>
         </form>

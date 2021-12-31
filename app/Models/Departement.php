@@ -12,6 +12,6 @@ class Departement extends Model
     protected $fillable = ['major_id','name', 'image'];
 
     public function major() {
-        return this->belongsTo(Major::class, 'major_id', 'id');
+        return $this->belongsTo(Major::class, 'major_id', 'id');
     }
 }
