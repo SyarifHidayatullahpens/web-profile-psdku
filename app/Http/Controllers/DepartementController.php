@@ -45,7 +45,10 @@ class DepartementController extends Controller
 
     public function destroy($id)
     {
-       
+        $department = Major::findOrFail($id);
+        $department->delete();
+
+        return back();
     }
 
     public function getMajor(Request $request){
