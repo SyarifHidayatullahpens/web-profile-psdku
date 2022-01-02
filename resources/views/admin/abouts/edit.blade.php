@@ -1,4 +1,5 @@
 @extends('../layouts.pages-admin.main-content')
+@section('pageName', 'Abouts')
 
 @section('content')
 <div class="header bg-primary pb-6">

@@ -1,4 +1,5 @@
 @extends('../layouts.pages-admin.main-content')
+@section('pageName', 'Pmb')
 
 @section('content')
 <div class="header bg-primary pb-6">
@@ -79,7 +80,6 @@
             </div>
         </div>
     </div>
-    @include('admin.pmbs.modal')
     @include('layouts.pages-admin.footer')
 </div>
 

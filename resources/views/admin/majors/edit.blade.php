@@ -1,4 +1,5 @@
 @extends('../layouts.pages-admin.main-content')
+@section('pageName', 'Diploma')
 
 @section('content')
 

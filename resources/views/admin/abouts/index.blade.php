@@ -1,5 +1,5 @@
 @extends('../layouts.pages-admin.main-content')
-
+@section('pageName','Abouts')
 @section('content')
 <head>
     <style>
@@ -70,7 +70,6 @@
             </div>
         </div>
     </div>
-    @include('admin.abouts.modal')
 </div>
 @include('layouts.pages-admin.footer')
 

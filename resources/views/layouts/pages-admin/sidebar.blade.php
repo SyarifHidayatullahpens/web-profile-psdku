@@ -28,31 +28,31 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('abouts.index') }}"  role="button"  aria-controls="navbar-about">
+              <a class="nav-link" href="{{ url('admin/abouts') }}"  role="button"  aria-controls="navbar-about">
                 <i class="fas fa-question text-danger"></i>
                 <span class="nav-link-text">About Campus</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('news.index') }}"  role="button"  aria-controls="navbar-news">
+              <a class="nav-link" href="{{ url('admin/news') }}"  role="button"  aria-controls="navbar-news">
                 <i class="far fa-newspaper text-warning"></i>
                 <span class="nav-link-text">News</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('pmbs.index') }}"  role="button"  aria-controls="navbar-pmb">
+              <a class="nav-link" href="{{ url('admin/pmbs') }}"  role="button"  aria-controls="navbar-pmb">
                 <i class="fas fa-arrow-alt-circle-up text-black"></i>
                 <span class="nav-link-text">PMB</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('departements.index') }}"  role="button"  aria-controls="navbar-departement">
+              <a class="nav-link" href="{{ url('admin/departements') }}"  role="button"  aria-controls="navbar-departement">
                 <i class="text-default fas fa-building"></i>
                 <span class="nav-link-text">Departement</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('majors.index') }}"  role="button"  aria-controls="navbar-diploma">
+              <a class="nav-link" href="{{ url('admin/majors') }}"  role="button"  aria-controls="navbar-diploma">
                 <i class="text-success fas fa-building"></i>
                 <span class="nav-link-text">Diploma</span>
               </a>
