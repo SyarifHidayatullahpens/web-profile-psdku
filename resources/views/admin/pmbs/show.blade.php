@@ -6,7 +6,7 @@
         <div class="header-body">
             <div class="row align-items-center py-4">
                 <div class="col-lg-6 col-7">
-                    <h6 class="h2 text-white d-inline-block mb-0">Admin Dashboard</h6>
+                    <a href="/admin"><h6 class="h2 text-white d-inline-block mb-0">Admin Dashboard</h6></a>
                     <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
                         <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
                             <li class="breadcrumb-item"><a href="/dasboards"><i class="fas fa-home"></i></a></li>
@@ -25,7 +25,9 @@
             <div class="card">
                 <!-- Card header -->
                 <div class="card-header">
-                    <h3 class="mb-0">{{ $pmb->name }} , {{ $pmb->date }}</h3>
+                    <a class="btn-sm btn-primary text-white d-inline" href="{{ route('pmbs.index') }}"><span> <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                    </span>back</a>
+                    <h3 class="mb-0 d-inline">{{ $pmb->name }}</h3>
                 </div>
                 <div class="table-responsive py-4">
                     <div class="col description">

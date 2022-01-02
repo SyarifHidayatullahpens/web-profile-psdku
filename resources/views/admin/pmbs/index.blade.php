@@ -6,7 +6,7 @@
         <div class="header-body">
             <div class="row align-items-center py-4">
                 <div class="col-lg-6 col-7">
-                    <h6 class="h2 text-white d-inline-block mb-0">Admin Dashboard</h6>
+                    <a href="/admin"><h6 class="h2 text-white d-inline-block mb-0">Admin Dashboard</h6></a>
                     <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
                         <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
                             <li class="breadcrumb-item"><a href="/admin"><i class="fas fa-home"></i></a></li>
@@ -15,8 +15,7 @@
                     </nav>
                 </div>
                 <div class="col-lg-6 col-5 text-right">
-                    <a href="{{ route('pmbs.create') }}" class="btn btn-sm btn-neutral" id="tambah-data">Add PMB</a>
-                    <a href="javascript:void(0)" class="btn btn-warning" id="adds-data">Add </a>
+                    <a href="{{ route('pmbs.create') }}" class="btn btn-sm btn-neutral" id="tambah-data">Add pmb</a>
                 </div>
             </div>
         </div>
@@ -44,15 +43,37 @@
                                 <th>Action</th>
                             </tr>
                         </thead>
-                        <tfoot>
-                                <th>No</th>
-                                <th>Title</th>
-                                <th>Pendaftaran</th>
-                                <th>Penutupan</th>
-                                <th>Pengumuman</th>
-                                <th>Daftar Ulang</th>
-                                <th>Action</th>
-                        </tfoot>
+                        <tbody>
+                            @forelse ($pmb as $data)
+                            <tr>
+                                <th scope="row">{{ $loop->iteration }}</th>
+                                <td>{{ $data->name }}</td>
+                                <td>{{ $data->date_start }}</td>
+                                <td>{{ $data->date_finish }}</td>
+                                <td>{{ $data->annoucement }}</td>
+                                <td>{{ $data->re_registration }}</td>
+                                <td class="mx-2">
+                                    <a href="{{ route('pmbs.edit', $data->id) }}"
+                                        class="btn btn-sm btn-primary rounded-circle" title="edit"><span><i
+                                                class="fas fa-edit"></i></span></a>
+                                    <a href="{{ route('pmbs.show', $data->id) }}"
+                                        class="btn btn-sm btn-info rounded-circle" data-target="#show-modal"
+                                        data-toogle="modal" title="show"><span><i class="far fa-eye"></i></span></a>
+                                    <form action="{{ route('pmbs.destroy', [$data->id]) }}" method="POST"
+                                        class="d-inline ">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="submit" class=" btn btn-sm btn-danger text-white rounded-circle"
+                                            title="delete" onclick="return confirm('Apakah anda ingin menghapus item.?'); event.preventDefault();
+                                            document.getElementById('delete-item').submit();"><span
+                                                class="fas fa-trash-alt"></button>
+                                    </form>
+                                </td>
+                            </tr>
+                            @empty
+
+                            @endforelse
+                        </tbody>
                     </table>
                 </div>
             </div>
@@ -66,48 +87,11 @@
 <script>
     $(document).ready(function () {
         $('#table_pmbs').DataTable({
-            processing: true,
-            serverSide: true,
-            ajax: {
-                url: "{{  route('pmbs.index') }}",
-                type: 'GET'
-            },
-            "scrollX": false,
             rowReorder: {
                 selector: 'th:nth-child(2)'
             },
-            responsive: true,
-            columns: [
-                {
-                
-                    data: 'DT_RowIndex',
-                
-                },
-                {
-                    data: 'date_start',
-                },
-                {
-                    data: 'date_finish',
-                },
-                {
-                    data: 'annoucement',
-                },
-                {
-                    data: 're_registration'
-                },  
-            ],
-        });
-
-        $('#adds-data').click(function() {
-            console.log('haai');
-            $('#create-modal').modal('show');
-            $('#modal-judul').text('Create Pmb');
-            $('#description').ckeditor({
-                height: 60,
-            });
+            responsive: true
         });
     });
-
-
 </script>
 @endsection
