@@ -25,6 +25,14 @@ Auth::routes();
 Route::get('/', function () {
     return view('user.index');
 });
+Route::prefix('departement')->group(function() {
+    Route::get('/ti', function () {
+        return view('user.departements.it');
+    });
+    Route::get('/mmb', function () {
+        return view('user.departements.mmb');
+    });
+});
 
 Route::prefix('news-galery')->group(function () {
     Route::get('/persetujuan', function() { 

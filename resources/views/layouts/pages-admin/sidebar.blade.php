@@ -2,7 +2,7 @@
     <div class="scrollbar-inner">
       <!-- Brand -->
       <div class="sidenav-header d-flex align-items-center">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand">
          <h1 class="text-primary text-uppercase" style="font-family: 'Roboto', sans-serif;">Pens Psdku</h1>
         </a>
         <div class="ml-auto">
