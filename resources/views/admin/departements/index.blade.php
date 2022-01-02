@@ -51,14 +51,10 @@
                                     <a href="#"
                                         class="btn btn-sm btn-info rounded-circle" data-target="#show-modal"
                                         data-toogle="modal" title="show"><span><i class="far fa-eye"></i></span></a>
-                                    <form action="#" method="POST"
-                                        class="d-inline ">
-                                        @csrf
                                         @method('DELETE')
-                                        <button type="submit" class=" btn btn-sm btn-danger text-white rounded-circle delete" data-id="$data->id"
+                                        <button type="submit" class=" btn btn-sm btn-danger text-white rounded-circle delete" data-id="{{$data->id}}"
                                             title="delete"><span
                                                 class="fas fa-trash-alt"></button>
-                                    </form>
                                 </td>
                             </tr>
                             @empty
@@ -121,6 +117,7 @@
             }
         });
     });
+
 </script>
 @endpush
 @endsection

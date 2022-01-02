@@ -53,7 +53,7 @@ Route::middleware(['auth'])->group(function () {
         Route::get('/admin',[AdminController::class, 'index']);
         Route::get('/about/{id}', [AboutController::class, 'destroy']);
         Route::get('/departement/{id}', [DepartementController::class, 'destroy']);
-        Route::get('/news/{id}', [NewsController::class, 'destroy']);
+        Route::get('/new/{id}', [NewsController::class, 'destroy']);
 
         Route::resource('abouts',   AboutController::class);
         Route::resource('news',   NewsController::class);
