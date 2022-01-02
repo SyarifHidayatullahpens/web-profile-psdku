@@ -1,7 +1,13 @@
 @extends('../layouts.pages-admin.main-content')
 
 @section('content')
-<style></style>
+<head>
+    <style>
+        * {
+            overflow: hidden;
+        }
+    </style>
+</head>
 <div class="header bg-primary pb-6">
     <div class="container-fluid">
         <div class="header-body">
@@ -16,8 +22,7 @@
                     </nav>
                 </div>
                 <div class="col-lg-6 col-5 text-right">
-                    <a href="{{ route('abouts.create') }}" class="btn btn-sm btn-neutral">Add</a>
-                    <!-- <a href="javascript:void(0)" class="btn btn-warning" id="tambah-data">Add </a> -->
+                    <a href="{{ route('abouts.create') }}" class="btn btn-sm btn-neutral">Add About</a>
                 </div>
             </div>
         </div>
@@ -66,8 +71,8 @@
         </div>
     </div>
     @include('admin.abouts.modal')
-    @include('layouts.pages-admin.footer')
 </div>
+@include('layouts.pages-admin.footer')
 
 <script>
     $(document).ready(function () {
