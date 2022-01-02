@@ -82,7 +82,7 @@ class NewsController extends Controller
             ]);
         }
         if($news) {
-            return response()->json(['success' => 'Form is successfully submitted!']);
+            return redirect()->route('news.index')->with('success', 'Data was Updated');
         }
     }
 
