@@ -28,7 +28,7 @@
         <div class="card">
           <!-- Card header -->
           <div class="card-header">
-          <h3 class="mb-0">About Data</h3>
+          <h3 class="mb-0">News Data</h3>
           </div>
           <div class="table-responsive py-4">
             <table class="table align-items-center table-flush" id="table_news" style="width: 100%">

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Major;
+use App\Models\Pmb;
 use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
@@ -33,4 +34,6 @@ class HomeController extends Controller
             return redirec()->to('logout');
         }
     }
+    
+    
 }

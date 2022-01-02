@@ -34,6 +34,7 @@ class NewsController extends Controller
 
             News::create([
                 'name'              => $request->name,
+                'date'              => $request->date,
                 'image'              => $image_name[0].".".$ext,
                 'description'       => $request->description,
             ]);
@@ -61,6 +62,8 @@ class NewsController extends Controller
 
             $news->update([
                 'name'           => $request->name,
+                'date'              => $request->date,
+                'image'              => $image_name[0].".".$ext,
                 'description'          => $request->description,
             ]);
         } else {

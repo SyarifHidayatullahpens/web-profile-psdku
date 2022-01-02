@@ -36,7 +36,9 @@
     <div class="card mb-4">
         <!-- Card header -->
         <div class="card-header">
-            <h3 class="mb-0">Add News</h3>
+            <a class="btn-sm btn-primary text-white d-inline" href="{{ route('news.index') }}"><span> <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </span>back</a>
+            <h3 class="mb-0 d-inline">Add News</h3>
         </div>
         <div class="card-body">
             <form method="POST" action="{{ route('news.store') }}" enctype="multipart/form-data">
@@ -92,7 +94,6 @@
                     </div>
                 </div>
                 <div class="float-right mt-4">
-                    <a class="btn btn-md btn-danger" href="{{ route('news.index') }}">Back</a>
                     <button type="submit" class="btn btn-md btn-primary text-white">Save</button>
                 </div>
         </div>

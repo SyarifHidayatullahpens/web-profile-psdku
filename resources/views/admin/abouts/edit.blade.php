@@ -5,10 +5,10 @@
     <div class="container-fluid">
         <div class="header-body">
             <div class="row align-items-center py-4">
+                <a href="/admin"><h6 class="h2 text-white d-inline-block mb-0">Admin Dashboard</h6></a>
                 <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
                     <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
-                        <li class="breadcrumb-item"><a href="{{ url('dashboards') }}"><i class="fas fa-home"></i></a>
-                        </li>
+                        <li class="breadcrumb-item"><a href="/admin"><i class="fas fa-home"></i></a></li>
                         <li class="breadcrumb-item"><a href="{{ route('news.index') }}">News</a></li>
                     </ol>
                 </nav>
@@ -21,17 +21,19 @@
     <div class="card mb-4">
         <!-- Card header -->
         <div class="card-header">
-            <h3 class="mb-0">Edit About Campus</h3>
+            <a class="btn-sm btn-primary text-white d-inline" href="{{ route('abouts.index') }}"><span> <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </span>back</a>
+            <h3 class="mb-0 d-inline">Edit About Campus</h3>
         </div>
         <div class="card-body">
            
-            <form action="{{ route('abouts.update', $major->id) }}" method="POST" id="create_pmbs" enctype="multipart/form-data">
+            <form action="{{ route('abouts.update', $about->id) }}" method="POST" id="create_pmbs" enctype="multipart/form-data">
                 @csrf
                 @method('PUT')
                 <div class="form-group">
                     <label class="form-control-label">Description</label>
                     <textarea class="form-control" name="description" rows="5"
-                        placeholder="Masukkan Konten Blog" id="description"></textarea>
+                        placeholder="Masukkan Konten Blog" id="description">{{ $about->description }}</textarea>
                     @error('description')
                     <span class="text-danger mb-2">
                         {{ $message }}
@@ -39,7 +41,6 @@
                     @enderror
                 </div>
                 <button type="submit" class="btn btn-md btn-primary text-white float-right">Save</button>
-                <a class="btn btn-md btn-danger float-left" href="{{ route('abouts.index') }}">Back</a>
             </form>
         </div>
     </div>
