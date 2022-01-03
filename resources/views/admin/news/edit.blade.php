@@ -1,6 +1,8 @@
 @extends('../layouts.pages-admin.main-content')
+@section('pageName', 'News')
 
 @section('content')
+
 <head>
     <style>
     #image-preview{
@@ -17,12 +19,15 @@
     <div class="container-fluid">
         <div class="header-body">
             <div class="row align-items-center py-4">
-                <a href="/admin"><h6 class="h2 text-white d-inline-block mb-0">Admin Dashboard</h6></a>
-                <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
-                    <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
+                <div class="col-lg-6 col-7">
+                    <a href="/admin"><h6 class="h2 text-white d-inline-block mb-0">Admin Dashboard</h6></a>
+                    <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
+                      <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
+                        <li class="breadcrumb-item"><a href="/admin"><i class="fas fa-home"></i></a></li>
                         <li class="breadcrumb-item"><a href="{{ route('news.index') }}">News</a></li>
-                    </ol>
-                </nav>
+                      </ol>
+                    </nav>
+                </div>
             </div>
         </div>
     </div>
@@ -35,14 +40,13 @@
         <div class="card-header">
             <a class="btn-sm btn-primary text-white d-inline" href="{{ route('news.index') }}"><span> <i class="fa fa-arrow-left" aria-hidden="true"></i>
             </span>back</a>
-            <h3 class="mb-0 d-inline">Edit News</h3>
+            <h3 class="mb-0 d-inline">Add News</h3>
         </div>
         <div class="card-body">
-            <form action="{{route('news.update', $news->id)}}" method="post" enctype="multipart/form-data">
-                @method('PUT')
+            <form method="POST" action="{{ route('news.store') }}" enctype="multipart/form-data">
                 @csrf
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <label class="form-control-label">Judul</label>
                         <input type="text" class="form-control @error('name') is-invalid @enderror" name="name"
                             value="{{ $news->name }}">
@@ -53,7 +57,8 @@
                         </span>
                         @enderror
                     </div>
-                    <div class="col-md-6">
+
+                    <div class="col-md-4">
                         <label class="form-control-label">Tanggal</label>
                         <input type="date" class="form-control" name="date" value="{{ $news->date }}">
                         @error('date')
@@ -62,29 +67,26 @@
                         </span>
                         @enderror
                     </div>
-                    <div class="form-group">
-                        <label class="form-control-label" for="exampleFormControlInput1">Gambar</label>
+
+                    <div class="col-md-4">
+                        <label class="form-control-label">Gambar</label>
                         <div class="input-group input-group-merge">
-                          <div class="input-group-prepend">
-                              <span class="input-group-text"><i class="fas fa-images"></i></span>
-                          </div>
-                            <input type="file" value="" name="image" class="form-control" id="image" placeholder="">    
-                        </div>
-                        <div class="row pt-2 ml-2">
-                        @if(is_null($news->image))
-                            <img src="{{ asset('img/image/imagePlaceholder.png') }}" style="height: 200px;">
-                        @else
-                            <img src="{{ asset('storage/images/' .$news->image)  }}" style="height: 200px;">
-                        @endif
-                        </div>
-                       <span class="text-danger" id="image-error"></span>
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fas fa-images text-primary"></i></span>
+                            </div>
+                            <input type="file" class="form-control" name="image" id="image" placeholder=""
+                                onchange="previewImage();"> {{ old('image') }}
+                        </div><br>
+                        <img id="image-preview" style="width: 150px;" alt="image preview" />
+
+                        <small class="text-danger" id="error_image"></small>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col description">
                         <label class="form-control-label">Description</label>
                         <textarea class="form-control @error('description') is-invalid @enderror" id="description" name="description"
-                            rows="5" placeholder="Masukkan Konten..">{{ old('description') }}</textarea>
+                            rows="5" placeholder="Masukkan Konten..">{{ ($news->description) }}</textarea>
     
                         @error('description')
                         <span class="text-danger">
@@ -101,24 +103,16 @@
     </div>
 </div>
 </div>
-
-<script src="https://cdn.ckeditor.com/ckeditor5/31.0.0/classic/ckeditor.js"></script>
-<script>
-    ClassicEditor
-        .create( document.querySelector( '#description' ) )
-        .catch( error => {
-            console.error( error );
-    } );
-</script>
+@include('admin.ckeditor')
 <script type="application/javascript">
     function previewImage() {
-                document.getElementById("image-preview").style.display = "block";
-                var oFReader = new FileReader();
-                oFReader.readAsDataURL(document.getElementById("image").files[0]);
-            
-                oFReader.onload = function(oFREvent) {
-                document.getElementById("image-preview").src = oFREvent.target.result;
-                };
+        document.getElementById("image-preview").style.display = "block";
+        var oFReader = new FileReader();
+        oFReader.readAsDataURL(document.getElementById("image").files[0]);
+    
+        oFReader.onload = function(oFREvent) {
+        document.getElementById("image-preview").src = oFREvent.target.result;
+        };
     };
 <script>
 @endsection

@@ -1,4 +1,5 @@
 @extends('layouts.landing-page.news')
+@section('pageTitle', 'News')
 @section('content')
 
 <head>
@@ -71,28 +72,22 @@
                 PENS Kampus Sumenep ini. </p>
         </div>
 
-        <div class="card mt-2" style="width: auto; margin: 0 auto; border-style: none">
-            <div class="card-body">
+        <div class="card mt-2" style="width: auto;  border-style: none">
+            <div class="card-body" style="margin: 0 auto;">
                 <div class="card-title">
-                    <h5 class="text-center text-uppercase">Berita</h5>
+                    <h5 class="text-center text-uppercase" style="font-size: 22px">Berita</h5>
                 </div>
                 <div class="d-flex" style="gap: 10px;">
                     <div class="card" style="width: 200px;">
-                        <img class="card-img-top" src="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" alt="Card image cap">
+                        <img class="card-img-top" src="{{  asset('Bizland/assets/img/portfolio/pengmas1.jpeg')}}">
                         <div class="card-body">
                           <p class="card-text" style="font-size: 16px">PENERAPAN APLIKASI PELAYANAN DESA BERBASIS MOBILE</p>
                         </div>
                       </div>
                       <div class="card" style="width: 200px;">
-                        <img class="card-img-top" src="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" alt="Card image cap">
+                        <img class="card-img-top" src="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}">
                         <div class="card-body">
-                          <p class="card-text" style="font-size: 16px">PENERAPAN APLIKASI PELAYANAN DESA BERBASIS MOBILE</p>
-                        </div>
-                      </div>
-                      <div class="card" style="width: 200px;">
-                        <img class="card-img-top" src="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" alt="Card image cap">
-                        <div class="card-body">
-                          <p class="card-text" style="font-size: 16px">PENERAPAN APLIKASI PELAYANAN DESA BERBASIS MOBILE</p>
+                          <p class="card-text" style="font-size: 16px">PENS KAMPUS SUMENEP LUNCURKAN ASIAPP SEBAGAI SOLUSI SANTRI</p>
                         </div>
                       </div>
                 </div>

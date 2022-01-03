@@ -39,15 +39,45 @@
             font-family: 'Roboto', sans-serif;
             font-size: 16px;
         }
-        #read-more:hover {
-            color:
-        }
     </style>
 </head>
 
 
 <main id="main">
-
+    <section id="featured-services" class="featured-services">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100" style="height: 200px; width: 230px;">
+                  <div class="icon">
+                      <div class="icon d-flex justify-content-center"><i class="bx bxs-building"></i></div>
+                   </div>
+                    <div class="title text-center"><a href="#diploma-ti">Diploma</a></div>
+                    <p class="description text-center" style="font-size: 16px">Teknik Informatika</p>
+              </div>
+            </div>
+  
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="200" style="height: 200px; width: 230px">
+                <div class="icon d-flex justify-content-center"><i class="bx bx-building"></i></div>
+                <h4 class="title text-center"><a href="#diploma-mmb">Diploma</a></h4>
+                <p class="description text-center" style="font-size: 16px">Multimedia Broadcasting</p>
+              </div>
+            </div>
+  
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="300" style="height: 200px; width: 230px">
+                <div class="icon d-flex justify-content-center"><i class="bx bx-news"></i></div>
+                <h4 class="title text-center"><a href="#berita">Berita</a></h4>
+                <p class="description text-center" style="font-size: 16px">PSDKU SUMENEP</p>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Featured Services Section -->
     <!-- ======= About Section ======= -->
     <section id="about" class="about section-bg">
         <div class="container" data-aos="fade-up">
@@ -105,8 +135,7 @@
                                         Nama itulah yang kemudian tetap bertahan hingga kini.
                                         PENS sendiri memiliki dua departemen yang berada di luar kampus utama yaitu di Sumenep dan
                                         Lamongan.</span></p>
-                                <a class="btn btn-md btn-primary text-white" id="myBtn" onclick="myFunction()">Read
-                                    More</a>
+                                <p class="text-primary text-end" style="cursor: pointer;" id="myBtn"  onclick="myFunction()"><b>Read more</b></p>  
                             </div>
                         </li>
                     </ul>
@@ -133,7 +162,7 @@
                    Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3
                    Teknik Informatika,
                    D4 Teknik Informatika, D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer.
-                   <br class="mt-2">Dengan tujuan menjadi pusat
+                   <br>Dengan tujuan menjadi pusat
                    unggulan pendidikan teknologi rekayasa dibidang emerging technology yang terkait bidang
                    Teknologi Informasi dan Komputer
                    untuk menghasilkan lulusan yang siap bersaing dipasar global, Departemen Teknik Informatika
@@ -180,114 +209,6 @@
             </div>
         </div>
     </section>
-
-    <!-- ======= Departement TI ======= -->
-    <section id="departement-ti" class="portfolio-details">
-        <div class="container">
-            <div class="section-title">
-                <h3>DEPARTEMENT <span>TEKNIK INFORMATIKA</span></h3>
-            </div>
-            <div class="row gy-4">
-
-                <div class="col-lg-6">
-                    <div class="portfolio-details-slider swiper">
-                        <div class="swiper-wrapper align-items-center">
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/f.jpeg') }}" style="height: 301.297px;">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/b.jpg') }}" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/ss.jpeg') }}" style="height: 301.297px;">
-                            </div>
-
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="portfolio-description" style="margin-top: -35px">
-                        <p class="description">
-                            Pada saat ini kebutuhan akan teknologi informasi memegang peranan yang sangat penting dan
-                            dimasa yang akan datang akan menjadi tulang punggung pertumbuhan ekonomi bangsa. Karena itu,
-                            Politeknik Elektronika Negeri Surabaya mendirikan Departemen Teknik Informatika dan Komputer
-                            yang
-                            terdiri dari empat program studi, yaitu D3 Teknik Informatika, D4 Teknik Informatika, D4
-                            Teknik Komputer,
-                            serta S2 Terapan Teknik Informatika dan Komputer. <br>Dengan tujuan menjadi pusat unggulan
-                            pendidikan teknologi
-                            rekayasa dibidang emerging technology yang terkait bidang Teknologi Informasi dan Komputer
-                            untuk menghasilkan
-                            lulusan yang siap bersaing dipasar global, Departemen Teknik Informatika dan Komputer telah
-                            banyak menghasilkan
-                            lulusan yang berkualifikasi unggul dan bekerja sebagai Programmer, Software Engineer,
-                            Hardware Designer, Network
-                            Administrator, Computer System Analyst, Manager/Supervisor, Services/Technical Support,
-                            Marketing/Sales, dan lain-lain.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <!-- ======= Departements MMB ======= -->
-    <section id="departement-mmb" class="portfolio-details">
-        <div class="container">
-            <div class="section-title">
-                <h3>DEPARTEMENT <span>MULTIMEDIA KREATIF</span></h3>
-            </div>
-            <div class="row gy-4">
-
-                <div class="col-lg-6">
-                    <div class="portfolio-details-slider swiper">
-                        <div class="swiper-wrapper align-items-center">
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/a1.jpg') }}" alt="">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="{{ asset('Bizland/assets/img/portfolio/s.jpg') }}" alt="">
-                            </div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="portfolio-description">
-                    <p class="description" style="margin-top: -35px;text-align:justify">
-                            Departemen Teknologi Multimedia Kreatif (DTMK) Politeknik Elektronika Negeri Surabaya (PENS)
-                            diresmikan pada tahun 2012. Departemen ini menaungi dua Program Studi (Prodi) yakni D3
-                            Multimedia Broadcasting (MMB)
-                            dan D4 Game Technology (GT). Kedua Prodi ini, bergerak dalam bidang film, video, musik,
-                            photography, televisi, radio,
-                            dan game.<br> Dengan bertujuan untuk menjadi pusat unggulan pendidikan teknologi multimedia
-                            dalam mengembangkan industri
-                            kreatif. Untuk mencapai hal tersebut, Departemen ini menghasilkan insan-insan kreatif dengan
-                            kemampuan penguasaans
-                            teknologi multimedia, serta berperan aktif dalam pengembangan industri kreatif di bidang
-                            multimedia. DTMK turut berperan
-                            dalam penguatan sumber daya manusia, dimana didalamnya bertugas untuk melakukan perbaikan
-                            beban mengajar sesuai standar,
-                            serta meningkatkan penelitian dan pengabdian pada masyarakat. Tidak hanya itu tetapi juga
-                            sebagai sarana dan prasarana
-                            untuk mahasiswa.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
   
     <section id="berita" class="portfolio">
         <div class="container" data-aos="fade-up">
@@ -327,7 +248,6 @@
                 </a>
               </div>
             </div>
-
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
               <img src="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">
