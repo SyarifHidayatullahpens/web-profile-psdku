@@ -39,9 +39,6 @@
             font-family: 'Roboto', sans-serif;
             font-size: 16px;
         }
-        #read-more:hover {
-            color:
-        }
     </style>
 </head>
 
@@ -56,15 +53,15 @@
                   <div class="icon">
                       <div class="icon d-flex justify-content-center"><i class="bx bxs-building"></i></div>
                    </div>
-                    <div class="title text-center"><a href="">Diploma</a></div>
-                    <p class="title text-center" style="font-size: 16px">Teknik Informatika</p>
+                    <div class="title text-center"><a href="#diploma-ti">Diploma</a></div>
+                    <p class="description text-center" style="font-size: 16px">Teknik Informatika</p>
               </div>
             </div>
   
             <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
               <div class="icon-box" data-aos="fade-up" data-aos-delay="200" style="height: 200px; width: 230px">
                 <div class="icon d-flex justify-content-center"><i class="bx bx-building"></i></div>
-                <h4 class="title text-center"><a href="">Diploma</a></h4>
+                <h4 class="title text-center"><a href="#diploma-mmb">Diploma</a></h4>
                 <p class="description text-center" style="font-size: 16px">Multimedia Broadcasting</p>
               </div>
             </div>
@@ -72,7 +69,7 @@
             <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
               <div class="icon-box" data-aos="fade-up" data-aos-delay="300" style="height: 200px; width: 230px">
                 <div class="icon d-flex justify-content-center"><i class="bx bx-news"></i></div>
-                <h4 class="title text-center"><a href="">Berita</a></h4>
+                <h4 class="title text-center"><a href="#berita">Berita</a></h4>
                 <p class="description text-center" style="font-size: 16px">PSDKU SUMENEP</p>
               </div>
             </div>
@@ -138,8 +135,7 @@
                                         Nama itulah yang kemudian tetap bertahan hingga kini.
                                         PENS sendiri memiliki dua departemen yang berada di luar kampus utama yaitu di Sumenep dan
                                         Lamongan.</span></p>
-                                <a class="btn btn-md btn-primary text-white" id="myBtn" onclick="myFunction()">Read
-                                    More</a>
+                                <p class="text-primary text-end" style="cursor: pointer;" id="myBtn"  onclick="myFunction()"><b>Read more</b></p>  
                             </div>
                         </li>
                     </ul>
@@ -166,7 +162,7 @@
                    Departemen Teknik Informatika dan Komputer yang terdiri dari empat program studi, yaitu D3
                    Teknik Informatika,
                    D4 Teknik Informatika, D4 Teknik Komputer, serta S2 Terapan Teknik Informatika dan Komputer.
-                   <br class="mt-2">Dengan tujuan menjadi pusat
+                   <br>Dengan tujuan menjadi pusat
                    unggulan pendidikan teknologi rekayasa dibidang emerging technology yang terkait bidang
                    Teknologi Informasi dan Komputer
                    untuk menghasilkan lulusan yang siap bersaing dipasar global, Departemen Teknik Informatika
@@ -252,7 +248,6 @@
                 </a>
               </div>
             </div>
-
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
               <img src="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" class="img-fluid" alt="">
               <div class="portfolio-info">

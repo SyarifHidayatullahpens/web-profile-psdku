@@ -5,11 +5,11 @@ function myFunction() {
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";
-        btnText.innerHTML = "Read more";
+        btnText.innerHTML = "<b>Read more</b>";
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.innerHTML = "<b>Read less</b>";
         moreText.style.display = "inline";
     }
 }
@@ -21,11 +21,11 @@ function infoSnmpn() {
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";
-        btnText.innerHTML = "Read more";
+        btnText.innerHTML = "<b>Read more</b>";
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.innerHTML = "<b>Read less</b>";
         moreText.style.display = "inline";
     }
 }
@@ -38,11 +38,11 @@ function moreSbmpn() {
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";
-        btnText.innerHTML = "Read more";
+        btnText.innerHTML = "<b>Read more</b>";
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.innerHTML = "<b>Read less</b>";
         moreText.style.display = "inline";
     }
 }
@@ -55,11 +55,11 @@ function moreSimandiri() {
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";
-        btnText.innerHTML = "Read more";
+        btnText.innerHTML = "<b>Read more</b>";
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.innerHTML = "<b>Read less</b>";
         moreText.style.display = "inline";
     }
 }

@@ -34,6 +34,18 @@ Route::prefix('departement')->group(function() {
     });
 });
 
+Route::prefix('pmb')->group(function() {
+    Route::get('/sbmpn', function () {
+        return view('user.pmb.sbmpn');
+    });
+    Route::get('/snpmn', function () {
+        return view('user.pmb.snmpn');
+    });
+    Route::get('/mmb', function () {
+        return view('user.pmb.simandiri');
+    });
+});
+
 Route::prefix('news-galery')->group(function () {
     Route::get('/persetujuan', function() { 
         return view('admin.news-galery.persetujuan');

@@ -9,7 +9,7 @@
         </a>
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                <li><a class="nav-link scrollto active" href="/">Home</a></li>
                 <li class="dropdown"><a href="#hero"><span>Departements</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="{{ url('/departement/ti') }}">Teknik Informatika</a></li>
@@ -18,8 +18,8 @@
                 </li>
                 <li class="dropdown"><a href="#hero"><span>PMB</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a href="#snmpn">SNMPN</a></li>
-                        <li><a href="#sbmpn">SBMPN</a></li>
+                        <li><a href="#">SNMPN</a></li>
+                        <li><a href="{{ url('pmb/sbmpn') }}">SBMPN</a></li>
                         <li><a href="#simandiri">SIMANDIRI</a></li>
                     </ul>
                 </li>
