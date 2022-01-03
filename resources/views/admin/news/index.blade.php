@@ -54,7 +54,7 @@
                       <a href="{{ route('news.edit', $data->id) }}"
                         class="btn btn-sm btn-primary rounded-circle" title="edit"><span><i
                           class="fas fa-edit"></i></span></a>
-                      <a href="{{ route('majors.show', $data->id) }}"
+                      <a href="{{ route('news.show', $data->id) }}"
                         class="btn btn-sm btn-info rounded-circle" data-target="#show-modal"
                         data-toogle="modal" title="show"><span><i class="far fa-eye"></i></span></a>
                           @method('DELETE')

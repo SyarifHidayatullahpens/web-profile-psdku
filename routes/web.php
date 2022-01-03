@@ -46,6 +46,7 @@ Route::middleware(['auth'])->group(function () {
         Route::get('/about/{id}', [AboutController::class, 'destroy']);
         Route::get('/departement/{id}', [DepartementController::class, 'destroy']);
         Route::get('/new/{id}', [NewsController::class, 'destroy']);
+        Route::get('/pmb/{id}', [PmbController::class, 'destroy']);
 
         Route::resource('abouts',   AboutController::class);
         Route::resource('news',   NewsController::class);

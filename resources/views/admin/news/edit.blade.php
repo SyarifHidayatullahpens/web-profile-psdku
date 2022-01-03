@@ -45,7 +45,7 @@
                     <div class="col-md-6">
                         <label class="form-control-label">Judul</label>
                         <input type="text" class="form-control @error('name') is-invalid @enderror" name="name"
-                            value="{{ old('name') }}">
+                            value="{{ $news->name }}">
 
                         @error('name')
                         <span class="text-danger">
@@ -55,7 +55,7 @@
                     </div>
                     <div class="col-md-6">
                         <label class="form-control-label">Tanggal</label>
-                        <input type="date" class="form-control" name="date">
+                        <input type="date" class="form-control" name="date" value="{{ $news->date }}">
                         @error('date')
                         <span class="text-danger mb-2">
                             {{ $message }}

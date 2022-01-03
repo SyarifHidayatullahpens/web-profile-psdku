@@ -59,15 +59,10 @@
                                     <a href="{{ route('pmbs.show', $data->id) }}"
                                         class="btn btn-sm btn-info rounded-circle" data-target="#show-modal"
                                         data-toogle="modal" title="show"><span><i class="far fa-eye"></i></span></a>
-                                    <form action="{{ route('pmbs.destroy', [$data->id]) }}" method="POST"
-                                        class="d-inline ">
-                                        @csrf
                                         @method('DELETE')
-                                        <button type="submit" class=" btn btn-sm btn-danger text-white rounded-circle"
-                                            title="delete" onclick="return confirm('Apakah anda ingin menghapus item.?'); event.preventDefault();
-                                            document.getElementById('delete-item').submit();"><span
+                                        <button type="submit" class=" btn btn-sm btn-danger text-white rounded-circle delete" data-id="{{$data->id}}"
+                                            title="delete"><span
                                                 class="fas fa-trash-alt"></button>
-                                    </form>
                                 </td>
                             </tr>
                             @empty
@@ -91,6 +86,52 @@
                 selector: 'th:nth-child(2)'
             },
             responsive: true
+        });
+    });
+    $(document).ready(function () {
+        $('#table_news').DataTable({
+          rowReorder: {
+            selector: 'td:nth-child(2)'
+          },
+          responsive: true
+        });
+    });
+    $('.delete').click( function(){
+        var id = $(this).attr('data-id');
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+                confirmButton: 'btn btn-success',
+                cancelButton: 'btn btn-danger'
+            },
+            buttonsStyling: false
+            });
+
+            swalWithBootstrapButtons.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'error',
+            showCancelButton: true,
+            confirmButtonText: 'Yes, delete it!',
+            cancelButtonText: 'No, cancel!',
+            reverseButtons: true
+            }).then((result) => {
+            if (result.isConfirmed) {
+                window.location = "{{url('pmb',)}}/"+id
+                swalWithBootstrapButtons.fire(
+                'Deleted!',
+                'Your file has been deleted.',
+                'success'
+                )
+            } else if (
+                /* Read more about handling dismissals below */
+                result.dismiss === Swal.DismissReason.cancel
+            ) {
+                swalWithBootstrapButtons.fire(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+                )
+            }
         });
     });
 </script>

@@ -54,8 +54,10 @@ class PmbController extends Controller
        return redirect()->route('pmbs.index')->with('success', 'Data was Updated');
     }
 
-    public function destroy(Pmb $pmb)
+    public function destroy($id)
     {
+       $pmb = Pmb::findorfail($id);
        $pmb->delete();
+       return redirect()->route('pmbs.index')->with('success', 'Data Was Deleted');
     }
 }

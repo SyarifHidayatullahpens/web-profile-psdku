@@ -41,9 +41,9 @@ class NewsController extends Controller
         return redirect()->route('news.index')->with('success', 'Data was Added');
     }
 
-    public function show($id)
+    public function show(News $news)
     {
-        //
+       return view('admin.news.edit', ['news' => $news]);
     }
 
     public function edit(News $news)
@@ -59,7 +59,6 @@ class NewsController extends Controller
 
         if($request->file('image') == "") 
         {
-
             $news->update([
                 'name'           => $request->name,
                 'date'              => $request->date,
@@ -77,6 +76,7 @@ class NewsController extends Controller
 
             $news->update([
                 'name'                  => $request->name,
+                'date'                  => $request->date,
                 'image'                 => $image_name[0].".".$ext,
                 'description'          => $request->description,
             ]);
