@@ -62,20 +62,6 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
     Route::middleware(['admin'])->group(function () {
-<<<<<<< HEAD
-        Route::get('/admin',[AdminController::class, 'index']);
-        Route::get('/about/{id}', [AboutController::class, 'destroy']);
-        Route::get('/departement/{id}', [DepartementController::class, 'destroy']);
-        Route::get('/new/{id}', [NewsController::class, 'destroy']);
-        Route::get('/pmb/{id}', [PmbController::class, 'destroy']);
-
-        Route::resource('abouts',   AboutController::class);
-        Route::resource('news',   NewsController::class);
-        Route::resource('pmbs',   PmbController::class);
-        Route::resource('departements',   DepartementController::class);
-        Route::resource('majors',   MajorController::class);
-        Route::post('get-major', [DepartementController::class,'getMajor'])->name('get-major');
-=======
         Route::prefix('admin')->group(function () {
             Route::get('/',[AdminController::class, 'index']);
             Route::get('/about/{id}', [AboutController::class, 'destroy']);
@@ -88,7 +74,6 @@ Route::middleware(['auth'])->group(function () {
             Route::resource('majors',   MajorController::class);
             Route::post('get-major', [DepartementController::class,'getMajor'])->name('get-major');
         });
->>>>>>> 435932e02c48527904a4f73db542c3820a5c4171
     });
 
     Route::get('/logout', function() {
