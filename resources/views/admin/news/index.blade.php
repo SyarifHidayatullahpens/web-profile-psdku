@@ -48,7 +48,7 @@
                     <th scrope="row">{{ $loop->iteration }}</th>
                     <td>{{ $data->name }}</td>
                     <td>
-                      <img src="images/<?= $data->image ?>" style="width: 60px; height:60px;">
+                      <img src="{{ asset('images/.$data->image')}}" style="width: 60px; height:60px;">
                     </td>
                     <td>{{ $data->date }}</td>
                     <td class="mx-2">

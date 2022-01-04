@@ -74,11 +74,10 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-images text-primary"></i></span>
                             </div>
-                            <input type="file" class="form-control" name="image" id="image" placeholder=""
-                                onchange="previewImage();"> {{ old('image') }}
+                            <input type="file" class="form-control" name="image" id="image" value="{{asset('images/$news->image')}}" placeholder=""
+                                onchange="previewImage();">
                         </div><br>
-                        <img id="image-preview" style="width: 150px;" alt="image preview" />
-
+                        <img id="image-preview" style="width: 150px;" alt="image preview" src="images/$news->image" />
                         <small class="text-danger" id="error_image"></small>
                     </div>
                 </div>
