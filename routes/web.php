@@ -10,17 +10,6 @@ use App\Http\Controllers\PmbController;
 use App\Http\Controllers\AdminController;
 
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
 Auth::routes();
 Route::get('/', function () {
     return view('user.index');
@@ -34,14 +23,30 @@ Route::prefix('departement')->group(function() {
     });
 });
 
+Route::prefix('ti')->group(function() {
+    Route::get('/jadwal', function() {
+        return view('user.ti.jadwal');
+    });
+    Route::get('/kurikulum', function() {
+        return view('user.ti.kurikulum');
+    });
+    Route::get('/capaian-pembelajaran', function() {
+        return view('user.ti.pencapaian ');
+    });
+    Route::get('/visi-misi', function() {
+        return view('user.ti.visi-misi');
+    });
+});
+
+
 Route::prefix('pmb')->group(function() {
     Route::get('/sbmpn', function () {
         return view('user.pmb.sbmpn');
     });
-    Route::get('/snpmn', function () {
+    Route::get('/snmpn', function () {
         return view('user.pmb.snmpn');
     });
-    Route::get('/mmb', function () {
+    Route::get('/simandiri', function () {
         return view('user.pmb.simandiri');
     });
 });

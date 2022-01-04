@@ -1,4 +1,4 @@
-@extends('layouts.landing-page.news')
+@extends('layouts.landing-page.it')
 @section('pageTitle', 'Teknik Informatika')
 @section('content')
 {{-- <h2>sasasas</h2> --}}
