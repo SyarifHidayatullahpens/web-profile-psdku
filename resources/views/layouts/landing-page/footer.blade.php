@@ -1,5 +1,5 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-<footer id="footer">
+<footer id="footer" style="background-color: #D3DEDC">
 
     <div class="container">
       <div class="row">

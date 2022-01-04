@@ -1,9 +1,11 @@
 @extends('layouts.landing-page.news')
-@section('pageTitle', 'News')
+@section('pageTitle', 'Berita')
 @section('content')
 
 <head>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
         .img-fluid {
             height: auto;
             width: 100px;
@@ -12,12 +14,20 @@
             transition: all 0s aesse 0s;
             border-radius: 5px;
         }
+        #title {
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        #judul {
+            font-family: 'Roboto', sans-serif;
+            font-size: 22px
+        }
     </style>
 </head>
 <section id="berita" class="portfolio-details">
     <div class="container">
-        <h1 class="text-center text-uppercase" style="font-size: 22px; font-family:'Times New Roman', Times, serif">
-            <b>PENS KAMPUS SUMENEP LUNCURKAN ASIAPP SEBAGAI SOLUSI SANTRI</b></h1>
+        <h4 class="text-center text-uppercase mt-5 d-block" id="judul">
+            <b>PENS KAMPUS SUMENEP LUNCURKAN ASIAPP SEBAGAI SOLUSI SANTRI</b></h4>
         <div class="portfolio-details-slider swiper">
             <div class="swiper d-flex justify-content-center mt-3">
                 <img src="{{ asset('Bizland/assets/img/portfolio/pengmas3.jpeg') }}" alt=""
@@ -42,13 +52,17 @@
                     <div class="card" style="width: 200px;">
                         <img class="card-img-top" src="{{ asset('Bizland/assets/img/portfolio/a.jpeg') }}" alt="Card image cap">
                         <div class="card-body">
-                          <p class="card-text" style="font-size: 16px">PENS SIAP KEMBANGKAN SDM UNTUK MASYARAKAT SUMENEP</p>
+                           <a href="{{ url('news-galery/persetujuan') }}">
+                               <p class="description" id="title">PENS SIAP KEMBANGKAN SDM UNTUK MASYARAKAT SUMENEP</p>
+                           </a>
                         </div>
                       </div>
                       <div class="card" style="width: 200px;">
                         <img class="card-img-top" src="{{  asset('Bizland/assets/img/portfolio/pengmas1.jpeg') }}" alt="Card image cap">
                         <div class="card-body">
-                          <p class="card-text" style="font-size: 16px">PENERAPAN APLIKASI PELAYANAN DESA BERBASIS WEB</p>
+                            <a href="{{ url('news-galery/pengmas1') }}">
+                                <p class="descriotion" id="title">PENERAPAN APLIKASI PELAYANAN DESA BERBASIS WEB</p>
+                            </a>
                         </div>
                       </div>
                 </div>
