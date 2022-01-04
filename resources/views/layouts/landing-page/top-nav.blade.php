@@ -8,17 +8,6 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto active" href="/">Home</a></li>
-                <li class="dropdown"><a href="#hero"><span>Program Studi</span> <i class="bi bi-chevron-down"></i></a>
-                    <ul>
-                        <li><a href="{{ url('/departement/ti') }}">Kurikulum</a></li>
-                        <li><a href="{{ url('/departement/mmb') }}">Jadwal Kuliah</a></li>
-                        <li><a href="{{ url('/departement/ti') }}">Visi & Misi</a></li>
-                        <li><a href="{{ url('/departement/ti') }}">RPS Prodi</a></li>
-                        <li><a href="{{ url('/departement/ti') }}">Capaian Pembelajaran</a></li>
-                        <li><a href="{{ url('/departement/ti') }}">Panduan PA</a></li>
-                        <li><a href="{{ url('/departement/ti') }}">Panduan KP</a></li>
-                    </ul>
-                </li>
                 
                 <li class="dropdown"><a href="#hero"><span>Departements</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
